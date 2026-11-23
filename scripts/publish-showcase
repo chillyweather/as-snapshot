@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for the public showcase snapshot (issue #930).
+#
+# Builds a sanitised copy of this repository (no editor data, no server
+# addresses), scans it, and syncs it into a clone of the public showcase
+# repository. Without --push it is a preview and pushes nothing:
+#   ./scripts/publish-showcase           # preview what would change
+#   ./scripts/publish-showcase --push    # publish one new commit
+# Uses your own Git credentials for the push. Needs a clean working tree.
+
+set -euo pipefail
+
+# -- Resolve repository root ------------------------------------------------
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+# -- Resolve project interpreter --------------------------------------------
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+# -- Change to repository root before exec ----------------------------------
+cd "${REPO_ROOT}"
+
+# -- Exec canonical command -------------------------------------------------
+exec "${INTERPRETER}" -m autoscout.showcase_snapshot --publish "$@"

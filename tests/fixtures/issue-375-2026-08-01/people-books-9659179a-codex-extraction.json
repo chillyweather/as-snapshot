@@ -1,0 +1,56 @@
+{
+  "capture_sha256": "716b5e84c54318c1c83598b6b579af7c69597748c1f4ae43a4c99ca87bdef1bb",
+  "entries": [
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Landing-page card is tagged Non-Fiction Books and identifies the book title and author.",
+      "evidence_url": "https://people.com/willie-nelson-the-last-leaf-cover-reveal-exclusive-12020523",
+      "primary_authors": [
+        "Willie Nelson"
+      ],
+      "signal_strength": "high",
+      "signal_type": "new-book cover reveal",
+      "source_url": "https://people.com/books/",
+      "title": "The Last Leaf"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Landing-page card is tagged Memoirs and identifies the book title and author.",
+      "evidence_url": "https://people.com/tamron-hall-bet-on-yourself-cover-reveal-exclusive-12020455",
+      "primary_authors": [
+        "Tamron Hall"
+      ],
+      "signal_strength": "high",
+      "signal_type": "new-memoir cover reveal",
+      "source_url": "https://people.com/books/",
+      "title": "Bet on Yourself"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Landing-page card is tagged Non-Fiction Books and identifies the book title and author.",
+      "evidence_url": "https://people.com/vanessa-hua-uprooted-cover-reveal-exclusive-12020206",
+      "primary_authors": [
+        "Vanessa Hua"
+      ],
+      "signal_strength": "high",
+      "signal_type": "new-book cover reveal",
+      "source_url": "https://people.com/books/",
+      "title": "Uprooted"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Landing-page card is tagged Memoirs and identifies the book title and author.",
+      "evidence_url": "https://people.com/michael-douglas-memoir-cover-reveal-exclusive-12014919",
+      "primary_authors": [
+        "Michael Douglas"
+      ],
+      "signal_strength": "high",
+      "signal_type": "new-memoir cover reveal",
+      "source_url": "https://people.com/books/",
+      "title": "One Helluva Ride"
+    }
+  ],
+  "operation_id": "03c4151d9dd28fa76f26af6be882631cb7f0d4c4144002ea3bdd53adb056016f",
+  "source_name": "PEOPLE Books",
+  "source_url": "https://people.com/books/"
+}

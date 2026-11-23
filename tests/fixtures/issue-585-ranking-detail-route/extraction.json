@@ -1,0 +1,17 @@
+{
+  "mentions": [
+    {
+      "title": "A History Book",
+      "primary_authors": ["History Author"],
+      "isbn": "9780140328721",
+      "current_rank": "2",
+      "source_week": "2026-08-17 - 2026-08-24",
+      "source_url": "https://example.test/ranking",
+      "evidence_url": "https://example.test/books/2",
+      "signal_type": "bestseller/ranking",
+      "signal_strength": "top ranking",
+      "evidence_note": "Rank 2 in the configured weekly table.",
+      "candidate_category": "adult nonfiction"
+    }
+  ]
+}

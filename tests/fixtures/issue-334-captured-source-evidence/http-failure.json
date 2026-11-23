@@ -1,0 +1,7 @@
+{
+  "source_url": "https://example.test/shortlist",
+  "resolved_url": "https://example.test/shortlist",
+  "head_status": 200,
+  "get_status": 503,
+  "html": "<!DOCTYPE html><html><head><title>Shortlist</title></head><body><h1>Shortlist</h1></body></html>"
+}

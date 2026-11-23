@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for work-age completion (Issue #1138).
+#
+# Records, per book, the year its work was first published and how many
+# editions Open Library knows: by the confirmed original edition, else by
+# ISBN, else by title and author. A match must agree on title and author; a
+# doubtful one is stored as not_found, never as a guess. No model is called.
+# Without --apply it writes nothing and exits 3. It prints counts only,
+# never titles.
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+cd "${REPO_ROOT}"
+
+exec "${INTERPRETER}" -m autoscout complete-work-age \
+    --state-dir runs/current-weekly-pilot-russian \
+    "$@"

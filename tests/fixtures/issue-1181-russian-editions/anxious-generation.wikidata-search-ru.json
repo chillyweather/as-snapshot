@@ -1,0 +1,78 @@
+{
+ "searchinfo": {
+  "search": "Jonathan Haidt"
+ },
+ "search": [
+  {
+   "id": "Q845573",
+   "display": {
+    "label": {
+     "value": "Джонатан Хайдт",
+     "language": "ru"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Jonathan Haidt"
+   }
+  },
+  {
+   "id": "Q22980256",
+   "display": {
+    "label": {
+     "value": "Джонатан Хайдт о нравственных корнях либералов и консерваторов.",
+     "language": "ru"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Jonathan Haidt: The moral roots of liberals and conservatives"
+   }
+  },
+  {
+   "id": "Q22988004",
+   "display": {
+    "label": {
+     "value": "Джонатан Хайдт: Религия, эволюция и радость эго-трансцендентности",
+     "language": "ru"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Jonathan Haidt: Religion, evolution, and the ecstasy of self-transcendence"
+   }
+  },
+  {
+   "id": "Q43233651",
+   "display": {
+    "label": {
+     "value": "Jonathan Haidt: Can a divided America heal?",
+     "language": "en"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Jonathan Haidt: Can a divided America heal?"
+   }
+  },
+  {
+   "id": "Q23662922",
+   "display": {
+    "label": {
+     "value": "Джонатан Хайдт: Как общие опасности могут заложить общий (политический) фундамент",
+     "language": "ru"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Jonathan Haidt: How common threats can make common (political) ground"
+   }
+  }
+ ],
+ "success": 1
+}

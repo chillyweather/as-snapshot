@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nonfiction.fr fixture</title>
+    <item>
+      <title>A review headline, not the book title</title>
+      <link>https://www.nonfiction.fr/article-100-complete-book.htm</link>
+      <description>This synthetic review text must be ignored.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.nonfiction.fr/article-100-complete-book.htm</guid>
+      <content:encoded><![CDATA[<p>This synthetic full article field must be ignored.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>An incomplete review</title>
+      <link>https://www.nonfiction.fr/article-101-incomplete-book.htm</link>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.nonfiction.fr/article-101-incomplete-book.htm</guid>
+    </item>
+    <item>
+      <title>An ideas article without a book</title>
+      <link>https://www.nonfiction.fr/article-102-not-a-book.htm</link>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.nonfiction.fr/article-102-not-a-book.htm</guid>
+    </item>
+  </channel>
+</rss>

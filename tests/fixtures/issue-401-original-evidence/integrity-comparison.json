@@ -1,0 +1,9 @@
+{
+  "added_files": [],
+  "after": "capture-integrity-after.json",
+  "before": "capture-integrity-before.json",
+  "changed_files": [],
+  "identical": true,
+  "removed_files": [],
+  "schema_version": "issue-401-integrity-comparison-1"
+}

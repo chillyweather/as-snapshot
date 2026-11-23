@@ -1,0 +1,335 @@
+{
+  "capture_sha256": "67929746f3f0d4bc091bbc68a624b741eb2ca961860278fafa3bce71182da77a",
+  "entries": [
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 1,
+      "evidence_note": "Rank 1 listing shows the title and author.",
+      "evidence_url": "/pd/Atomic-Habits-Audiobook/1524779261?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_1",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "James Clear"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "Atomic Habits",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 2,
+      "evidence_note": "Rank 2 listing shows the title and author.",
+      "evidence_url": "/pd/48-Laws-of-Power-Audiobook/B00WYDJ2YQ?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_2",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Robert Greene"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "48 Laws of Power",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 3,
+      "evidence_note": "Rank 3 listing shows the title and author.",
+      "evidence_url": "/pd/The-Mountain-Is-You-Audiobook/B09WY6Z8KD?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_3",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Brianna Wiest"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "The Mountain Is You",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 4,
+      "evidence_note": "Rank 4 listing shows the title and author.",
+      "evidence_url": "/pd/How-to-Win-Friends-Influence-People-Audiobook/B002V5BV96?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_4",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Dale Carnegie"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "How to Win Friends & Influence People",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 5,
+      "evidence_note": "Rank 5 listing shows the title and authors.",
+      "evidence_url": "/pd/Never-Split-the-Difference-Audiobook/B01CF5O89G?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_5",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Chris Voss",
+        "Tahl Raz"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "Never Split the Difference",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 6,
+      "evidence_note": "Rank 6 listing shows the title and author.",
+      "evidence_url": "/pd/The-Laws-of-Human-Nature-Audiobook/B07DKVMMRZ?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_6",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Robert Greene"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "The Laws of Human Nature",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 7,
+      "evidence_note": "Rank 7 listing shows the title and authors.",
+      "evidence_url": "/pd/Kitchen-Confidential-Audiobook/B002VA8GSA?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_7",
+      "narrative_classification": "first-person personal-life narrative",
+      "primary_authors": [
+        "Anthony Bourdain",
+        "Irvine Welsh - introduction"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "Kitchen Confidential",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 8,
+      "evidence_note": "Rank 8 listing shows the title and author.",
+      "evidence_url": "/pd/Thinking-in-Bets-Audiobook/B078SDRSGX?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_8",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Annie Duke"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "Thinking in Bets",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 9,
+      "evidence_note": "Rank 9 listing shows the title and author.",
+      "evidence_url": "/pd/The-Nerd-Reich-Audiobook/B0G8LDTJWY?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_9",
+      "narrative_classification": "reported nonfiction",
+      "primary_authors": [
+        "Gil Durán"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "The Nerd Reich",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 10,
+      "evidence_note": "Rank 10 listing shows the title and author.",
+      "evidence_url": "/pd/Unreasonable-Hospitality-Audiobook/B09S4VPXPJ?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_10",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Will Guidara"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "Unreasonable Hospitality",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 11,
+      "evidence_note": "Rank 11 listing shows the title and authors.",
+      "evidence_url": "/pd/Crucial-Conversations-Third-Edition-Audiobook/B09MV39LHQ?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_11",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Joseph Grenny",
+        "Kerry Patterson",
+        "Ron McMillan",
+        "Al Switzler",
+        "Emily Gregory"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "Crucial Conversations (Third Edition)",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 12,
+      "evidence_note": "Rank 12 listing shows the title and authors.",
+      "evidence_url": "/pd/Extreme-Ownership-Audiobook/B015TVHUA2?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_12",
+      "narrative_classification": "first-person personal-life narrative",
+      "primary_authors": [
+        "Jocko Willink",
+        "Leif Babin"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "Extreme Ownership",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 13,
+      "evidence_note": "Rank 13 listing shows the title and author.",
+      "evidence_url": "/pd/Traction-Audiobook/B00A9ZO7T6?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_13",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Gino Wickman"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "Traction",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 14,
+      "evidence_note": "Rank 14 listing shows the title and author.",
+      "evidence_url": "/pd/Thinking-in-Systems-Audiobook/B07FWBN4Q5?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_14",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Donella H. Meadows"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "Thinking in Systems",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 15,
+      "evidence_note": "Rank 15 listing shows the title and author.",
+      "evidence_url": "/pd/Awaken-the-Giant-Within-Updated-Audiobook/B0GFYFCX3D?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_15",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Tony Robbins"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "Awaken the Giant Within, Updated",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 16,
+      "evidence_note": "Rank 16 listing shows the title and author.",
+      "evidence_url": "/pd/Influence-New-and-Expanded-Audiobook/0063097796?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_16",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Robert B. Cialdini"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "Influence, New and Expanded",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 17,
+      "evidence_note": "Rank 17 listing shows the title and author.",
+      "evidence_url": "/pd/Good-to-Great-Audiobook/B003UDDK7O?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_17",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Jim Collins"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "Good to Great",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 18,
+      "evidence_note": "Rank 18 listing shows the title and author.",
+      "evidence_url": "/pd/The-7-Habits-of-Highly-Effective-People-Audiobook/B002V5HAL4?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_18",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Stephen R. Covey"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "The 7 Habits of Highly Effective People",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 19,
+      "evidence_note": "Rank 19 listing shows the title and author.",
+      "evidence_url": "/pd/The-Art-of-Spending-Money-Audiobook/B0F5528LJ5?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_19",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Morgan Housel"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "The Art of Spending Money",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 20,
+      "evidence_note": "Rank 20 listing shows the title and author.",
+      "evidence_url": "/pd/How-to-Talk-to-Anyone-Audiobook/B013F5WEZK?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=GEVQ3X9WQ7K2DAX5EHX7&plink=YpbJigZVkomenMvA&pageLoadId=uMdGbAlz53pmcVxp&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_20",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Leil Lowndes"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011",
+      "title": "How to Talk to Anyone",
+      "underlying_work_type": "book"
+    }
+  ],
+  "operation_id": "63cd7fc67521c113f11f3c933f43017b7f2ee4388b8c43bb0078d59b591431be",
+  "source_name": "Audible Bestselling Business & Careers Audiobooks",
+  "source_url": "https://www.audible.com/charts/best/business-careers-audiobooks/18572029011"
+}

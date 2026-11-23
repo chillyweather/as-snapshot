@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for checking whether a candidate source lists books new to AutoScout.
+#
+# Callable without spelling `python`.
+# Resolves a usable project interpreter deterministically and execs the
+# offline, read-only source novelty check.
+# The check performs no network, Git, or model call.
+# Extra arguments pass through, for example:
+#   ./scripts/source-novelty --sample sample.json --state-dir runs/current-weekly-pilot-russian
+
+set -euo pipefail
+
+# -- Resolve repository root ------------------------------------------------
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+# -- Resolve project interpreter --------------------------------------------
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+# -- Change to repository root before exec ----------------------------------
+cd "${REPO_ROOT}"
+
+# -- Exec canonical command -------------------------------------------------
+exec "${INTERPRETER}" -m autoscout source-novelty "$@"

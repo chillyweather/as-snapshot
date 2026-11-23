@@ -1,0 +1,15 @@
+{
+  "artifact_path": "runs/current-weekly-pilot-russian/bookmarks--lithub----new-nonfiction-d824846c-codex-extraction.json",
+  "artifact_sha256": "965ef3b0c694d29d4f4638f62b9635d48f1b1a85378ce7bd82c0ba59eb4ae2a1",
+  "capture_path": "runs/current-weekly-pilot-russian/codex-capture-bookmarks--lithub----new-nonfiction-d824846c.json",
+  "capture_sha256": "63b69d6f95ddac75eb8bc6909ad7be7779835ccdcc13d4658d851cc82137218a",
+  "schema_version": "issue-401-pre-fix-reproduction-1",
+  "source_name": "BookMarks (LitHub) – New Nonfiction",
+  "validation": {
+    "diagnostic_class": "identity_mismatch",
+    "output_bytes": 20188,
+    "raw_extracted_count": 39,
+    "valid": false,
+    "validated_count": null
+  }
+}

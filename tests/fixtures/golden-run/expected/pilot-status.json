@@ -1,0 +1,165 @@
+{
+  "caveats": [
+    "1 configured source skipped",
+    "1 configured discovery source ignored",
+    "7 editor-facing rows produced; fewer than target 10",
+    "3 editor-facing rows do not have title-level evidence locators",
+    "7 editor-facing rows produced; outside the 8-12 pilot target"
+  ],
+  "csv_path": "editor-facing.csv",
+  "editor_facing_count": 7,
+  "editor_review_guide_path": "editor-review-guide.md",
+  "feedback_intake_contract": {
+    "authoritative_feedback_fields": [
+      "Editor Status",
+      "Editor Note"
+    ],
+    "feedback_artifacts": [
+      "candidate-history.json",
+      "proposed-corrections.json",
+      "memo-queue.json"
+    ],
+    "generated_fact_edits": "stored in proposed-corrections.json until explicitly accepted",
+    "next_step_note": "Use pilot feedback to open follow-up implementation issues; do not change source discovery, Russian-edition, Visible Risk, or CSV semantics silently.",
+    "report_qa_artifact": "report-qa.json",
+    "supported_editor_statuses": [
+      "interested",
+      "maybe_watch",
+      "reject",
+      "already_known",
+      "needs_deeper_analysis"
+    ]
+  },
+  "internal_artifacts": [
+    {
+      "path": "pilot-status.json",
+      "purpose": "pilot readiness, share guidance, and caveats for Dima"
+    },
+    {
+      "path": "run-summary.json",
+      "purpose": "source counts, warning counts, shortfall reason, and operational health"
+    },
+    {
+      "path": "source-runs.json",
+      "purpose": "per-source collection status, counts, skipped or failed reasons, and safe debug metadata"
+    },
+    {
+      "path": "source-proposals.json",
+      "purpose": "pending Source Proposals with provenance and supporting evidence for Dima review"
+    },
+    {
+      "path": "source-metrics.json",
+      "purpose": "per-source lifecycle metrics for source review conversations"
+    },
+    {
+      "path": "source-review.md",
+      "purpose": "review-ready source lifecycle table with probation/retirement context"
+    },
+    {
+      "path": "derived-rule-suggestions.json",
+      "purpose": "inert rejection-pattern suggestions; does not change taste profile rules"
+    },
+    {
+      "path": "derived-rule-suggestions.md",
+      "purpose": "plain-language rejection-pattern suggestions for editor review"
+    },
+    {
+      "path": "source-mentions.json",
+      "purpose": "metadata-only configured-source discovery output"
+    },
+    {
+      "path": "scouting-candidates.json",
+      "purpose": "work-level Scouting Candidates after merging, screening, and ranking"
+    },
+    {
+      "path": "internal-exclusions.json",
+      "purpose": "Found in Russian and other hard exclusions kept outside the editor CSV"
+    },
+    {
+      "path": "russian-edition-checks.json",
+      "purpose": "auditable Russian-edition check runs and candidate-level decisions"
+    },
+    {
+      "path": "russian-review-queue.csv",
+      "purpose": "manual review queue for unclear Russian-edition statuses"
+    },
+    {
+      "path": "report-qa.json",
+      "purpose": "Dima report-level QA, separate from candidate editor status"
+    },
+    {
+      "path": "candidate-history.json",
+      "purpose": "persisted candidate history and editor status markers"
+    },
+    {
+      "path": "proposed-corrections.json",
+      "purpose": "returned edits to generated facts awaiting explicit acceptance"
+    },
+    {
+      "path": "memo-queue.json",
+      "purpose": "future memo/research markers from needs-deeper-analysis feedback"
+    },
+    {
+      "path": "suppressed-candidates.json",
+      "purpose": "rejected or already-known candidates hidden without Material Change"
+    },
+    {
+      "path": "hidden-by-rule.json",
+      "purpose": "candidates hidden from the editor-facing review by active Editorial Taste Profile hard rules"
+    }
+  ],
+  "readiness_basis": {
+    "clear_visible_risk_rows_stay_visible": false,
+    "codex_workflow_health": "healthy",
+    "editor_facing_count": 7,
+    "editor_row_target": 10,
+    "found_in_russian_exclusions_stay_internal": true,
+    "major_warning_count": 3,
+    "pilot_row_max": 12,
+    "pilot_row_min": 8,
+    "readiness_purpose": "seed-calibration",
+    "row_cap_dropped_count": 0,
+    "shortfall_reason": "fewer than 10 editor-facing rows produced; source scarcity or source-boundary limits: 1 configured source skipped, 1 non-discovery source ignored",
+    "source_contributions": [
+      {
+        "editor_facing_contribution": 1,
+        "mention_count": 1,
+        "source_name": "Agent Extraction Golden List"
+      },
+      {
+        "editor_facing_contribution": 1,
+        "mention_count": 1,
+        "source_name": "BookPage Best Nonfiction"
+      },
+      {
+        "editor_facing_contribution": 1,
+        "mention_count": 1,
+        "source_name": "Codex Extraction Golden Nonfiction"
+      },
+      {
+        "editor_facing_contribution": 3,
+        "mention_count": 3,
+        "source_name": "Fixture Collector Recorded Golden Source"
+      },
+      {
+        "editor_facing_contribution": 1,
+        "mention_count": 1,
+        "source_name": "NPR Golden Run Nonfiction Staff Picks"
+      }
+    ],
+    "source_volume_status": "below_target_with_skips"
+  },
+  "ready_for_editor": false,
+  "run_date": "2026-06-15",
+  "share_note": "Not ready to share with the editor friend",
+  "shareable_artifacts": [
+    {
+      "path": "editor-facing.csv",
+      "purpose": "editor-facing Weekly Report Rows for pilot review"
+    },
+    {
+      "path": "editor-review-guide.md",
+      "purpose": "plain-language review prompts and pilot caveats for the editor"
+    }
+  ]
+}

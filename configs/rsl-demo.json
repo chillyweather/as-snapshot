@@ -1,0 +1,53 @@
+{
+  "run_date": "2026-05-21",
+  "sources": [
+    {
+      "name": "Fixture Media List",
+      "family": "media/curated list",
+      "url": "https://example.test/media",
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "fixture_candidates": [
+        {
+          "title": "Already Cataloged",
+          "primary_authors": [
+            "Taylor Example"
+          ],
+          "source_url": "https://example.test/media/already-cataloged",
+          "signal_strength": "major media list",
+          "evidence_note": "Included in a fixture media list.",
+          "candidate_category": "popular science"
+        },
+        {
+          "title": "Needs Catalog Review",
+          "primary_authors": [
+            "Robin Example"
+          ],
+          "source_url": "https://example.test/media/needs-review",
+          "signal_strength": "major media list",
+          "evidence_note": "Included in a fixture media list.",
+          "candidate_category": "popular science"
+        },
+        {
+          "title": "Open Catalog Opportunity",
+          "primary_authors": [
+            "Alex Example"
+          ],
+          "source_url": "https://example.test/media/open-catalog-opportunity",
+          "signal_strength": "major media list",
+          "evidence_note": "Included in a fixture media list.",
+          "candidate_category": "business"
+        }
+      ]
+    }
+  ],
+  "russian_edition_checks": [
+    {
+      "name": "RSL",
+      "family": "russian-library-catalog",
+      "url": "https://search.rsl.ru/",
+      "recorded_results_file": "../data/rsl-demo-results.json"
+    }
+  ]
+}

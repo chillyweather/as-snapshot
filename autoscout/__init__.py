@@ -1,0 +1,1 @@
+"""AutoScout MVP pipeline package."""

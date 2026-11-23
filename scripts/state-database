@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Build the weekly state's SQLite database from its JSON (rebuild), write it back as JSON (export), or move the weekly state to SQLite (cutover) and back (rollback).
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+if [[ -x "${REPO_ROOT}/.venv/bin/python" ]]; then
+    INTERPRETER="${REPO_ROOT}/.venv/bin/python"
+else
+    INTERPRETER="$(command -v python3)"
+fi
+cd "${REPO_ROOT}"
+exec "${INTERPRETER}" -m autoscout state-database "$@" --state-dir runs/current-weekly-pilot-russian --config configs/current-weekly-pilot-live.json

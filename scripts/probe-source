@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for probing unconfigured Source Candidates.
+#
+# Callable without spelling `python`.
+# Resolves a usable project interpreter deterministically and execs the
+# bounded, read-only Source Candidate probe.
+# The launcher itself performs no network request.
+# Extra arguments pass through, for example:
+#   ./scripts/probe-source --url https://example.test/list
+
+set -euo pipefail
+
+# -- Resolve repository root ------------------------------------------------
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+# -- Resolve project interpreter --------------------------------------------
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+# -- Change to repository root before exec ----------------------------------
+cd "${REPO_ROOT}"
+
+# -- Exec canonical command -------------------------------------------------
+exec "${INTERPRETER}" -m autoscout probe-source-candidate "$@"

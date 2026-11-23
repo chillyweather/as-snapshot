@@ -1,0 +1,86 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for offline URL source onboarding.
+#
+# The default mode adds no probe, network request, model call, or push behavior.
+# The optional `probe` mode delegates to the blessed network probe launcher.
+# The confirmed offline command can create its guarded local commit.
+# Extra arguments pass through to the selected canonical command.
+
+set -euo pipefail
+
+# Resolve repository root.
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+# Keep the historical one-command entry point while allowing the onboarding
+# skill to delegate its initial network probe through this launcher.
+if [[ "${1:-}" == "probe" ]]; then
+    shift
+    probe_arguments=("$@")
+    for argument in "${probe_arguments[@]}"; do
+        if [[ "${argument}" == "-h" || "${argument}" == "--help" ]]; then
+            exec "${REPO_ROOT}/scripts/probe-source" "${probe_arguments[@]}"
+        fi
+    done
+    url_count=0
+    index=0
+    while (( index < ${#probe_arguments[@]} )); do
+        argument="${probe_arguments[index]}"
+        if [[ "${argument}" == "--url" ]]; then
+            url_count=$((url_count + 1))
+            if (( index + 1 >= ${#probe_arguments[@]} )) || [[ "${probe_arguments[index + 1]}" == --* ]]; then
+                echo "add-source probe: --url requires one value" >&2
+                exit 1
+            fi
+            index=$((index + 2))
+            continue
+        fi
+        if [[ "${argument}" == --url=* ]]; then
+            url_count=$((url_count + 1))
+            if [[ -z "${argument#--url=}" ]]; then
+                echo "add-source probe: --url requires one value" >&2
+                exit 1
+            fi
+        fi
+        index=$((index + 1))
+    done
+    if (( url_count != 1 )); then
+        echo "add-source probe: exactly one --url is required" >&2
+        exit 1
+    fi
+    exec "${REPO_ROOT}/scripts/probe-source" "${probe_arguments[@]}"
+fi
+
+# Resolve the project interpreter.
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+# Run from the repository root.
+cd "${REPO_ROOT}"
+
+# Discovery accepts no onboarding URL.
+# Without --probe it is an offline report; with --probe the canonical command
+# performs the explicit editor-authorized batch delegation.
+# It must never fall through to the single-source probe or onboarding paths.
+if [[ "${1:-}" == "discover" ]]; then
+    shift
+    exec "${INTERPRETER}" -m autoscout discover-source-gaps "$@"
+fi
+
+# The monthly route is a separate offline report command.
+# It has no probe flag and never delegates to a network or onboarding path.
+if [[ "${1:-}" == "monthly" ]]; then
+    shift
+    exec "${INTERPRETER}" -m autoscout monthly-source-discovery "$@"
+fi
+
+# Exec the offline canonical onboarding command.
+exec "${INTERPRETER}" -m autoscout add-source "$@"

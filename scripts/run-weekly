@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for the AutoScout weekly scan.
+#
+# Callable without spelling `python`. Resolves a usable project
+# interpreter deterministically and execs the canonical command.
+#
+# Usage (from repository root or any subdirectory):
+#   ./scripts/run-weekly
+#   ./scripts/run-weekly --scheduled   (the server's nightly timer, #1057)
+#
+# Extra arguments are passed to `autoscout run-weekly` unchanged.
+#
+# The launcher resolves paths relative to the repository root so
+# invocation is reliable regardless of the working directory.
+
+set -euo pipefail
+
+# -- Resolve repository root ------------------------------------------------
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+# -- Resolve project interpreter --------------------------------------------
+# 1. The project-local virtualenv (fastest, no PATH lookup).
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    # 2. Host python3 (fallback).
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+# -- Capture the launch date exactly once from the execution clock ----------
+# Issue #280: the blessed launcher determines the ISO launch date at launch;
+# stale config run_date cannot override it.
+LAUNCH_DATE="$(date +%F)"
+
+# -- Change to repository root before exec ----------------------------------
+cd "${REPO_ROOT}"
+
+# -- Exec canonical command -------------------------------------------------
+exec "${INTERPRETER}" -m autoscout run-weekly \
+    --config configs/current-weekly-pilot-live.json \
+    --output-dir runs/current-weekly-pilot-russian \
+    --state-dir runs/current-weekly-pilot-russian \
+    --run-date "${LAUNCH_DATE}" \
+    "$@"

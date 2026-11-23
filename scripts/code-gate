@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# Say whether this checkout's code passed ./scripts/check on this machine (#1124).
+#
+# A scheduled run executes new code only after it passed the gate here; the
+# pass is recorded in data/code-gate/ (ignored by Git, per machine).
+#
+# Usage (from repository root or any subdirectory):
+#   ./scripts/code-gate          read-only: has the checked-out code passed here?
+#   ./scripts/code-gate --run    run ./scripts/check now and record a pass
+#
+# Exit 0 when the code passed, 1 when it has not.
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+cd "${REPO_ROOT}"
+
+exec "${INTERPRETER}" -m autoscout code-gate "$@"

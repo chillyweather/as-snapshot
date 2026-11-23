@@ -1,0 +1,37 @@
+[
+  {
+    "candidate_id": "c-grounded",
+    "identity_key": "grounded work|alex author",
+    "title": "Grounded Work",
+    "primary_authors": ["Alex Author"],
+    "content_description": "Уже подтвержденное описание книги.",
+    "description_provenance": {"provenance": "grounded", "evidence_basis": ["https://old.example/grounded"]},
+    "short_description": "Аннотация редактора"
+  },
+  {
+    "candidate_id": "c-codex",
+    "identity_key": "Codex Work|Alex Author",
+    "title": "Codex Work",
+    "primary_authors": ["Alex Author"],
+    "content_description": "Старое описание, созданное Codex.",
+    "description_provenance": {"provenance": "codex-generated", "content_description": "Старое описание, созданное Codex."},
+    "short_description": "Короткая заметка"
+  },
+  {
+    "candidate_id": "c-backfilled",
+    "identity_key": "Backfilled Work|Alex Author",
+    "title": "Backfilled Work",
+    "primary_authors": ["Alex Author"],
+    "content_description": "Старое заполненное описание.",
+    "description_provenance": {"provenance": "backfilled"},
+    "short_description": "Не менять"
+  },
+  {
+    "candidate_id": "c-blank",
+    "identity_key": "Blank Work|Alex Author",
+    "title": "Blank Work",
+    "primary_authors": ["Alex Author"],
+    "content_description": "",
+    "short_description": "Отдельная аннотация"
+  }
+]

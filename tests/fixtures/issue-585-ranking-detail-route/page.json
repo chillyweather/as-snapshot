@@ -1,0 +1,20 @@
+{
+  "source_page": "https://example.test/ranking",
+  "resolved_url": "https://example.test/ranking",
+  "reference_date": "2026-08-24",
+  "html": "<!doctype html>\n<html>\n<body>\n<h1 class=\"heading\">Adult nonfiction 2026-08-17 - 2026-08-24</h1>\n<div class=\"row\"><span class=\"rank\">1</span><span class=\"title\">A Fiction Book</span><span class=\"author\">Fiction Author</span><h3 class=\"name\"><a href=\"/books/1\">A Fiction Book</a></h3></div>\n<div class=\"row\"><span class=\"rank\">2</span><span class=\"title\">A History Book</span><span class=\"author\">History Author</span><h3 class=\"name\"><a href=\"/books/2\">A History Book</a></h3></div>\n<p>Source: Circana BookScan 2026-08-17 - 2026-08-24</p>\n</body>\n</html>\n",
+  "detail_pages": [
+    {
+      "source_page": "https://example.test/books/1",
+      "detail_url": "https://example.test/books/1",
+      "resolved_url": "https://example.test/books/1",
+      "html": "<html><body><main class=\"product-detail\"><div class=\"product-header\"><span class=\"isbn\">ISBN: 9780306406157</span><span class=\"category\">Category: Adult fiction</span></div><footer>ISBN: 9780140328721 Category: Historia de América</footer></main></body></html>\n"
+    },
+    {
+      "source_page": "https://example.test/books/2",
+      "detail_url": "https://example.test/books/2",
+      "resolved_url": "https://example.test/books/2",
+      "html": "<html><body><main class=\"product-detail\"><div class=\"product-header\"><span class=\"isbn\">ISBN: 9780140328721</span><span class=\"category\">Category: Historia de América</span></div><footer>ISBN: 9780306406157 Category: Adult fiction</footer></main></body></html>\n"
+    }
+  ]
+}

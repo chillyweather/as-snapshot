@@ -1,0 +1,341 @@
+{
+  "capture_sha256": "ed6d3068eda3425d465c646316864a4dd788f9b88650bab49a5505bad10513d2",
+  "entries": [
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 1,
+      "evidence_note": "Chart metadata presents a tech-visionary account centered on Demis Hassabis.",
+      "evidence_url": "/pd/The-Infinity-Machine-Audiobook/B0FSST1JRF?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_1",
+      "narrative_classification": "third-person biography",
+      "primary_authors": [
+        "Sebastian Mallaby"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "The Infinity Machine",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 2,
+      "evidence_note": "Chart subtitle identifies a practical AI work-and-learning guide.",
+      "evidence_url": "/pd/Co-Intelligence-Audiobook/B0CNFJ1BVP?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_2",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Ethan Mollick"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "Co-Intelligence",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 3,
+      "evidence_note": "Chart metadata presents an account of Elon Musk by Walter Isaacson.",
+      "evidence_url": "/pd/Elon-Musk-Audiobook/B0BX4SCV1V?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_3",
+      "narrative_classification": "third-person biography",
+      "primary_authors": [
+        "Walter Isaacson"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "Elon Musk",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 4,
+      "evidence_note": "Chart subtitle identifies an OpenAI and Sam Altman account.",
+      "evidence_url": "/pd/Empire-of-AI-Audiobook/B0DR39GCQZ?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_4",
+      "narrative_classification": "reported nonfiction",
+      "primary_authors": [
+        "Karen Hao"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "Empire of AI",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 5,
+      "evidence_note": "Chart subtitle identifies a sales-prospecting guide.",
+      "evidence_url": "/pd/Fanatical-Prospecting-Audiobook/B0CBD6J2BY?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_5",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Jeb Blount"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "Fanatical Prospecting",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 6,
+      "evidence_note": "Chart subtitle identifies computer science applied to human decisions.",
+      "evidence_url": "/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_6",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Brian Christian",
+        "Tom Griffiths"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "Algorithms to Live By",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 7,
+      "evidence_note": "Chart subtitle identifies a guide to building applications with foundation models.",
+      "evidence_url": "/pd/AI-Engineering-Audiobook/B0DWJ1SP94?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_7",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Chip Huyen"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "AI Engineering",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 8,
+      "evidence_note": "Chart subtitle and author metadata present an AI-risk argument by field researchers.",
+      "evidence_url": "/pd/If-Anyone-Builds-It-Everyone-Dies-Audiobook/B0F2B8J9H5?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_8",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Eliezer Yudkowsky",
+        "Nate Soares"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "If Anyone Builds It, Everyone Dies",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 9,
+      "evidence_note": "Chart subtitle identifies a Pentagon AI-warfare account.",
+      "evidence_url": "/pd/Project-Maven-Audiobook/B0GD8L5JWN?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_9",
+      "narrative_classification": "reported nonfiction",
+      "primary_authors": [
+        "Katrina Manson"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "Project Maven",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 10,
+      "evidence_note": "Chart subtitle explicitly frames the work as a history of information networks.",
+      "evidence_url": "/pd/Nexus-Audiobook/B0CT49S3V8?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_10",
+      "narrative_classification": "narrative history",
+      "primary_authors": [
+        "Yuval Noah Harari"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "Nexus",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 11,
+      "evidence_note": "Chart subtitle identifies an AI power-and-future policy work.",
+      "evidence_url": "/pd/The-Coming-Wave-Audiobook/B0BVSJKM4Z?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_11",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Mustafa Suleyman",
+        "Michael Bhaskar"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "The Coming Wave",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 12,
+      "evidence_note": "Chart page text frames the work as a biography of Jensen Huang.",
+      "evidence_url": "/pd/The-Thinking-Machine-Audiobook/B0D481KQ1Q?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_12",
+      "narrative_classification": "third-person biography",
+      "primary_authors": [
+        "Stephen Witt"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "The Thinking Machine",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 13,
+      "evidence_note": "Chart subtitle identifies paths, dangers, and strategies for superintelligence.",
+      "evidence_url": "/pd/Superintelligence-Audiobook/B00LPMD72K?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_13",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Nick Bostrom"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "Superintelligence",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 14,
+      "evidence_note": "Chart subtitle identifies a work on how AI informs the future.",
+      "evidence_url": "/pd/2084-and-the-AI-Revolution-Updated-and-Expanded-Edition-Audiobook/B0D1W7BLNB?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_14",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "John C. Lennox"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "2084 and the AI Revolution, Updated and Expanded Edition",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 15,
+      "evidence_note": "Chart subtitle identifies a software-development mastery guide.",
+      "evidence_url": "/pd/The-Pragmatic-Programmer-20th-Anniversary-Edition-2nd-Edition-Audiobook/B0833FMYH9?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_15",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "David Thomas",
+        "Andrew Hunt"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "The Pragmatic Programmer: 20th Anniversary Edition, 2nd Edition",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 16,
+      "evidence_note": "Chart subtitle identifies the making of a tech giant centered on Jensen Huang.",
+      "evidence_url": "/pd/The-Nvidia-Way-Audiobook/B0DNRNV83B?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_16",
+      "narrative_classification": "third-person biography",
+      "primary_authors": [
+        "Tae Kim"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "The Nvidia Way",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 17,
+      "evidence_note": "Chart subtitle presents the author's adventures as a hacker.",
+      "evidence_url": "/pd/Ghost-in-the-Wires-Audiobook/B005H3FYR4?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_17",
+      "narrative_classification": "first-person personal-life narrative",
+      "primary_authors": [
+        "Kevin Mitnick"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "Ghost in the Wires",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 18,
+      "evidence_note": "Chart metadata identifies a business-and-work guide on AI agents.",
+      "evidence_url": "/pd/Agentic-Artificial-Intelligence-Audiobook/B0F2GTT1GG?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_18",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Pascal Bornet",
+        "Jochen Wirtz",
+        "Thomas H. Davenport",
+        "David De Cremer",
+        "Brian Evergreen",
+        "Phil Fersht",
+        "Rakesh Gohel",
+        "Shail Khiyara",
+        "Nandan Mullakara",
+        "Pooja Sund"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "Agentic Artificial Intelligence",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 19,
+      "evidence_note": "Chart metadata presents a historical account of the Wright brothers.",
+      "evidence_url": "/pd/The-Wright-Brothers-Audiobook/B00TA5BJ4W?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_19",
+      "narrative_classification": "narrative history",
+      "primary_authors": [
+        "David McCullough"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "The Wright Brothers",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 20,
+      "evidence_note": "Chart subtitle identifies a future-oriented technology work about AI and humanity.",
+      "evidence_url": "/pd/The-Singularity-Is-Nearer-Audiobook/0593148916?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=FZ89WP1S2RG1N2N5XV0S&plink=6OM9q98c7aw8KjrR&pageLoadId=7wIOeu0S8D39fWyH&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_20",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Ray Kurzweil"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011",
+      "title": "The Singularity Is Nearer",
+      "underlying_work_type": "book"
+    }
+  ],
+  "operation_id": "63cd7fc67521c113f11f3c933f43017b7f2ee4388b8c43bb0078d59b591431be",
+  "source_name": "Audible Bestselling Computers & Technology Audiobooks",
+  "source_url": "https://www.audible.com/charts/best/computers-technology-audiobooks/18573211011"
+}

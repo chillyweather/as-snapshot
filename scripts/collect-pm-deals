@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for the PM deals pre-collection pass (Issue #943).
+#
+# One read-only pass over the PM label of the dedicated mailbox. It reads the
+# new "Today's Deals" emails, parses their deals and writes the result under the
+# Git-ignored data/pm-precollection/. It prints counts only. The mailbox address
+# and password come from AUTOSCOUT_PM_IMAP_USER and AUTOSCOUT_PM_IMAP_PASSWORD,
+# in the environment or in ~/.config/autoscout/pm-mailbox.env.
+#
+# Usage (from repository root or any subdirectory):
+#   ./scripts/collect-pm-deals
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+cd "${REPO_ROOT}"
+
+exec "${INTERPRETER}" -m autoscout collect-pm-deals \
+    --config configs/pm-deal-email.json \
+    "$@"

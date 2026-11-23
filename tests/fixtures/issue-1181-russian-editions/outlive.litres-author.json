@@ -1,0 +1,40 @@
+{
+ "status": 200,
+ "error": null,
+ "payload": {
+  "data": [
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 72695383,
+     "url": "/book/kultur-multur/zhit-dolshe-nauka-i-iskusstvo-dolgoletiya-piter-attia-kratko-72695383/",
+     "title": "Жить дольше. Наука и искусство долголетия. Питер Аттиа. Кратко",
+     "language_code": "ru",
+     "date_written_at": "2025-01-01",
+     "persons": [
+      {
+       "full_name": "Культур-Мультур",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 69980866,
+     "url": "/book/smart-reading/zhit-dolshe-nauka-i-iskusstvo-dolgoletiya-piter-attia-sammar-69980866/",
+     "title": "Жить дольше. Наука и искусство долголетия. Питер Аттиа. Саммари",
+     "language_code": "ru",
+     "date_written_at": "2023-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

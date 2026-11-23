@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+# Artifact parity gate launcher (issue #657).
+#
+# Callable without spelling `python`. Resolves a usable project
+# interpreter deterministically (same policy as scripts/run-weekly)
+# and execs the canonical offline comparison module.
+#
+# Usage (from repository root or any subdirectory). Check the run stage before
+# render-review touches either directory, and the review stage after it:
+#   ./scripts/check-artifact-parity --stage run /tmp/baseline-run /tmp/comparison-run
+#   ./scripts/check-artifact-parity --stage review /tmp/baseline-run /tmp/comparison-run
+#
+# The repository root is resolved without external commands, so invocation
+# works from the repository root and from any subdirectory, and a missing
+# interpreter produces exactly one clear diagnostic.
+
+set -euo pipefail
+
+# -- Resolve repository root ------------------------------------------------
+# Pure Bash builtins before interpreter resolution: `dirname` is an external
+# command and would print a confusing "command not found" on a controlled or
+# empty PATH, so the script directory comes from parameter expansion of
+# BASH_SOURCE[0] plus the builtin cd/pwd instead.
+SCRIPT_PATH="${BASH_SOURCE[0]}"
+SCRIPT_DIR="${SCRIPT_PATH%/*}"
+if [[ "${SCRIPT_DIR}" == "${SCRIPT_PATH}" ]]; then
+    # No slash in the path: the script was named without a directory prefix.
+    SCRIPT_DIR="."
+fi
+REPO_ROOT="$(cd -- "${SCRIPT_DIR}/.." && pwd)"
+
+# -- Resolve project interpreter --------------------------------------------
+# 1. The project-local virtualenv (fastest, no PATH lookup).
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    # 2. Host python3 (fallback).
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+# -- Canonical invocation ----------------------------------------------------
+cd "${REPO_ROOT}"
+exec "${INTERPRETER}" -m autoscout.artifact_parity "$@"

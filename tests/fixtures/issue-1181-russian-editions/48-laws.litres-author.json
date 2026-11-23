@@ -1,0 +1,676 @@
+{
+ "status": 200,
+ "error": null,
+ "payload": {
+  "data": [
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 134232,
+     "url": "/book/robert-grin/48-zakonov-vlasti-134232/",
+     "title": "48 законов власти",
+     "language_code": "ru",
+     "date_written_at": "1998-01-01",
+     "persons": [
+      {
+       "full_name": "Роберт Грин",
+       "role": "author"
+      },
+      {
+       "full_name": "Елена Мигунова",
+       "role": "translator"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 65985970,
+     "url": "/book/robert-grin/zakony-chelovecheskoy-prirody-65985970/",
+     "title": "Законы человеческой природы",
+     "language_code": "ru",
+     "date_written_at": "2018-01-01",
+     "persons": [
+      {
+       "full_name": "Роберт Грин",
+       "role": "author"
+      },
+      {
+       "full_name": "Алексей Капанадзе",
+       "role": "translator"
+      },
+      {
+       "full_name": "Альпина Паблишер",
+       "role": "publisher"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 6653064,
+     "url": "/book/robert-grin/24-zakona-obolscheniya-6653064/",
+     "title": "24 закона обольщения",
+     "language_code": "ru",
+     "date_written_at": "2001-01-01",
+     "persons": [
+      {
+       "full_name": "Роберт Грин",
+       "role": "author"
+      },
+      {
+       "full_name": "Елена Мигунова",
+       "role": "translator"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 624835,
+     "url": "/book/robert-grin/33-strategii-voyny-624835/",
+     "title": "33 стратегии войны",
+     "language_code": "ru",
+     "date_written_at": null,
+     "persons": [
+      {
+       "full_name": "Роберт Грин",
+       "role": "author"
+      },
+      {
+       "full_name": "Елена Мигунова",
+       "role": "translator"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 74330521,
+     "url": "/book/robert-grin/zakony-masterstva-kak-stat-luchshim-v-svoem-dele-74330521/",
+     "title": "Законы мастерства: Как стать лучшим в своем деле",
+     "language_code": "ru",
+     "date_written_at": "2012-01-01",
+     "persons": [
+      {
+       "full_name": "Роберт Грин",
+       "role": "author"
+      },
+      {
+       "full_name": "Алексей Капанадзе",
+       "role": "translator"
+      },
+      {
+       "full_name": "Альпина Паблишер",
+       "role": "publisher"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 67800492,
+     "url": "/book/robert-grin/zakony-zhizni-na-kazhdyy-den-67800492/",
+     "title": "Законы жизни на каждый день",
+     "language_code": "ru",
+     "date_written_at": "2021-01-01",
+     "persons": [
+      {
+       "full_name": "Роберт Грин",
+       "role": "author"
+      },
+      {
+       "full_name": "Алексей Капанадзе",
+       "role": "translator"
+      },
+      {
+       "full_name": "Альпина Паблишер",
+       "role": "publisher"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 69288451,
+     "url": "/book/robert-grin/iz-antologii-antologiy-poety-velikobritanii-poety-zolotogo-vek-69288451/",
+     "title": "Из «Антологии антологий. Поэты Великобритании». Поэты Золотого века",
+     "language_code": "ru",
+     "date_written_at": null,
+     "persons": [
+      {
+       "full_name": "Роберт Грин",
+       "role": "author"
+      },
+      {
+       "full_name": "Кристофер Марло",
+       "role": "author"
+      },
+      {
+       "full_name": "Филип Сидни",
+       "role": "author"
+      },
+      {
+       "full_name": "Уолтер Рэ[й]ли",
+       "role": "author"
+      },
+      {
+       "full_name": "Джордж Уизер",
+       "role": "author"
+      },
+      {
+       "full_name": "Томас Кэмпион",
+       "role": "author"
+      },
+      {
+       "full_name": "Джон Лили",
+       "role": "author"
+      },
+      {
+       "full_name": "Роберт Саутвелл",
+       "role": "author"
+      },
+      {
+       "full_name": "Генри Уоттон",
+       "role": "author"
+      },
+      {
+       "full_name": "Джон Уэбстер",
+       "role": "author"
+      },
+      {
+       "full_name": "Джордж Пил",
+       "role": "author"
+      },
+      {
+       "full_name": "Томас Хейвуд",
+       "role": "author"
+      },
+      {
+       "full_name": "Томас Деккер",
+       "role": "author"
+      },
+      {
+       "full_name": "Томас Нэш",
+       "role": "author"
+      },
+      {
+       "full_name": "Уильям Броун",
+       "role": "author"
+      },
+      {
+       "full_name": "Эдвард Дайер",
+       "role": "author"
+      },
+      {
+       "full_name": "Томас Лодж",
+       "role": "author"
+      },
+      {
+       "full_name": "Николас Бретон",
+       "role": "author"
+      },
+      {
+       "full_name": "Чиди[о]к Тичборн",
+       "role": "author"
+      },
+      {
+       "full_name": "Фрэнсис Бомонт",
+       "role": "author"
+      },
+      {
+       "full_name": "Джон Флетчер",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 68376706,
+     "url": "/book/robert-grin/hakimiyy-tin-48-qanunu-68376706/",
+     "title": "Hakimiyyətin 48 Qanunu",
+     "language_code": "az",
+     "date_written_at": null,
+     "persons": [
+      {
+       "full_name": "Роберт Грин",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 69156694,
+     "url": "/book/robert-grin/yoldancixarma-s-n-ti-69156694/",
+     "title": "Yoldançıxarma sənəti",
+     "language_code": "az",
+     "date_written_at": null,
+     "persons": [
+      {
+       "full_name": "Роберт Грин",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 68724546,
+     "url": "/book/robert-grin/ustaliq-68724546/",
+     "title": "USTALIQ",
+     "language_code": "az",
+     "date_written_at": null,
+     "persons": [
+      {
+       "full_name": "Роберт Грин",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 56877208,
+     "url": "/book/smart-reading/kluchevye-idei-knigi-48-zakonov-vlasti-robert-grin-56877208/",
+     "title": "Ключевые идеи книги: 48 законов власти. Роберт Грин",
+     "language_code": "ru",
+     "date_written_at": "2020-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 71624419,
+     "url": "/book/kultur-multur/48-zakonov-vlasti-robert-grin-kratko-71624419/",
+     "title": "48 законов власти. Роберт Грин. Кратко",
+     "language_code": "ru",
+     "date_written_at": "2025-01-01",
+     "persons": [
+      {
+       "full_name": "Культур-Мультур",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 70764427,
+     "url": "/book/smart-reading/master-igry-robert-grin-sammari-70764427/",
+     "title": "Мастер игры. Роберт Грин. Саммари",
+     "language_code": "ru",
+     "date_written_at": "2024-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 73070888,
+     "url": "/book/aleksandra-zhuravlev/kratkoe-izlozhenie-knigi-48-zakonov-vlasti-avtor-orig-73070888/",
+     "title": "Краткое изложение книги «48 законов власти». Автор оригинала – Роберт Грин",
+     "language_code": "ru",
+     "date_written_at": "2025-01-01",
+     "persons": [
+      {
+       "full_name": "Александра Журавлева",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 72775201,
+     "url": "/book/kultur-multur/zakony-chelovecheskoi-prirody-robert-grin-kratko-72775201/",
+     "title": "Законы человеческой природы. Роберт Грин. Кратко",
+     "language_code": "ru",
+     "date_written_at": "2025-01-01",
+     "persons": [
+      {
+       "full_name": "Культур-Мультур",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 73984032,
+     "url": "/book/dzhordzh-dzh-tompson/robert-grin-zolotye-pravila-vse-glavnye-mysli-v-odnoy-73984032/",
+     "title": "Роберт Грин. Золотые правила",
+     "language_code": "ru",
+     "date_written_at": "2026-01-01",
+     "persons": [
+      {
+       "full_name": "Джордж Дж. Томпсон",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 73779713,
+     "url": "/book/robert-keppel-338762/rivermen-kak-ted-bandi-i-ya-ohotilis-na-ubiycu-s-grin-73779713/",
+     "title": "Ривермен. Как Тед Банди и я охотились на Убийцу с Грин-Ривер",
+     "language_code": "ru",
+     "date_written_at": "2005-01-01",
+     "persons": [
+      {
+       "full_name": "Роберт Кеппел",
+       "role": "author"
+      },
+      {
+       "full_name": "Сергей Самуйлов",
+       "role": "translator"
+      },
+      {
+       "full_name": "INSPIRIA",
+       "role": "publisher"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 70453801,
+     "url": "/book/nikolas-veychel-lindsey/antologiya-antologiy-poety-ssha-70453801/",
+     "title": "Антология антологий. Поэты США",
+     "language_code": "ru",
+     "date_written_at": null,
+     "persons": [
+      {
+       "full_name": "Харт Крейн",
+       "role": "author"
+      },
+      {
+       "full_name": "Джойс Килмер",
+       "role": "author"
+      },
+      {
+       "full_name": "Алан Сигер",
+       "role": "author"
+      },
+      {
+       "full_name": "Роберт Фрост",
+       "role": "author"
+      },
+      {
+       "full_name": "Карл Сэндберг",
+       "role": "author"
+      },
+      {
+       "full_name": "Эдгар Аллан По",
+       "role": "author"
+      },
+      {
+       "full_name": "Уильям Каллен Брайант",
+       "role": "author"
+      },
+      {
+       "full_name": "Ральф Уолдо Эмерсон",
+       "role": "author"
+      },
+      {
+       "full_name": "Джулия Уорд Хоу",
+       "role": "author"
+      },
+      {
+       "full_name": "Уолт Уитмен",
+       "role": "author"
+      },
+      {
+       "full_name": "Т[омас] С[тернз] Элиот",
+       "role": "author"
+      },
+      {
+       "full_name": "Оливер Уэнделл Холмс",
+       "role": "author"
+      },
+      {
+       "full_name": "Эмили Э[лизабет] Дикинсон",
+       "role": "author"
+      },
+      {
+       "full_name": "Э[двин] А[рлингтон] Робинсон",
+       "role": "author"
+      },
+      {
+       "full_name": "Генри Уодсуорт Лонгфелло",
+       "role": "author"
+      },
+      {
+       "full_name": "Джон Гринлиф Уиттьер",
+       "role": "author"
+      },
+      {
+       "full_name": "У[истен] Х[ью] Оден",
+       "role": "author"
+      },
+      {
+       "full_name": "Эдвин Маркхэм",
+       "role": "author"
+      },
+      {
+       "full_name": "Уоллес Стивенс",
+       "role": "author"
+      },
+      {
+       "full_name": "Марианна Мур",
+       "role": "author"
+      },
+      {
+       "full_name": "Джон Кроу Рэнсом",
+       "role": "author"
+      },
+      {
+       "full_name": "[Николас] Вэйчел Линдсей",
+       "role": "author"
+      },
+      {
+       "full_name": "Джон Говард Пейн",
+       "role": "author"
+      },
+      {
+       "full_name": "[Фрэнсис] Брет Гарт",
+       "role": "author"
+      },
+      {
+       "full_name": "Филип [Морин] Френо",
+       "role": "author"
+      },
+      {
+       "full_name": "Анна Брэдстрит",
+       "role": "author"
+      },
+      {
+       "full_name": "Эзра [Лумис] Паунд",
+       "role": "author"
+      },
+      {
+       "full_name": "Арчибальд Маклиш",
+       "role": "author"
+      },
+      {
+       "full_name": "Фрэнсис Скотт Ки",
+       "role": "author"
+      },
+      {
+       "full_name": "Джозеф Родман Дрейк",
+       "role": "author"
+      },
+      {
+       "full_name": "Джеймс Расселл Лоуэлл",
+       "role": "author"
+      },
+      {
+       "full_name": "Сидней [Клаптон] Ланир [Ланье]",
+       "role": "author"
+      },
+      {
+       "full_name": "Эми [Лоуренс] Лоуэлл",
+       "role": "author"
+      },
+      {
+       "full_name": "Роберт [Трейл Спенс] Лоуэлл",
+       "role": "author"
+      },
+      {
+       "full_name": "Теодор Ретке",
+       "role": "author"
+      },
+      {
+       "full_name": "Эдна Сент-Винсент Миллэй",
+       "role": "author"
+      },
+      {
+       "full_name": "Сара Тисдейл",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 5314499,
+     "url": "/book/ayn-rend/kapitalizm-neznakomyy-ideal-5314499/",
+     "title": "Капитализм. Незнакомый идеал",
+     "language_code": "ru",
+     "date_written_at": "2011-01-01",
+     "persons": [
+      {
+       "full_name": "Айн Рэнд",
+       "role": "author"
+      },
+      {
+       "full_name": "Натаниэль Бранден",
+       "role": "author"
+      },
+      {
+       "full_name": "Алан Гринспен",
+       "role": "author"
+      },
+      {
+       "full_name": "Роберт Хессен",
+       "role": "author"
+      },
+      {
+       "full_name": "Екатерина Милицкая",
+       "role": "translator"
+      },
+      {
+       "full_name": "Светлана Силакова",
+       "role": "translator"
+      },
+      {
+       "full_name": "Мария Кульнева",
+       "role": "translator"
+      },
+      {
+       "full_name": "Галина Зеленина",
+       "role": "translator"
+      },
+      {
+       "full_name": "К. Щербино",
+       "role": "translator"
+      },
+      {
+       "full_name": "Альпина Паблишер",
+       "role": "publisher"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 73884644,
+     "url": "/book/evgeniya-moreva/koncepciya-edinogo-cifrovogo-prostranstva-dlya-effektivnog-73884644/",
+     "title": "Концепция единого цифрового пространства для эффективного функционирования российской промышленности. (Аспирантура, Бакалавриат, Магистратура). Монография.",
+     "language_code": "ru",
+     "date_written_at": "2026-01-01",
+     "persons": [
+      {
+       "full_name": "Нияз Мустякимович Абдикеев",
+       "role": "author"
+      },
+      {
+       "full_name": "Ольга Владиславовна Лосева",
+       "role": "author"
+      },
+      {
+       "full_name": "Юрий Сергеевич Богачев",
+       "role": "author"
+      },
+      {
+       "full_name": "Павел Владимирович Трифонов",
+       "role": "author"
+      },
+      {
+       "full_name": "Людмила Владиславна Оболенская",
+       "role": "author"
+      },
+      {
+       "full_name": "Сузанна Робертиновна Бекулова",
+       "role": "author"
+      },
+      {
+       "full_name": "Евгения Львовна Морева",
+       "role": "author"
+      },
+      {
+       "full_name": "Наталья Владимировна Гринева",
+       "role": "author"
+      },
+      {
+       "full_name": "Игорь Михайлович Степнов",
+       "role": "author"
+      },
+      {
+       "full_name": "Олеся Игоревна Донцова",
+       "role": "author"
+      },
+      {
+       "full_name": "Юлия Александровна Ковальчук",
+       "role": "author"
+      },
+      {
+       "full_name": "Ольга Михайловна Абросимова",
+       "role": "author"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

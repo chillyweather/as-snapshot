@@ -1,0 +1,62 @@
+{
+  "candidate_history": [
+    {
+      "identity_key": "stronger book|alex example",
+      "editor_status": "reject",
+      "independent_signal_families": ["award"],
+      "primary_signal_strength": "minor mention",
+      "russian_edition_status": "",
+      "visible_risk_status": ""
+    },
+    {
+      "identity_key": "russian changed|robin example",
+      "editor_status": "already_known",
+      "independent_signal_families": ["award"],
+      "primary_signal_strength": "shortlist",
+      "russian_edition_status": "unclear",
+      "visible_risk_status": ""
+    },
+    {
+      "identity_key": "risk changed|taylor example",
+      "editor_status": "reject",
+      "independent_signal_families": ["award"],
+      "primary_signal_strength": "shortlist",
+      "russian_edition_status": "",
+      "visible_risk_status": "text check required"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Fixture Awards",
+      "family": "award",
+      "url": "https://example.test/awards",
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Deterministic fixture source.",
+      "fixture_candidates": [
+        {
+          "title": "Stronger Book",
+          "primary_authors": ["Alex Example"],
+          "source_url": "https://example.test/awards/stronger",
+          "signal_strength": "winner"
+        },
+        {
+          "title": "Russian Changed",
+          "primary_authors": ["Robin Example"],
+          "source_url": "https://example.test/awards/russian",
+          "signal_strength": "shortlist",
+          "russian_edition_status": "not found in Russian"
+        },
+        {
+          "title": "Risk Changed",
+          "primary_authors": ["Taylor Example"],
+          "source_url": "https://example.test/awards/risk",
+          "signal_strength": "shortlist",
+          "public_data_status": "sufficient"
+        }
+      ]
+    }
+  ]
+}

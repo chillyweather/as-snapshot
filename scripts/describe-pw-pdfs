@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Process licensed PW review text through a model on this machine.
+# --provider deepseek sends it to the DeepSeek API and needs --allow-review-text-upload
+# plus DEEPSEEK_API_KEY, read here from the login keychain when not already set.
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+if [[ -x "${REPO_ROOT}/.venv/bin/python" ]]; then
+    INTERPRETER="${REPO_ROOT}/.venv/bin/python"
+else
+    INTERPRETER="$(command -v python3)"
+fi
+cd "${REPO_ROOT}"
+if [[ -z "${DEEPSEEK_API_KEY:-}" && " $* " == *[\ =]deepseek" "* ]] && command -v security >/dev/null; then
+    DEEPSEEK_API_KEY="$(security find-generic-password -s autoscout-deepseek-api-key -w 2>/dev/null || true)"
+    export DEEPSEEK_API_KEY
+fi
+exec "${INTERPRETER}" -m autoscout.pw_local_descriptions "$@"

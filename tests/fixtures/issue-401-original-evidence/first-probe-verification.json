@@ -1,0 +1,60 @@
+{
+  "capture_integrity": {
+    "after": {
+      "bytes": 310789,
+      "path": "runs/current-weekly-pilot-russian/codex-capture-bookmarks--lithub----new-nonfiction-d824846c.json",
+      "sha256": "63b69d6f95ddac75eb8bc6909ad7be7779835ccdcc13d4658d851cc82137218a"
+    },
+    "before": {
+      "bytes": 310789,
+      "path": "runs/current-weekly-pilot-russian/codex-capture-bookmarks--lithub----new-nonfiction-d824846c.json",
+      "sha256": "63b69d6f95ddac75eb8bc6909ad7be7779835ccdcc13d4658d851cc82137218a"
+    },
+    "identical": true
+  },
+  "empty_output_count": 1,
+  "non_empty_validated_count": 3,
+  "observations": [
+    {
+      "diagnostic_class": "validated",
+      "mode": "intrinsic",
+      "raw_extracted_count": 40,
+      "status": "validated",
+      "validated_count": 40,
+      "worker_count": 1
+    },
+    {
+      "diagnostic_class": "unexpected_empty_extraction",
+      "mode": "production-shaped",
+      "raw_extracted_count": 0,
+      "status": "invalid",
+      "validated_count": 0,
+      "worker_count": 1
+    },
+    {
+      "diagnostic_class": "validated",
+      "mode": "production-shaped",
+      "raw_extracted_count": 39,
+      "status": "validated",
+      "validated_count": 39,
+      "worker_count": 2
+    },
+    {
+      "diagnostic_class": "validated",
+      "mode": "production-shaped",
+      "raw_extracted_count": 40,
+      "status": "validated",
+      "validated_count": 40,
+      "worker_count": 3
+    }
+  ],
+  "schema_version": "issue-401-first-probe-verification-1",
+  "source_name": "BookMarks (LitHub) – New Nonfiction",
+  "status_counts": {
+    "censored": 0,
+    "command_failure": 0,
+    "invalid": 1,
+    "timeout": 0,
+    "validated": 3
+  }
+}

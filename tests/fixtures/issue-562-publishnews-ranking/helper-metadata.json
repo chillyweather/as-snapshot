@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "source_url": "https://www.publishnews.com.br/ranking-nielsen/semanal/9",
+  "language": "pt",
+  "entries": [
+    {
+      "title": "Bom dia, inverno",
+      "author": "Tamara Klink",
+      "evidence_url": "https://www.publishnews.com.br/ranking-nielsen/semanal/9",
+      "english_title": "Good Morning, Winter",
+      "search_translation": "Доброе утро, зима",
+      "author_transliteration_note": "Тамара Клинк"
+    },
+    {
+      "title": "A psicologia financeira",
+      "author": "Morgan Housel",
+      "evidence_url": "https://www.publishnews.com.br/ranking-nielsen/semanal/9",
+      "english_title": "The Psychology of Money",
+      "search_translation": "Психология денег",
+      "author_transliteration_note": "Морган Хаузел"
+    },
+    {
+      "title": "Pai, me conta a sua história?",
+      "author": "Elma Van Vliet",
+      "evidence_url": "https://www.publishnews.com.br/ranking-nielsen/semanal/9",
+      "english_title": "Dad, Tell Me Your Story?",
+      "search_translation": "Папа, расскажи мне свою историю",
+      "author_transliteration_note": "Эльма ван Влит"
+    }
+  ]
+}

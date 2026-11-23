@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for original-edition completion (Issue #968).
+#
+# Records the grounded original edition of a book found only on non-English
+# lists: a translator credit on a page already fetched for its description, a
+# model's proposed original title and language, and Open Library confirming
+# it. Only a confirmed original is stored; an unconfirmed proposal is stored
+# as not_found, and a page without a credit proves nothing.
+# Without --apply it writes nothing and exits 3. It prints counts only,
+# never titles. With --apply it may also ask the booksellers' portal
+# todostuslibros.com (#1140) within its weekly ceiling, when the weekly config
+# switches it on.
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+cd "${REPO_ROOT}"
+
+exec "${INTERPRETER}" -m autoscout complete-originals \
+    --config configs/current-weekly-pilot-live.json \
+    --state-dir runs/current-weekly-pilot-russian \
+    "$@"

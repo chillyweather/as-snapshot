@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-06-06",
+  "sources": [
+    {
+      "name": "BookPage Best Nonfiction",
+      "family": "media/curated list",
+      "url": "https://www.bookpage.com/best-books/best-nonfiction/",
+      "active": true,
+      "access_status": "open",
+      "extraction_method": "bookpage-recorded-response",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Deterministic metadata-only BookPage collector demo. No live network access.",
+      "collector_response_file": "../data/bookpage-demo-response.json"
+    }
+  ],
+  "russian_edition_checks": [
+    {
+      "retailer": "LitRes",
+      "url": "https://www.litres.ru",
+      "fixture_results": []
+    }
+  ]
+}

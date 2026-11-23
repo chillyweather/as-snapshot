@@ -1,0 +1,72 @@
+{
+ "status": 200,
+ "error": null,
+ "payload": {
+  "data": [
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 68871831,
+     "url": "/book/smart-reading/infografika-po-knige-zachem-my-spim-novaya-nauka-o-sne-i-sno-68871831/",
+     "title": "Инфографика по книге: Зачем мы спим. Новая наука о сне и сновидениях. Мэттью Уолкер",
+     "language_code": "ru",
+     "date_written_at": "2023-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 38280337,
+     "url": "/book/mettu-uolker-17006825/zachem-my-spim-novaya-nauka-o-sne-i-snovideniyah-38280337/",
+     "title": "Зачем мы спим. Новая наука о сне и сновидениях",
+     "language_code": "ru",
+     "date_written_at": "2017-01-01",
+     "persons": [
+      {
+       "full_name": "Мэттью Уолкер",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 56039110,
+     "url": "/book/smart-reading/kluchevye-idei-knigi-zachem-my-spim-novaya-nauka-o-sne-i-sno-56039110/",
+     "title": "Ключевые идеи книги: Зачем мы спим. Новая наука о сне и сновидениях. Мэттью Уолкер",
+     "language_code": "ru",
+     "date_written_at": "2020-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 70511110,
+     "url": "/book/kseniya-sidorkina/sammari-knigi-mettu-uolkera-zachem-my-spim-novaya-nauka-70511110/",
+     "title": "Саммари книги Мэттью Уолкера «Зачем мы спим. Новая наука о сне и сновидениях»",
+     "language_code": "ru",
+     "date_written_at": null,
+     "persons": [
+      {
+       "full_name": "Ксения Сидоркина",
+       "role": "author"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

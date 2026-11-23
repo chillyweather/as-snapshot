@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Preview by default; --apply marks the records an earlier archive backfill added, found from Git.
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+if [[ -x "${REPO_ROOT}/.venv/bin/python" ]]; then
+    INTERPRETER="${REPO_ROOT}/.venv/bin/python"
+else
+    INTERPRETER="$(command -v python3)"
+fi
+cd "${REPO_ROOT}"
+exec "${INTERPRETER}" -m autoscout.archive_backfill_migration "$@"

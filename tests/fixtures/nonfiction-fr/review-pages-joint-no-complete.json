@@ -1,0 +1,8 @@
+{
+  "pages": {
+    "https://www.nonfiction.fr/article-200-review-card.htm": {
+      "resolved_url": "https://www.nonfiction.fr/article-200-review-card.htm",
+      "html": "<aside class=\"post-content__book tr mb4\"> <div class=\"flex items-start\"> <img src=\"https://www.nonfiction.fr/local/cache-vignettes/L150xH225/arton12808-1.jpg\" alt=\"\" width=\"150px\"> <div class=\"f6-ns f7 tc-grey\"> <h6 class=\"ma0 mt3 f6\">Une préhistoire des femmes</h6> <p class=\"ma0\"> <a class=\"tc-grey no-underline\" href=\"fiche-auteur-7003-anne-augereau.htm\">Anne Augereau</a> </p> <p class=\"ma0 f-pn\">2026</p> <p class=\"ma0 f-pn\">416 pages</p> </div> </div> <div class=\"flex items-start\"> <img src=\"https://www.nonfiction.fr/local/cache-vignettes/L150xH225/arton12808-2.jpg\" alt=\"\" width=\"150px\"> <div class=\"f6-ns f7 tc-grey\"> <h6 class=\"ma0 mt3 f6\">Aux origines de la domination masculine</h6> <p class=\"ma0 f-pn\">2025</p> <p class=\"ma0 f-pn\">Passés composés</p> <p class=\"ma0 f-pn\">256 pages</p> </div> </div> </aside>"
+    }
+  }
+}

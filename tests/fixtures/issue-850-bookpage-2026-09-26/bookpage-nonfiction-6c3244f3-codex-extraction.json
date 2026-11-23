@@ -1,0 +1,141 @@
+{
+  "capture_sha256": "dbc831435626aa591dae1776d2b94edca1209f9f5a0e6fe42543498631b88753",
+  "entries": [
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Listed as a nonfiction book review.",
+      "evidence_url": "https://www.bookpage.com/reviews/valiant-women/",
+      "primary_authors": [
+        ""
+      ],
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/valiant-women/",
+      "title": "Valiant Women"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Listed as a nonfiction book review.",
+      "evidence_url": "https://www.bookpage.com/reviews/happy-snacking-dont-die-black-forager-book-review/",
+      "primary_authors": [
+        ""
+      ],
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/happy-snacking-dont-die-black-forager-book-review/",
+      "title": "Happy Snacking, Don’t Die!"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Listed as a nonfiction book review.",
+      "evidence_url": "https://www.bookpage.com/reviews/make-it-fast-caroline-chambers-book-review/",
+      "primary_authors": [
+        "Caroline Chambers"
+      ],
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/make-it-fast-caroline-chambers-book-review/",
+      "title": "What to Cook When You Don’t Feel Like Cooking: Make It Fast"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Listed as a nonfiction book review.",
+      "evidence_url": "https://www.bookpage.com/reviews/art-of-fairy-tales-joanna-ebenstein-book-review/",
+      "primary_authors": [
+        "Joanna Ebenstein"
+      ],
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/art-of-fairy-tales-joanna-ebenstein-book-review/",
+      "title": "The Art of Fairy Tales"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Listed as a nonfiction book review.",
+      "evidence_url": "https://www.bookpage.com/reviews/i-wont-pretend-these-missiles-are-stars-the-cartoonist-collective/",
+      "primary_authors": [
+        "The Cartoonist Cooperative"
+      ],
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/i-wont-pretend-these-missiles-are-stars-the-cartoonist-collective/",
+      "title": "I Won’t Pretend These Missiles Are Stars"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Listed as a nonfiction book review.",
+      "evidence_url": "https://www.bookpage.com/reviews/end-times-fascism-naomi-klein-astra-taylor-book-review/",
+      "primary_authors": [
+        "Naomi Klein",
+        "Astra Taylor"
+      ],
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/end-times-fascism-naomi-klein-astra-taylor-book-review/",
+      "title": "End Times Fascism"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Listed as a nonfiction book review.",
+      "evidence_url": "https://www.bookpage.com/reviews/the-lonely-city-olivia-laing-audiobook-review/",
+      "primary_authors": [
+        "Olivia Laing"
+      ],
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/the-lonely-city-olivia-laing-audiobook-review/",
+      "title": "The Lonely City"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Listed as a nonfiction book review.",
+      "evidence_url": "https://www.bookpage.com/reviews/the-power-of-no-anna-holmes-book-review/",
+      "primary_authors": [
+        "Anna Holmes"
+      ],
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/the-power-of-no-anna-holmes-book-review/",
+      "title": "The Power of No"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Listed as a nonfiction book review.",
+      "evidence_url": "https://www.bookpage.com/reviews/castle-jon-ronson-book-review/",
+      "primary_authors": [
+        "Jon Ronson"
+      ],
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/castle-jon-ronson-book-review/",
+      "title": "The Castle"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Listed as a nonfiction book review.",
+      "evidence_url": "https://www.bookpage.com/reviews/how-to-stand-up-to-dictator-maria-ressa-book-review/",
+      "primary_authors": [
+        "Maria Ressa"
+      ],
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/how-to-stand-up-to-dictator-maria-ressa-book-review/",
+      "title": "How to Stand Up to a Dictator"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Listed as a nonfiction book review.",
+      "evidence_url": "https://www.bookpage.com/reviews/high-risk-homosexual/",
+      "primary_authors": [
+        ""
+      ],
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/high-risk-homosexual/",
+      "title": "High-Risk Homosexual"
+    }
+  ],
+  "operation_id": "9209b2b8a2fb4953e7514d7b70e1d5d42823fe325caf459b610897cf63d00c8c",
+  "source_name": "BookPage Nonfiction",
+  "source_url": "https://www.bookpage.com/genres/nonfiction/"
+}

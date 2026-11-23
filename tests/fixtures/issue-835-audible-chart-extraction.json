@@ -1,0 +1,331 @@
+{
+  "capture_sha256": "3be9dd673f595641ca71adc4c6f7399a1e9afbab9d27a2f965cb413966d310de",
+  "entries": [
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 1,
+      "evidence_note": "Ranked #1 on the captured Audible chart.",
+      "evidence_url": "/pd/Protocols-Audiobook/B0D6828XPN?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_1",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Andrew D. Huberman Ph.D."
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "Protocols An Operating Manual for the Human Body",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 2,
+      "evidence_note": "Ranked #2 on the captured Audible chart.",
+      "evidence_url": "/pd/Biological-War-Audiobook/B0FY53N9BD?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_2",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Annie Jacobsen"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "Biological War A Scenario",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 3,
+      "evidence_note": "Ranked #3 on the captured Audible chart.",
+      "evidence_url": "/pd/The-AGI-Chronicles-Audiobook/B0GBYLW6CT?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_3",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Kevin Roose"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "The AGI Chronicles The Inside Story of the Race to Create an Artificial Superintelligence",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 4,
+      "evidence_note": "Ranked #4 on the captured Audible chart.",
+      "evidence_url": "/pd/Sapiens-Audiobook/B0741G911Q?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_4",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Yuval Noah Harari"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "Sapiens A Brief History of Humankind",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 5,
+      "evidence_note": "Ranked #5 on the captured Audible chart.",
+      "evidence_url": "/pd/Everything-Is-Tuberculosis-Audiobook/B0DK2DQZ7P?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_5",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "John Green"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "Everything Is Tuberculosis The History and Persistence of Our Deadliest Infection",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 6,
+      "evidence_note": "Ranked #6 on the captured Audible chart.",
+      "evidence_url": "/pd/End-Times-Fascism-Audiobook/B0GGC1VDF4?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_6",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Naomi Klein",
+        "Astra Taylor"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "End Times Fascism And the Fight for the Living World",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 7,
+      "evidence_note": "Ranked #7 on the captured Audible chart.",
+      "evidence_url": "/pd/Braiding-Sweetgrass-Audiobook/B01H478VR0?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_7",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Robin Wall Kimmerer"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "Braiding Sweetgrass Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 8,
+      "evidence_note": "Ranked #8 on the captured Audible chart.",
+      "evidence_url": "/pd/The-Infinity-Machine-Audiobook/B0FSST1JRF?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_8",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Sebastian Mallaby"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "The Infinity Machine Demis Hassabis, DeepMind, and the Quest for Superintelligence",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 9,
+      "evidence_note": "Ranked #9 on the captured Audible chart.",
+      "evidence_url": "/pd/A-World-Appears-Audiobook/B0FQT9VX7K?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_9",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Michael Pollan"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "A World Appears A Journey into Consciousness",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 10,
+      "evidence_note": "Ranked #10 on the captured Audible chart.",
+      "evidence_url": "/pd/Thinking-in-Systems-Audiobook/B07FWBN4Q5?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_10",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Donella H. Meadows"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "Thinking in Systems A Primer",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 11,
+      "evidence_note": "Ranked #11 on the captured Audible chart.",
+      "evidence_url": "/pd/Endurance-Audiobook/B002V9ZA6C?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_11",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Alfred Lansing"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "Endurance Shackleton's Incredible Voyage",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 12,
+      "evidence_note": "Ranked #12 on the captured Audible chart.",
+      "evidence_url": "/pd/A-Short-History-of-Nearly-Everything-Audiobook/B002V0KFPW?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_12",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Bill Bryson"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "A Short History of Nearly Everything 2.0",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 13,
+      "evidence_note": "Ranked #13 on the captured Audible chart.",
+      "evidence_url": "/pd/Dopamine-Nation-Audiobook/0593409221?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_13",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Anna Lembke MD"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "Dopamine Nation Finding Balance in the Age of Indulgence",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 14,
+      "evidence_note": "Ranked #14 on the captured Audible chart.",
+      "evidence_url": "/pd/The-Gales-of-November-Audiobook/B0FFCPCSR3?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_14",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "John U. Bacon"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "The Gales of November The Untold Story of the Edmund Fitzgerald",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 15,
+      "evidence_note": "Ranked #15 on the captured Audible chart.",
+      "evidence_url": "/pd/Outlive-Audiobook/B0B6444XS3?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_15",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Peter Attia MD",
+        "Bill Gifford"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "Outlive The Science and Art of Longevity",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 16,
+      "evidence_note": "Ranked #16 on the captured Audible chart.",
+      "evidence_url": "/pd/Breath-Audiobook/0593211510?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_16",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "James Nestor"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "Breath The New Science of a Lost Art",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 17,
+      "evidence_note": "Ranked #17 on the captured Audible chart.",
+      "evidence_url": "/pd/Co-Intelligence-Audiobook/B0CNFJ1BVP?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_17",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Ethan Mollick"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "Co-Intelligence Living and Working with AI",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 18,
+      "evidence_note": "Ranked #18 on the captured Audible chart.",
+      "evidence_url": "/pd/Guns-Germs-and-Steel-Audiobook/B004G7VN04?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_18",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Jared Diamond"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "Guns, Germs and Steel The Fate of Human Societies",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 19,
+      "evidence_note": "Ranked #19 on the captured Audible chart.",
+      "evidence_url": "/pd/The-Sleeping-World-Exploring-Floating-Gardens-with-an-Axolotl-Audiobook/B0GNTJFQ1D?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_19",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Mumble Media",
+        "Audible Sleep"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "The Sleeping World: Exploring Floating Gardens with an Axolotl",
+      "underlying_work_type": "book"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 20,
+      "evidence_note": "Ranked #20 on the captured Audible chart.",
+      "evidence_url": "/pd/Why-We-Sleep-Audiobook/B0752ZQR33?ref_pageloadid=not_applicable&pf_rd_p=32bba03a-26cd-491a-baa2-b83ff0238e68&pf_rd_r=HFSYP9NZ8M02HG4676ED&plink=1E5OpFntfmgI3Mps&pageLoadId=tYZpI0SQoRkEQvA0&creativeId=d3265378-de1c-4d52-95d5-f373fb9f47da&ref=a_charts_be_c4_adblp13nchpl_1_20",
+      "narrative_classification": "other nonfiction",
+      "primary_authors": [
+        "Matthew Walker PhD"
+      ],
+      "publication_status": "published",
+      "signal_strength": "top ranking",
+      "signal_type": "audiobook ranking",
+      "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011",
+      "title": "Why We Sleep Unlocking the Power of Sleep and Dreams",
+      "underlying_work_type": "book"
+    }
+  ],
+  "operation_id": "4b8f822ef20dfd36266f2a00909cc1714284d8b67c5410b50fc4c38d6efb7d99",
+  "source_name": "Audible Bestselling Science & Engineering Audiobooks",
+  "source_url": "https://www.audible.com/charts/best/science-engineering-audiobooks/18580540011"
+}

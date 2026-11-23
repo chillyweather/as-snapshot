@@ -1,0 +1,7 @@
+{
+  "source_url": "https://example.test/shortlist",
+  "resolved_url": "https://example.test/home",
+  "head_status": 200,
+  "get_status": 200,
+  "html": "<!DOCTYPE html><html><head><title>Home</title></head><body><main><h1>Home</h1><ul><li><a href=\"https://example.test/books/book-1\">Book One</a><span class=\"author\">Jane Author</span></li></ul></main></body></html>"
+}

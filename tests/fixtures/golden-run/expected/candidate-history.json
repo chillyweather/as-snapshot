@@ -1,0 +1,452 @@
+[
+  {
+    "candidate_category": "",
+    "candidate_id": "candidate-dd8179bb4e9b9612b0f1be44",
+    "english_annotation": "",
+    "english_author_display": "",
+    "english_title": "",
+    "first_seen_date": "2026-06-15",
+    "identity_key": "fixture golden book|alex fixture",
+    "independent_signal_count": 1,
+    "independent_signal_families": [
+      "media/curated list"
+    ],
+    "last_seen_date": "2026-06-15",
+    "primary_authors": [
+      "Alex Fixture"
+    ],
+    "primary_signal": {
+      "evidence_locator": "",
+      "evidence_note": "Won a configured award.",
+      "evidence_url": "",
+      "language": "en",
+      "signal_strength": "winner",
+      "signal_type": "media/curated list",
+      "source_check_date": "2026-06-15",
+      "source_family": "media/curated list",
+      "source_name": "Fixture Collector Recorded Golden Source",
+      "source_url": "https://example.test/fixture/golden-book"
+    },
+    "primary_signal_strength": "winner",
+    "priority_label": "C",
+    "publication_year": "",
+    "publisher": "",
+    "risk_evidence_url": "",
+    "risk_signal_scope": "",
+    "russian_edition_status": "",
+    "short_description": "",
+    "signal_summary": "1 independent signal: media/curated list. Multiple links from the same family are preserved as evidence without increasing the count.",
+    "source_evidence": [
+      {
+        "evidence_locator": "",
+        "evidence_note": "Won a configured award.",
+        "evidence_url": "",
+        "language": "en",
+        "signal_strength": "winner",
+        "signal_type": "media/curated list",
+        "source_check_date": "2026-06-15",
+        "source_family": "media/curated list",
+        "source_name": "Fixture Collector Recorded Golden Source",
+        "source_url": "https://example.test/fixture/golden-book"
+      }
+    ],
+    "title": "Fixture Golden Book",
+    "visible_risk_category": "",
+    "visible_risk_comment": "",
+    "visible_risk_screen_coverage": {
+      "coverage": "partial",
+      "evidence_fields": [
+        "title",
+        "evidence_notes"
+      ],
+      "reason": "No description was available; configured categories were checked against the title and Evidence Notes only."
+    },
+    "visible_risk_status": ""
+  },
+  {
+    "candidate_category": "history",
+    "candidate_id": "candidate-fd72cc2e4015a1df077d6f1d",
+    "english_annotation": "",
+    "english_author_display": "",
+    "english_title": "",
+    "first_seen_date": "2026-06-15",
+    "identity_key": "bookpage golden book|morgan golden",
+    "independent_signal_count": 1,
+    "independent_signal_families": [
+      "media/curated list"
+    ],
+    "last_seen_date": "2026-06-15",
+    "primary_authors": [
+      "Morgan Golden"
+    ],
+    "primary_signal": {
+      "evidence_locator": "BookPage Best Nonfiction 2024, entry for BookPage Golden Book.",
+      "evidence_note": "BookPage best nonfiction selection; metadata-only entry for BookPage Golden Book.",
+      "evidence_url": "https://www.bookpage.com/reviews/bookpage-golden-book",
+      "language": "en",
+      "signal_strength": "major media list",
+      "signal_type": "media/curated list",
+      "source_check_date": "2026-06-15",
+      "source_family": "media/curated list",
+      "source_name": "BookPage Best Nonfiction",
+      "source_url": "https://www.bookpage.com/reviews/bookpage-golden-book"
+    },
+    "primary_signal_strength": "major media list",
+    "priority_label": "C",
+    "publication_year": "2024",
+    "publisher": "Golden Press",
+    "risk_evidence_url": "https://www.bookpage.com/reviews/bookpage-golden-book",
+    "risk_signal_scope": "",
+    "russian_edition_status": "",
+    "short_description": "Narrative nonfiction about a golden-run fixture archive.",
+    "signal_summary": "1 independent signal: media/curated list. Multiple links from the same family are preserved as evidence without increasing the count. Evidence locator: BookPage Best Nonfiction 2024, entry for BookPage Golden Book.",
+    "source_evidence": [
+      {
+        "evidence_locator": "BookPage Best Nonfiction 2024, entry for BookPage Golden Book.",
+        "evidence_note": "BookPage best nonfiction selection; metadata-only entry for BookPage Golden Book.",
+        "evidence_url": "https://www.bookpage.com/reviews/bookpage-golden-book",
+        "language": "en",
+        "signal_strength": "major media list",
+        "signal_type": "media/curated list",
+        "source_check_date": "2026-06-15",
+        "source_family": "media/curated list",
+        "source_name": "BookPage Best Nonfiction",
+        "source_url": "https://www.bookpage.com/reviews/bookpage-golden-book"
+      }
+    ],
+    "title": "BookPage Golden Book",
+    "visible_risk_category": "",
+    "visible_risk_comment": "No configured MVP risk signal found in available public metadata; this is not legal clearance or a full-text review.",
+    "visible_risk_screen_coverage": {
+      "coverage": "screened",
+      "evidence_fields": [
+        "title",
+        "short_description",
+        "evidence_notes"
+      ],
+      "reason": "Every configured category was checked against the title and a description."
+    },
+    "visible_risk_status": "no visible risk"
+  },
+  {
+    "candidate_category": "",
+    "candidate_id": "candidate-4fd71b0a8c9d0335adc0bd49",
+    "english_annotation": "",
+    "english_author_display": "",
+    "english_title": "",
+    "first_seen_date": "2026-06-15",
+    "identity_key": "npr golden book|kara golden",
+    "independent_signal_count": 1,
+    "independent_signal_families": [
+      "media/curated list"
+    ],
+    "last_seen_date": "2026-06-15",
+    "primary_authors": [
+      "Kara Golden"
+    ],
+    "primary_signal": {
+      "evidence_locator": "NPR source page entry for NPR Golden Book.",
+      "evidence_note": "NPR nonfiction staff pick; metadata-only entry for NPR Golden Book.",
+      "evidence_url": "https://www.npr.org/2024/06/18/golden-run-nonfiction-summer-2024",
+      "language": "en",
+      "signal_strength": "major media list",
+      "signal_type": "media/curated list",
+      "source_check_date": "2026-06-15",
+      "source_family": "media/curated list",
+      "source_name": "NPR Golden Run Nonfiction Staff Picks",
+      "source_url": "https://www.npr.org/2024/06/18/golden-run-nonfiction-summer-2024"
+    },
+    "primary_signal_strength": "major media list",
+    "priority_label": "C",
+    "publication_year": "",
+    "publisher": "",
+    "risk_evidence_url": "https://www.npr.org/2024/06/18/golden-run-nonfiction-summer-2024",
+    "risk_signal_scope": "",
+    "russian_edition_status": "",
+    "short_description": "",
+    "signal_summary": "1 independent signal: media/curated list. Multiple links from the same family are preserved as evidence without increasing the count. Evidence locator: NPR source page entry for NPR Golden Book.",
+    "source_evidence": [
+      {
+        "evidence_locator": "NPR source page entry for NPR Golden Book.",
+        "evidence_note": "NPR nonfiction staff pick; metadata-only entry for NPR Golden Book.",
+        "evidence_url": "https://www.npr.org/2024/06/18/golden-run-nonfiction-summer-2024",
+        "language": "en",
+        "signal_strength": "major media list",
+        "signal_type": "media/curated list",
+        "source_check_date": "2026-06-15",
+        "source_family": "media/curated list",
+        "source_name": "NPR Golden Run Nonfiction Staff Picks",
+        "source_url": "https://www.npr.org/2024/06/18/golden-run-nonfiction-summer-2024"
+      }
+    ],
+    "title": "NPR Golden Book",
+    "visible_risk_category": "",
+    "visible_risk_comment": "",
+    "visible_risk_screen_coverage": {
+      "coverage": "partial",
+      "evidence_fields": [
+        "title",
+        "evidence_notes"
+      ],
+      "reason": "No description was available; configured categories were checked against the title and Evidence Notes only."
+    },
+    "visible_risk_status": ""
+  },
+  {
+    "candidate_category": "",
+    "candidate_id": "candidate-cd7d97f07b1df433f952606f",
+    "english_annotation": "",
+    "english_author_display": "",
+    "english_title": "",
+    "first_seen_date": "2026-06-15",
+    "identity_key": "agent golden book|riley golden",
+    "independent_signal_count": 1,
+    "independent_signal_families": [
+      "media/curated list"
+    ],
+    "last_seen_date": "2026-06-15",
+    "primary_authors": [
+      "Riley Golden"
+    ],
+    "primary_signal": {
+      "evidence_locator": "",
+      "evidence_note": "Listed on a configured source page.",
+      "evidence_url": "https://example.test/books/agent-golden-book",
+      "language": "en",
+      "signal_strength": "major media list",
+      "signal_type": "media/curated list",
+      "source_check_date": "2026-06-15",
+      "source_family": "media/curated list",
+      "source_name": "Agent Extraction Golden List",
+      "source_url": "https://example.test/books/agent-golden-book"
+    },
+    "primary_signal_strength": "major media list",
+    "priority_label": "C",
+    "publication_year": "",
+    "publisher": "",
+    "risk_evidence_url": "",
+    "risk_signal_scope": "",
+    "russian_edition_status": "",
+    "short_description": "",
+    "signal_summary": "1 independent signal: media/curated list. Multiple links from the same family are preserved as evidence without increasing the count.",
+    "source_evidence": [
+      {
+        "evidence_locator": "",
+        "evidence_note": "Listed on a configured source page.",
+        "evidence_url": "https://example.test/books/agent-golden-book",
+        "language": "en",
+        "signal_strength": "major media list",
+        "signal_type": "media/curated list",
+        "source_check_date": "2026-06-15",
+        "source_family": "media/curated list",
+        "source_name": "Agent Extraction Golden List",
+        "source_url": "https://example.test/books/agent-golden-book"
+      }
+    ],
+    "title": "Agent Golden Book",
+    "visible_risk_category": "",
+    "visible_risk_comment": "",
+    "visible_risk_screen_coverage": {
+      "coverage": "partial",
+      "evidence_fields": [
+        "title",
+        "evidence_notes"
+      ],
+      "reason": "No description was available; configured categories were checked against the title and Evidence Notes only."
+    },
+    "visible_risk_status": ""
+  },
+  {
+    "candidate_category": "history",
+    "candidate_id": "candidate-822870598e23ae5c4e2bcc98",
+    "english_annotation": "",
+    "english_author_display": "",
+    "english_title": "",
+    "first_seen_date": "2026-06-15",
+    "identity_key": "codex golden book|jordan golden",
+    "independent_signal_count": 1,
+    "independent_signal_families": [
+      "media/curated list"
+    ],
+    "last_seen_date": "2026-06-15",
+    "primary_authors": [
+      "Jordan Golden"
+    ],
+    "primary_signal": {
+      "evidence_locator": "",
+      "evidence_note": "Codex-extracted metadata-only mention from the captured configured page.",
+      "evidence_url": "https://example.test/books/codex-golden-book",
+      "language": "en",
+      "signal_strength": "major media list",
+      "signal_type": "media/curated list",
+      "source_check_date": "2026-06-15",
+      "source_family": "media/curated list",
+      "source_name": "Codex Extraction Golden Nonfiction",
+      "source_url": "https://example.test/books/codex-golden-book"
+    },
+    "primary_signal_strength": "major media list",
+    "priority_label": "C",
+    "publication_year": "2024",
+    "publisher": "Golden Press",
+    "risk_evidence_url": "",
+    "risk_signal_scope": "",
+    "russian_edition_status": "",
+    "short_description": "A metadata-only description for the golden run.",
+    "signal_summary": "1 independent signal: media/curated list. Multiple links from the same family are preserved as evidence without increasing the count.",
+    "source_evidence": [
+      {
+        "evidence_locator": "",
+        "evidence_note": "Codex-extracted metadata-only mention from the captured configured page.",
+        "evidence_url": "https://example.test/books/codex-golden-book",
+        "language": "en",
+        "signal_strength": "major media list",
+        "signal_type": "media/curated list",
+        "source_check_date": "2026-06-15",
+        "source_family": "media/curated list",
+        "source_name": "Codex Extraction Golden Nonfiction",
+        "source_url": "https://example.test/books/codex-golden-book"
+      }
+    ],
+    "title": "Codex Golden Book",
+    "visible_risk_category": "",
+    "visible_risk_comment": "No configured MVP risk signal found in available public metadata; this is not legal clearance or a full-text review.",
+    "visible_risk_screen_coverage": {
+      "coverage": "screened",
+      "evidence_fields": [
+        "title",
+        "short_description",
+        "evidence_notes"
+      ],
+      "reason": "Every configured category was checked against the title and a description."
+    },
+    "visible_risk_status": "no visible risk"
+  },
+  {
+    "candidate_category": "",
+    "candidate_id": "candidate-c60a220c1b07690b7b0aaff9",
+    "english_annotation": "",
+    "english_author_display": "",
+    "english_title": "",
+    "first_seen_date": "2026-06-15",
+    "identity_key": "collector golden book|casey collector",
+    "independent_signal_count": 1,
+    "independent_signal_families": [
+      "media/curated list"
+    ],
+    "last_seen_date": "2026-06-15",
+    "primary_authors": [
+      "Casey Collector"
+    ],
+    "primary_signal": {
+      "evidence_locator": "",
+      "evidence_note": "Collected through a configured collector.",
+      "evidence_url": "",
+      "language": "en",
+      "signal_strength": "major media list",
+      "signal_type": "media/curated list",
+      "source_check_date": "2026-06-15",
+      "source_family": "media/curated list",
+      "source_name": "Fixture Collector Recorded Golden Source",
+      "source_url": "https://example.test/collector/golden-book"
+    },
+    "primary_signal_strength": "major media list",
+    "priority_label": "C",
+    "publication_year": "",
+    "publisher": "",
+    "risk_evidence_url": "",
+    "risk_signal_scope": "",
+    "russian_edition_status": "",
+    "short_description": "",
+    "signal_summary": "1 independent signal: media/curated list. Multiple links from the same family are preserved as evidence without increasing the count.",
+    "source_evidence": [
+      {
+        "evidence_locator": "",
+        "evidence_note": "Collected through a configured collector.",
+        "evidence_url": "",
+        "language": "en",
+        "signal_strength": "major media list",
+        "signal_type": "media/curated list",
+        "source_check_date": "2026-06-15",
+        "source_family": "media/curated list",
+        "source_name": "Fixture Collector Recorded Golden Source",
+        "source_url": "https://example.test/collector/golden-book"
+      }
+    ],
+    "title": "Collector Golden Book",
+    "visible_risk_category": "",
+    "visible_risk_comment": "",
+    "visible_risk_screen_coverage": {
+      "coverage": "partial",
+      "evidence_fields": [
+        "title",
+        "evidence_notes"
+      ],
+      "reason": "No description was available; configured categories were checked against the title and Evidence Notes only."
+    },
+    "visible_risk_status": ""
+  },
+  {
+    "candidate_category": "",
+    "candidate_id": "candidate-1bc2134f21729be3a3304ce4",
+    "english_annotation": "",
+    "english_author_display": "",
+    "english_title": "",
+    "first_seen_date": "2026-06-15",
+    "identity_key": "recorded golden book|riley recorded",
+    "independent_signal_count": 1,
+    "independent_signal_families": [
+      "media/curated list"
+    ],
+    "last_seen_date": "2026-06-15",
+    "primary_authors": [
+      "Riley Recorded"
+    ],
+    "primary_signal": {
+      "evidence_locator": "",
+      "evidence_note": "Recorded from a configured source page.",
+      "evidence_url": "",
+      "language": "en",
+      "signal_strength": "major media list",
+      "signal_type": "media/curated list",
+      "source_check_date": "2026-06-15",
+      "source_family": "media/curated list",
+      "source_name": "Fixture Collector Recorded Golden Source",
+      "source_url": "https://example.test/recorded"
+    },
+    "primary_signal_strength": "major media list",
+    "priority_label": "C",
+    "publication_year": "",
+    "publisher": "",
+    "risk_evidence_url": "",
+    "risk_signal_scope": "",
+    "russian_edition_status": "",
+    "short_description": "",
+    "signal_summary": "1 independent signal: media/curated list. Multiple links from the same family are preserved as evidence without increasing the count.",
+    "source_evidence": [
+      {
+        "evidence_locator": "",
+        "evidence_note": "Recorded from a configured source page.",
+        "evidence_url": "",
+        "language": "en",
+        "signal_strength": "major media list",
+        "signal_type": "media/curated list",
+        "source_check_date": "2026-06-15",
+        "source_family": "media/curated list",
+        "source_name": "Fixture Collector Recorded Golden Source",
+        "source_url": "https://example.test/recorded"
+      }
+    ],
+    "title": "Recorded Golden Book",
+    "visible_risk_category": "",
+    "visible_risk_comment": "",
+    "visible_risk_screen_coverage": {
+      "coverage": "partial",
+      "evidence_fields": [
+        "title",
+        "evidence_notes"
+      ],
+      "reason": "No description was available; configured categories were checked against the title and Evidence Notes only."
+    },
+    "visible_risk_status": ""
+  }
+]

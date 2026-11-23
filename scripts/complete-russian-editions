@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for Russian-edition completion (Issue #1181).
+#
+# Records, per undecided book, whether a Russian-language edition of the same
+# work exists: LiveLib search locates it, the Russian State Library and LitRes
+# list the author's Russian books by the Cyrillic author name, a model names
+# the same work, and fixed guards decide. Only a State Library or LitRes
+# edition confirms; a LiveLib result alone is unconfirmed.
+# Without --apply it writes nothing and exits 3. It prints counts only,
+# never titles. --max-books N and --skip-source <source> bound a run.
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+cd "${REPO_ROOT}"
+
+exec "${INTERPRETER}" -m autoscout complete-russian-editions \
+    --state-dir runs/current-weekly-pilot-russian \
+    "$@"

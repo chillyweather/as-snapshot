@@ -1,0 +1,15 @@
+{
+  "mentions": [
+    {
+      "title": "Valides Buch",
+      "primary_authors": ["Anna Schmidt"],
+      "source_url": "https://www.example-german-source.test/bestenliste/valides-buch",
+      "evidence_url": "https://www.example-german-source.test/bestenliste/valides-buch",
+      "signal_type": "media/curated list",
+      "signal_strength": "major media list",
+      "evidence_note": "Beispiel Sachbuchliste Eintrag.",
+      "candidate_category": "adult nonfiction",
+      "content_description": "Пример немецкой научно-популярной книги."
+    }
+  ]
+}

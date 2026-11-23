@@ -1,0 +1,144 @@
+{
+ "status": 200,
+ "error": null,
+ "payload": {
+  "data": [
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 22150614,
+     "url": "/book/uval-noy-harari/sapiens-kratkaya-istoriya-chelovechestva-22150614/",
+     "title": "Sapiens. Краткая история человечества",
+     "language_code": "ru",
+     "date_written_at": "2011-01-01",
+     "persons": [
+      {
+       "full_name": "Юваль Ной Харари",
+       "role": "author"
+      },
+      {
+       "full_name": "Любовь Сумм",
+       "role": "translator"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 42816388,
+     "url": "/book/uval-noy-harari/21-urok-dlya-xxi-veka-42816388/",
+     "title": "21 урок для XXI века",
+     "language_code": "ru",
+     "date_written_at": "2018-01-01",
+     "persons": [
+      {
+       "full_name": "Юваль Ной Харари",
+       "role": "author"
+      },
+      {
+       "full_name": "Юрий Гольдберг",
+       "role": "translator"
+      },
+      {
+       "full_name": "Анна Ефимова",
+       "role": "editor"
+      },
+      {
+       "full_name": "Ольга Левина",
+       "role": "corrector"
+      },
+      {
+       "full_name": "Ирина Чернышова",
+       "role": "corrector"
+      },
+      {
+       "full_name": "Александр Андреев",
+       "role": "scientific_advisor"
+      },
+      {
+       "full_name": "Александр Андрющенко",
+       "role": "chief_editor"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 67817402,
+     "url": "/book/uval-noy-harari/sapiens-graficheskaya-istoriya-chast-1-rozhdenie-chelovech-67817402/",
+     "title": "Sapiens. Графическая история. Часть 1. Рождение человечества",
+     "language_code": "ru",
+     "date_written_at": "2020-01-01",
+     "persons": [
+      {
+       "full_name": "Юваль Ной Харари",
+       "role": "author"
+      },
+      {
+       "full_name": "Ирина Филиппова",
+       "role": "translator"
+      },
+      {
+       "full_name": "Даниэль Казанав",
+       "role": "painter"
+      },
+      {
+       "full_name": "Давид Вандермелен",
+       "role": "adaptation"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 74665236,
+     "url": "/book/kultur-multur/sapiens-kratkaya-istoriya-chelovechestva-uval-noy-harari-kra-74665236/",
+     "title": "Sapiens. Краткая история человечества. Юваль Ной Харари. Кратко",
+     "language_code": "ru",
+     "date_written_at": "2026-01-01",
+     "persons": [
+      {
+       "full_name": "Культур-Мультур",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 72070570,
+     "url": "/book/izdatelstvo-sindbad/nexus-kratkaya-istoriya-informacionnyh-setey-ot-kamenn-72070570/",
+     "title": "Nexus. Краткая история информационных сетей от каменного века до искусственного интеллекта. Юваль Ной Харари. Саммари",
+     "language_code": "ru",
+     "date_written_at": "2025-01-01",
+     "persons": [
+      {
+       "full_name": "Издательство «Синдбад»",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 71177734,
+     "url": "/book/smart-reading/nexus-kratkaya-istoriya-informacionnyh-setey-ot-kamennogo-ve-71177734/",
+     "title": "Nexus. Краткая история информационных сетей от каменного века до искусственного интеллекта. Юваль Харари. Саммари",
+     "language_code": "ru",
+     "date_written_at": "2024-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

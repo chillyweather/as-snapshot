@@ -1,0 +1,17 @@
+{
+  "mentions": [
+    {
+      "title": "Discovered Book",
+      "primary_authors": ["Jane Author"],
+      "source_url": "https://example.test/books/discovered",
+      "evidence_url": "https://example.test/books/discovered",
+      "signal_type": "media/curated list",
+      "signal_strength": "major media list",
+      "evidence_note": "Codex-extracted metadata-only mention from the captured configured page.",
+      "candidate_category": "history",
+      "publisher": "Test Press",
+      "publication_year": "2024",
+      "short_description": "A metadata-only description for testing."
+    }
+  ]
+}

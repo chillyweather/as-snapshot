@@ -1,0 +1,24 @@
+{
+  "mentions": [
+    {
+      "title": "Valides Buch",
+      "primary_authors": ["Anna Schmidt"],
+      "source_url": "https://www.example-german-source.test/bestenliste/valides-buch",
+      "evidence_url": "https://www.example-german-source.test/bestenliste/valides-buch",
+      "signal_type": "media/curated list",
+      "signal_strength": "major media list",
+      "evidence_note": "Beispiel Sachbuchliste Eintrag.",
+      "candidate_category": "adult nonfiction",
+      "content_description": "Пример немецкой научно-популярной книги."
+    },
+    {
+      "title": "Ohne Beweis",
+      "primary_authors": ["Bernd Test"],
+      "source_url": "https://www.example-german-source.test/bestenliste/erfundenes-buch",
+      "evidence_url": "https://www.example-german-source.test/bestenliste/erfundenes-buch",
+      "signal_type": "media/curated list",
+      "signal_strength": "minor mention",
+      "evidence_note": "Erwähnung mit erfundener Evidence-URL, die nicht auf der Quellseite verlinkt ist."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "pages": {
+    "https://www.nonfiction.fr/article-100-complete-book.htm": {
+      "resolved_url": "https://www.nonfiction.fr/article-100-complete-book.htm",
+      "html": "<aside class=\"post-content__book\"><div><h6>Cartographier les futurs</h6><p><a href=\"fiche-auteur-1.htm\">Camille Exemple</a></p><p class=\"f-pn\">2026</p><p class=\"f-pn\">Éditions Test</p><p class=\"f-pn\">288 pages</p></div></aside><article><p>This synthetic review prose must be ignored.</p></article>"
+    },
+    "https://www.nonfiction.fr/article-101-incomplete-book.htm": {
+      "resolved_url": "https://www.nonfiction.fr/article-101-incomplete-book.htm",
+      "html": "<aside class=\"post-content__book\"><div><h6>Livre sans éditeur</h6><p><a href=\"fiche-auteur-2.htm\">Auteur Incomplet</a></p><p class=\"f-pn\">2026</p></div></aside>"
+    },
+    "https://www.nonfiction.fr/article-102-not-a-book.htm": {
+      "resolved_url": "https://www.nonfiction.fr/article-102-not-a-book.htm",
+      "html": "<article><h1>Une idée sans livre</h1><p>This synthetic article prose must be ignored.</p></article>"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Preview by default; --apply changes only the ignored PW collection file.
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+if [[ -x "${REPO_ROOT}/.venv/bin/python" ]]; then
+    INTERPRETER="${REPO_ROOT}/.venv/bin/python"
+else
+    INTERPRETER="$(command -v python3)"
+fi
+cd "${REPO_ROOT}"
+exec "${INTERPRETER}" -m autoscout.pw_local_import "$@"

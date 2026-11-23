@@ -1,0 +1,599 @@
+{
+  "Current Weekly Nonfiction Agent Extraction": {
+    "outcome": "reject",
+    "reason_code": "missing_heading",
+    "detected_heading": "",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "National Book Awards 2026 Nonfiction": {
+    "outcome": "reject",
+    "reason_code": "unbounded_entries",
+    "detected_heading": "2026 National Book Awards",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Goodreads Choice Awards 2026 Nonfiction": {
+    "outcome": "reject",
+    "reason_code": "unlinked_entries",
+    "detected_heading": "Opening Round Nominees",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Goodreads Choice Awards 2025 Nonfiction": {
+    "outcome": "reject",
+    "reason_code": "unbounded_entries",
+    "detected_heading": "Readers' Favorite Nonfiction 2025",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Audiobooks.com Nonfiction Audiobook Bestsellers": {
+    "outcome": "reject",
+    "reason_code": "unbounded_entries",
+    "detected_heading": "Non-Fiction",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Audible Bestselling Science & Engineering Audiobooks": {
+    "outcome": "reject",
+    "reason_code": "missing_authors",
+    "detected_heading": "Bestselling Science & Engineering Audiobooks",
+    "bounded_entry_count": 20,
+    "samples": []
+  },
+  "Audible Bestselling Business & Careers Audiobooks": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "Bestselling Business & Careers Audiobooks",
+    "bounded_entry_count": 20,
+    "samples": [
+      {
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "url": "https://www.audible.com/pd/Atomic-Habits-Audiobook/1524779261"
+      },
+      {
+        "title": "Kitchen Confidential",
+        "author": "Anthony Bourdain",
+        "url": "https://www.audible.com/pd/Kitchen-Confidential-Audiobook/B002VA8GSA"
+      },
+      {
+        "title": "48 Laws of Power",
+        "author": "Robert Greene",
+        "url": "https://www.audible.com/pd/48-Laws-of-Power-Audiobook/B00WYDJ2YQ"
+      }
+    ]
+  },
+  "Audible Bestselling Computers & Technology Audiobooks": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "Bestselling Computers & Technology Audiobooks",
+    "bounded_entry_count": 20,
+    "samples": [
+      {
+        "title": "Co-Intelligence",
+        "author": "Ethan Mollick",
+        "url": "https://www.audible.com/pd/Co-Intelligence-Audiobook/B0CNFJ1BVP"
+      },
+      {
+        "title": "Algorithms to Live By",
+        "author": "Brian Christian",
+        "url": "https://www.audible.com/pd/Algorithms-to-Live-By-Audiobook/B01D24NLWO"
+      },
+      {
+        "title": "The Infinity Machine",
+        "author": "Sebastian Mallaby",
+        "url": "https://www.audible.com/pd/The-Infinity-Machine-Audiobook/B0FSST1JRF"
+      }
+    ]
+  },
+  "Amazon Charts Most Read Nonfiction": {
+    "outcome": "reject",
+    "reason_code": "missing_heading",
+    "detected_heading": "",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Publishers Weekly Hardcover Frontlist Nonfiction": {
+    "outcome": "reject",
+    "reason_code": "missing_heading",
+    "detected_heading": "",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Publishers Marketplace Rights Offerings": {
+    "outcome": "reject",
+    "reason_code": "unbounded_entries",
+    "detected_heading": "Rights Offerings",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "USA TODAY Bestselling Books Nonfiction": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "USA TODAY Best-selling Booklist: Nonfiction",
+    "bounded_entry_count": 8,
+    "samples": [
+      {
+        "title": "The Anxious Generation",
+        "author": "Jonathan Haidt",
+        "url": "https://www.usatoday.com/booklist/book/the-anxious-generation-jonathan-haidt/9780593655030"
+      },
+      {
+        "title": "The Demon of Unrest",
+        "author": "Erik Larson",
+        "url": "https://www.usatoday.com/booklist/book/the-demon-of-unrest-erik-larson/9780385348744"
+      },
+      {
+        "title": "The Body Keeps the Score",
+        "author": "Bessel van der Kolk",
+        "url": "https://www.usatoday.com/booklist/book/the-body-keeps-the-score-bessel-van-der-kolk/9780143127741"
+      }
+    ]
+  },
+  "Spiegel Bestseller Sachbuch": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "SPIEGEL Bestseller Sachbuch",
+    "bounded_entry_count": 4,
+    "samples": [
+      {
+        "title": "Das Schweigen der Frauen",
+        "author": "Bascha Mika",
+        "url": "https://www.spiegel.de/bestseller/sachbuch/das-schweigen-der-frauen-9783446269262"
+      },
+      {
+        "title": "Warum wir denken, was wir denken",
+        "author": "Bernhard Pörksen",
+        "url": "https://www.spiegel.de/bestseller/sachbuch/warum-wir-denken-was-wir-denken-9783466372430"
+      },
+      {
+        "title": "Die Zerbrechlichkeit der Welt",
+        "author": "Maja Göpel",
+        "url": "https://www.spiegel.de/bestseller/sachbuch/die-zerbrechlichkeit-der-welt-9783550201270"
+      }
+    ]
+  },
+  "Deutscher Sachbuchpreis": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "Deutscher Sachbuchpreis",
+    "bounded_entry_count": 8,
+    "samples": [
+      {
+        "title": "Dreihundert Männer",
+        "author": "Konstantin Richter",
+        "url": "https://www.deutscher-sachbuchpreis.de/aktuelles-jahr/2026/dreihundert-maenner"
+      },
+      {
+        "title": "Gespräche mit einem Toten",
+        "author": "Heike Behrend",
+        "url": "https://www.deutscher-sachbuchpreis.de/aktuelles-jahr/2026/gespraeche-mit-einem-toten"
+      },
+      {
+        "title": "Szenario",
+        "author": "Florence Gaub",
+        "url": "https://www.deutscher-sachbuchpreis.de/aktuelles-jahr/2026/szenario"
+      }
+    ]
+  },
+  "Die Zeit Sachbuch-Bestenliste": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "Die Zeit Sachbuch-Bestenliste",
+    "bounded_entry_count": 5,
+    "samples": [
+      {
+        "title": "Die Kraft der Demokratie",
+        "author": "Hedwig Richter",
+        "url": "https://www.zeit.de/kultur/literatur/sachbuch-bestenliste/die-kraft-der-demokratie"
+      },
+      {
+        "title": "Der Atlas der KI",
+        "author": "Kate Crawford",
+        "url": "https://www.zeit.de/kultur/literatur/sachbuch-bestenliste/der-atlas-der-ki"
+      },
+      {
+        "title": "Leben auf unserem Planeten",
+        "author": "David Attenborough",
+        "url": "https://www.zeit.de/kultur/literatur/sachbuch-bestenliste/leben-auf-unserem-planeten"
+      }
+    ]
+  },
+  "PEOPLE Books": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "PEOPLE Books",
+    "bounded_entry_count": 6,
+    "samples": [
+      {
+        "title": "Say Nothing",
+        "author": "Patrick Radden Keefe Nonfiction",
+        "url": "https://people.com/say-nothing-patrick-radden-keefe-book-review-8781234"
+      },
+      {
+        "title": "Crying in H Mart",
+        "author": "Michelle Zauner Nonfiction",
+        "url": "https://people.com/crying-in-h-mart-michelle-zauner-book-review-8675309"
+      },
+      {
+        "title": "The Warmth of Other Suns",
+        "author": "Isabel Wilkerson Nonfiction",
+        "url": "https://people.com/the-warmth-of-other-suns-isabel-wilkerson-review-8890123"
+      }
+    ]
+  },
+  "BookPage Nonfiction": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "Nonfiction Book Reviews",
+    "bounded_entry_count": 6,
+    "samples": [
+      {
+        "title": "The Message",
+        "author": "Ta-Nehisi Coates",
+        "url": "https://www.bookpage.com/books/the-message-ta-nehisi-coates/"
+      },
+      {
+        "title": "Source Code",
+        "author": "Bill Gates",
+        "url": "https://www.bookpage.com/books/source-code-bill-gates/"
+      },
+      {
+        "title": "Everything Is Tuberculosis",
+        "author": "John Green",
+        "url": "https://www.bookpage.com/books/everything-is-tuberculosis-john-green/"
+      }
+    ]
+  },
+  "National Book Critics Circle Awards": {
+    "outcome": "reject",
+    "reason_code": "unbounded_entries",
+    "detected_heading": "The National Book Critics Circle Awards",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "BookMarks (LitHub) – New Nonfiction": {
+    "outcome": "reject",
+    "reason_code": "unbounded_entries",
+    "detected_heading": "Non-Fiction | Book Marks",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "PW Best Books 2025": {
+    "outcome": "reject",
+    "reason_code": "unlinked_entries",
+    "detected_heading": "Publishers Weekly Best Books 2025",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "PW Best Books 2026": {
+    "outcome": "reject",
+    "reason_code": "unlinked_entries",
+    "detected_heading": "Best Books 2026",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "IndieBound Indie Next List": {
+    "outcome": "reject",
+    "reason_code": "unlinked_entries",
+    "detected_heading": "July 2026 Indie Next List",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Académie française Prix de l’essai": {
+    "outcome": "reject",
+    "reason_code": "unlinked_entries",
+    "detected_heading": "Prix de l’essai",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Baillie Gifford Prize 2026 Winner": {
+    "outcome": "reject",
+    "reason_code": "missing_authors",
+    "detected_heading": "2026 The Baillie Gifford Prize for Non-Fiction",
+    "bounded_entry_count": 12,
+    "samples": []
+  },
+  "Premio Strega Saggistica 2026 Cinquina": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "I cinque libri candidati al Premio Strega Saggistica",
+    "bounded_entry_count": 5,
+    "samples": [
+      {
+        "title": "Alfabit. L’italiano digitale dagli SMS all’IA",
+        "author": "Giuseppe Antonelli",
+        "url": "https://premiostrega.it/PSS/libro/alfabit-litaliano-digitale-dagli-sms-allia/"
+      },
+      {
+        "title": "L’omicidio di Piersanti Mattarella. L’Italia nel mirino: Palermo, Ustica, Bologna. 1979-1980",
+        "author": "Miguel Gotor",
+        "url": "https://premiostrega.it/PSS/libro/lomicidio-di-piersanti-mattarella/"
+      },
+      {
+        "title": "La peste. Indagine sulla destra in Germania",
+        "author": "Tonia Mastrobuoni",
+        "url": "https://premiostrega.it/PSS/libro/la-peste-indagine-sulla-destra-in-germania/"
+      }
+    ]
+  },
+  "TodosTusLibros Librerías Recomiendan No Ficción": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "Las Librerías Recomiendan",
+    "bounded_entry_count": 6,
+    "samples": [
+      {
+        "title": "Historia de las sensibilidades",
+        "author": "Alain Corbin",
+        "url": "https://www.todostuslibros.com/libros/historia-de-las-sensibilidades_979-13-87964-29-0"
+      },
+      {
+        "title": "La fosa abierta",
+        "author": "Brigitte Vasallo",
+        "url": "https://www.todostuslibros.com/libros/la-fosa-abierta_978-84-339-4871-7"
+      },
+      {
+        "title": "La Antártica empieza aquí",
+        "author": "Benjamín Labatut",
+        "url": "https://www.todostuslibros.com/libros/la-antartica-empieza-aqui_978-84-339-4920-2"
+      }
+    ]
+  },
+  "Magnesia Litera 2026 — Naučná literatura a Publicistika": {
+    "outcome": "reject",
+    "reason_code": "unbounded_entries",
+    "detected_heading": "Magnesia Litera Kniha roku",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Cundill History Prize 2026 Longlist": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "The 2026 Cundill History Prize Longlist",
+    "bounded_entry_count": 14,
+    "samples": [
+      {
+        "title": "The Painter’s Fire: A Forgotten History of the Artists Who Championed the American Revolution",
+        "author": "Zara Anishanslin",
+        "url": "https://www.hup.harvard.edu/books/9780674290235"
+      },
+      {
+        "title": "The Fallen: The Magdalene Laundries and Ireland’s Legacy of Silence",
+        "author": "Louise Brangan",
+        "url": "https://www.penguin.co.uk/books/464512/the-fallen-by-brangan-louise/9781847928467"
+      },
+      {
+        "title": "Korean Messiah: Kim Il Sung and the Christian Roots of North Korea’s Personality Cult",
+        "author": "Jonathan Cheng",
+        "url": "https://www.penguinrandomhouse.com/books/558235/korean-messiah-by-jonathan-cheng/"
+      }
+    ]
+  },
+  "Andrew Carnegie Medals for Excellence - Nonfiction 2026": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "2026 Winners",
+    "bounded_entry_count": 15,
+    "samples": [
+      {
+        "title": "Things in Nature Merely Grow",
+        "author": "Yiyun Li",
+        "url": "http://www.booklistonline.com/Things-in-Nature-Merely-Grow-Li-Yiyun/pid=9804666"
+      },
+      {
+        "title": "Baldwin, Styron, and Me",
+        "author": "Mélikah Abdelmoumen",
+        "url": "http://www.booklistonline.com/Baldwin-Styron-and-Me-Abdelmoumen-Mlikah/pid=9805453"
+      },
+      {
+        "title": "There Is No Place for Us: Working and Homeless in America",
+        "author": "Brian Goldstone",
+        "url": "http://www.booklistonline.com/There-Is-No-Place-for-Us-Working-and-Homeless-in-America-Goldstone-Brian/pid=9803428"
+      }
+    ]
+  },
+  "Audible.de Bestselling Biografien & Erinnerungen Hoerbuecher": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "Top Biografien & Erinnerungen Hörbücher",
+    "bounded_entry_count": 20,
+    "samples": [
+      {
+        "title": "Dear Britain",
+        "author": "Annette Dittert",
+        "url": "https://www.audible.de/pd/Dear-Britain-Hoerbuch/B0FZVZZSCZ"
+      },
+      {
+        "title": "Alt genug",
+        "author": "Ildikó von Kürthy",
+        "url": "https://www.audible.de/pd/Alt-genug-Hoerbuch/B0G1MKP6Q5"
+      },
+      {
+        "title": "Dreihundert Männer",
+        "author": "Konstantin Richter",
+        "url": "https://www.audible.de/pd/Dreihundert-Maenner-Hoerbuch/B0FM3RRRQC"
+      }
+    ]
+  },
+  "Amazon.de Charts Meistgelesene Sachbücher": {
+    "outcome": "reject",
+    "reason_code": "missing_heading",
+    "detected_heading": "",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "PublishNews Nielsen Não Ficção Trade": {
+    "outcome": "reject",
+    "reason_code": "unlinked_entries",
+    "detected_heading": "Lista Nielsen-PublishNews de Mais Vendidos de Não Ficção Trade de 03/08/2026 a 09/08/2026",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Cúspide 100 más vendidos": {
+    "outcome": "reject",
+    "reason_code": "unbounded_entries",
+    "detected_heading": "Los 100 más vendidos de la semana",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Bokhandlerforeningen Boklista - Generell litteratur voksne": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "2026-33-Generell litteratur voksne",
+    "bounded_entry_count": 26,
+    "samples": [
+      {
+        "title": "Middag under 50-lappen",
+        "author": "Storm, Sandra",
+        "url": "https://bokhandlerforeningen.no/wp-admin/admin-ajax.php"
+      },
+      {
+        "title": "Vårt rike land",
+        "author": "Øystein Olsen / Eivind Thomassen",
+        "url": "https://bokhandlerforeningen.no/wp-admin/admin-ajax.php"
+      },
+      {
+        "title": "Pillefellen",
+        "author": "Branæs, Pål",
+        "url": "https://bokhandlerforeningen.no/wp-admin/admin-ajax.php"
+      }
+    ]
+  },
+  "Women's Prize for Non-Fiction 2026 Shortlist": {
+    "outcome": "accept",
+    "reason_code": "ok",
+    "detected_heading": "Revealing the 2026 Women’s Prize for Non-Fiction Shortlist",
+    "bounded_entry_count": 3,
+    "samples": [
+      {
+        "title": "The Finest Hotel in Kabul: A People’s History of Afghanistan",
+        "author": "Lyse Doucet",
+        "url": "https://womensprize.com/library/the-finest-hotel-in-kabul-a-peoples-history-of-afghanistan/"
+      },
+      {
+        "title": "Art Cure: The Science of How the Arts Transform Our Health",
+        "author": "Daisy Fancourt",
+        "url": "https://womensprize.com/library/art-cure-the-science-of-how-the-arts-transform-our-health/"
+      },
+      {
+        "title": "Artists, Siblings, Visionaries: The lives and loves of Gwen and Augustus John",
+        "author": "Judith Mackrell",
+        "url": "https://womensprize.com/library/artists-siblings-visionaries-the-lives-and-loves-of-gwen-and-augustus-john/"
+      }
+    ]
+  },
+  "Börsenblatt Sachbuch Bestseller": {
+    "outcome": "reject",
+    "reason_code": "unlinked_entries",
+    "detected_heading": "Wochencharts Sachbuch Bestseller",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "CPNB Top Non-Fictie": {
+    "outcome": "reject",
+    "reason_code": "unlinked_entries",
+    "detected_heading": "Top Non-Fictie",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "BookInfo Weekly Nonfiction": {
+    "outcome": "reject",
+    "reason_code": "empty_response",
+    "detected_heading": "",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Independent Press Top 40 Nonfiction": {
+    "outcome": "reject",
+    "reason_code": "empty_response",
+    "detected_heading": "",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Australian Book Industry Awards (ABIA) 2026 — Nonfiction": {
+    "outcome": "reject",
+    "reason_code": "unlinked_entries",
+    "detected_heading": "2026 Book Awards Shortlist Announcement",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Nagroda Złota Róża 2026 — nominacje": {
+    "outcome": "reject",
+    "reason_code": "unlinked_entries",
+    "detected_heading": "Znamy nominacje do Nagrody „Złota Róża” 2026",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Perlentaucher Bücherschau des Tages": {
+    "outcome": "reject",
+    "reason_code": "empty_response",
+    "detected_heading": "",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Kirkus Reviews Coming Soon Nonfiction": {
+    "outcome": "reject",
+    "reason_code": "empty_response",
+    "detected_heading": "",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "NuevosLibros — Ensayo": {
+    "outcome": "reject",
+    "reason_code": "missing_authors",
+    "detected_heading": "Novedades de ensayo",
+    "bounded_entry_count": 3,
+    "samples": []
+  },
+  "NuevosLibros — Historia": {
+    "outcome": "reject",
+    "reason_code": "missing_authors",
+    "detected_heading": "Novedades de historia",
+    "bounded_entry_count": 3,
+    "samples": []
+  },
+  "NuevosLibros — Política y sociedad": {
+    "outcome": "reject",
+    "reason_code": "missing_authors",
+    "detected_heading": "Novedades de política y sociedad",
+    "bounded_entry_count": 3,
+    "samples": []
+  },
+  "NuevosLibros — Divulgación": {
+    "outcome": "reject",
+    "reason_code": "missing_authors",
+    "detected_heading": "Novedades de divulgación",
+    "bounded_entry_count": 3,
+    "samples": []
+  },
+  "NuevosLibros — Biografía y memorias": {
+    "outcome": "reject",
+    "reason_code": "missing_authors",
+    "detected_heading": "Novedades de biografía y memorias",
+    "bounded_entry_count": 3,
+    "samples": []
+  },
+  "Prêmio Jabuti — Não Ficção": {
+    "outcome": "reject",
+    "reason_code": "unlinked_entries",
+    "detected_heading": "Finalistas 2026 - Não Ficção",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Beacon Press — Forthcoming": {
+    "outcome": "reject",
+    "reason_code": "unbounded_entries",
+    "detected_heading": "Forthcoming",
+    "bounded_entry_count": 0,
+    "samples": []
+  },
+  "Verso — Forthcoming": {
+    "outcome": "reject",
+    "reason_code": "missing_authors",
+    "detected_heading": "Forthcoming",
+    "bounded_entry_count": 3,
+    "samples": []
+  }
+}

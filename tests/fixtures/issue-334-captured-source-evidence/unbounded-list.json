@@ -1,0 +1,7 @@
+{
+  "source_url": "https://example.test/shortlist",
+  "resolved_url": "https://example.test/shortlist",
+  "head_status": 200,
+  "get_status": 200,
+  "html": "<!DOCTYPE html><html><head><title>Shortlist</title></head><body><main><h1>2026 Shortlist</h1><section><a href=\"https://example.test/books/book-1\">Book One</a><a href=\"https://example.test/books/book-2\">Book Two</a></section></main></body></html>"
+}

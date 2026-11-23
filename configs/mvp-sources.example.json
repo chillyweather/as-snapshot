@@ -1,0 +1,164 @@
+{
+  "sources": [
+    {
+      "name": "Fixture Open Awards",
+      "family": "award",
+      "url": "https://example.test/awards",
+      "active": true,
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Deterministic fixture source for the MVP Pipeline skeleton.",
+      "fixture_candidates": [
+        {
+          "title": "The Useful Future",
+          "primary_authors": ["Alex Example"],
+          "author": "Alex Example",
+          "publisher": "Example Press",
+          "publication_year": "2026",
+          "topic": "popular science",
+          "short_description": "A concise metadata-only description.",
+          "why_it_entered": "Award shortlist signal.",
+          "russian_edition_status": "not found in Russian",
+          "russian_edition_url": "",
+          "priority_label": "high",
+          "candidate_category": "popular science",
+          "publisher_fit": "high",
+          "public_data_status": "sufficient",
+          "source_url": "https://example.test/awards/useful-future",
+          "signal_type": "award",
+          "signal_strength": "shortlist",
+          "evidence_note": "Listed as a shortlist title on Fixture Open Awards."
+        }
+      ]
+    },
+    {
+      "name": "Fixture Audiobook Ranking",
+      "family": "audiobook ranking",
+      "url": "https://example.test/audio",
+      "active": true,
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Audiobook ranking fixture; only book/work-backed items create source mentions.",
+      "fixture_candidates": [
+        {
+          "title": "Book-Backed Audio",
+          "primary_authors": ["Morgan Example"],
+          "author": "Morgan Example",
+          "source_url": "https://example.test/audio/book-backed",
+          "signal_type": "audiobook ranking",
+          "signal_strength": "top ranking",
+          "evidence_note": "Ranked audiobook for an underlying nonfiction book.",
+          "candidate_category": "popular science",
+          "publisher_fit": "medium",
+          "underlying_work_type": "book"
+        },
+        {
+          "title": "Audio-Only Lecture",
+          "primary_authors": ["Jordan Example"],
+          "author": "Jordan Example",
+          "source_url": "https://example.test/audio/lecture",
+          "signal_type": "audiobook ranking",
+          "signal_strength": "top ranking",
+          "evidence_note": "Audio-only item without an underlying book/work.",
+          "candidate_category": "audiobook-only non-book material",
+          "underlying_work_type": "audio_only"
+        }
+      ]
+    },
+    {
+      "name": "Fixture Rights News",
+      "family": "rights/deal",
+      "url": "https://example.test/rights-news",
+      "active": true,
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Open rights/deal fixture.",
+      "fixture_candidates": [
+        {
+          "title": "Rights-Mentioned Book",
+          "primary_authors": ["Riley Example"],
+          "author": "Riley Example",
+          "source_url": "https://example.test/rights-news/book",
+          "signal_type": "rights/deal mention",
+          "signal_strength": "deal mention",
+          "evidence_note": "Open source reports a rights/deal mention.",
+          "candidate_category": "business",
+          "publisher_fit": "medium"
+        }
+      ]
+    },
+    {
+      "name": "Topic Search Seed",
+      "family": "topic search",
+      "url": "https://example.test/search?q=ai+leadership+books",
+      "active": true,
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Targeted search can be represented for later enrichment but cannot create source mentions.",
+      "fixture_candidates": [
+        {
+          "title": "Search-Only Book",
+          "primary_authors": ["Sam Example"],
+          "author": "Sam Example",
+          "source_url": "https://example.test/search-only-book",
+          "signal_type": "topic search",
+          "signal_strength": "search result",
+          "evidence_note": "Search result from a topic query.",
+          "candidate_category": "topic-only"
+        }
+      ]
+    },
+    {
+      "name": "Paid Rights Database",
+      "family": "rights/deal",
+      "url": "https://example.test/paid-rights",
+      "active": true,
+      "access_status": "paid",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Subscription required; report as a Skipped Source in the MVP Pipeline.",
+      "fixture_candidates": []
+    }
+  ],
+  "russian_edition_checks": [
+    {
+      "retailer": "Ozon",
+      "url": "https://www.ozon.ru",
+      "fixture_results": []
+    },
+    {
+      "retailer": "Labirint",
+      "url": "https://www.labirint.ru",
+      "fixture_results": []
+    },
+    {
+      "retailer": "LitRes",
+      "url": "https://www.litres.ru",
+      "fixture_results": []
+    },
+    {
+      "retailer": "Chitai-gorod",
+      "url": "https://www.chitai-gorod.ru",
+      "fixture_results": []
+    },
+    {
+      "retailer": "Book24",
+      "url": "https://book24.ru",
+      "fixture_results": []
+    },
+    {
+      "retailer": "Russian Publisher Site",
+      "url": "https://publisher.example.test",
+      "fixture_results": []
+    }
+  ]
+}

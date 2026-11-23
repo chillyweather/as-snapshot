@@ -1,0 +1,83 @@
+{
+  "operation_date": "2026-09-14",
+  "candidates": [
+    {
+      "candidate_id": "candidate-backfill",
+      "identity_key": "backfill work|alex author",
+      "title": "Backfill Work",
+      "primary_authors": ["Alex Author"],
+      "content_description": "Описание требует дополнительной проверки",
+      "description_provenance": {"provenance": "fallback"},
+      "priority_label": "A",
+      "first_seen_date": "2026-09-01",
+      "update_delta": "unchanged"
+    },
+    {
+      "candidate_id": "candidate-valid",
+      "identity_key": "valid work|alex author",
+      "title": "Valid Work",
+      "primary_authors": ["Alex Author"],
+      "content_description": "Уже проверенное описание книги о памяти и обществе.",
+      "description_provenance": {"provenance": "backfilled", "evidence_basis": ["https://old.example/valid"]},
+      "priority_label": "B",
+      "first_seen_date": "2026-09-01",
+      "update_delta": "unchanged"
+    },
+    {
+      "candidate_id": "candidate-editor",
+      "identity_key": "editor work|alex author",
+      "title": "Editor Work",
+      "primary_authors": ["Alex Author"],
+      "content_description": "Редакторское описание без автоматических изменений.",
+      "description_provenance": {"provenance": "editor-corrected", "applied_date": "2026-09-10"},
+      "priority_label": "B",
+      "first_seen_date": "2026-09-01",
+      "update_delta": "unchanged"
+    },
+    {
+      "candidate_id": "candidate-hidden",
+      "identity_key": "hidden work|alex author",
+      "title": "Hidden Work",
+      "primary_authors": ["Alex Author"],
+      "content_description": "",
+      "priority_label": "C",
+      "first_seen_date": "2026-09-01",
+      "update_delta": "unchanged"
+    },
+    {
+      "candidate_id": "candidate-invalid",
+      "identity_key": "invalid work|alex author",
+      "title": "Invalid Work",
+      "primary_authors": ["Alex Author"],
+      "content_description": "This is an invalid English description.",
+      "description_provenance": {"provenance": "codex-generated"},
+      "priority_label": "C",
+      "first_seen_date": "2026-09-01",
+      "update_delta": "unchanged"
+    },
+    {
+      "candidate_id": "candidate-copied",
+      "identity_key": "copied work|alex author",
+      "title": "Copied Work",
+      "primary_authors": ["Alex Author"],
+      "content_description": "",
+      "priority_label": "D",
+      "first_seen_date": "2026-09-01",
+      "update_delta": "unchanged"
+    },
+    {
+      "candidate_id": "candidate-codex-valid",
+      "identity_key": "codex valid work|alex author",
+      "title": "Codex Valid Work",
+      "primary_authors": ["Alex Author"],
+      "content_description": "Старое валидное описание, которое еще не подтверждено источниками.",
+      "description_provenance": {"provenance": "codex-generated"},
+      "priority_label": "B",
+      "first_seen_date": "2026-09-01",
+      "update_delta": "unchanged"
+    }
+  ],
+  "visibility": [
+    {"identity_key": "hidden work|alex author", "visibility": "hidden"}
+  ]
+}

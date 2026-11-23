@@ -1,0 +1,92 @@
+{
+ "status": 200,
+ "error": null,
+ "payload": {
+  "data": [
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 73984097,
+     "url": "/book/dzhordzh-dzh-tompson/morgan-hauzel-zolotye-pravila-vse-glavnye-mysli-v-odn-73984097/",
+     "title": "Морган Хаузел. Золотые правила",
+     "language_code": "ru",
+     "date_written_at": "2026-01-01",
+     "persons": [
+      {
+       "full_name": "Джордж Дж. Томпсон",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 72775057,
+     "url": "/book/kultur-multur/psihologiya-deneg-vechnye-uroki-bogatstva-zhadnosti-i-schast-72775057/",
+     "title": "Психология денег. Вечные уроки богатства, жадности и счастья. Морган Хаузел. Кратко",
+     "language_code": "ru",
+     "date_written_at": "2025-01-01",
+     "persons": [
+      {
+       "full_name": "Культур-Мультур",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 70236814,
+     "url": "/book/smart-reading/psihologiya-deneg-vechnye-uroki-bogatstva-zhadnosti-i-schast-70236814/",
+     "title": "Психология денег. Вечные уроки богатства, жадности и счастья. Морган Хаузел. Саммари",
+     "language_code": "ru",
+     "date_written_at": "2024-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 67649466,
+     "url": "/book/morgan-hauzel/psihologiya-deneg-vechnye-uroki-bogatstva-zhadnosti-i-schast-67649466/",
+     "title": "Психология денег. Вечные уроки богатства, жадности и счастья",
+     "language_code": "ru",
+     "date_written_at": "2020-01-01",
+     "persons": [
+      {
+       "full_name": "Морган Хаузел",
+       "role": "author"
+      },
+      {
+       "full_name": "Сергей Борич",
+       "role": "translator"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 73073008,
+     "url": "/book/smart-reading/iskusstvo-tratit-dengi-prostye-resheniya-dlya-bogatoy-zhizni-73073008/",
+     "title": "Искусство тратить деньги. Простые решения для богатой жизни. Морган Хаузел. Саммари",
+     "language_code": "ru",
+     "date_written_at": "2026-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

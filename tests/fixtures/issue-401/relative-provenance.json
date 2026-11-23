@@ -1,0 +1,20 @@
+{
+  "capture_sha256": "__RUNTIME_CAPTURE_SHA256__",
+  "entries": [
+    {
+      "candidate_category": "adult nonfiction",
+      "evidence_note": "Non-Fiction category listing; History; Rave aggregation label.",
+      "evidence_url": "/reviews/they-stole-a-city-wilmingtons-white-supremacist-coup-and-the-families-who-live-with-its-legacy/",
+      "primary_authors": [
+        "Lauren Collins"
+      ],
+      "signal_strength": "major media list",
+      "signal_type": "media/curated list",
+      "source_url": "https://bookmarks.reviews/category/non-fiction/",
+      "title": "They Stole a City: Wilmington's White Supremacist Coup and the Families Who Live with Its Legacy"
+    }
+  ],
+  "operation_id": "__RUNTIME_OPERATION_ID__",
+  "source_name": "BookMarks (LitHub) – New Nonfiction",
+  "source_url": "https://bookmarks.reviews/category/non-fiction/"
+}

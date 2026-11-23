@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Convert the weekly state's Candidate History to one file per book; --dry-run writes nothing.
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+if [[ -x "${REPO_ROOT}/.venv/bin/python" ]]; then
+    INTERPRETER="${REPO_ROOT}/.venv/bin/python"
+else
+    INTERPRETER="$(command -v python3)"
+fi
+cd "${REPO_ROOT}"
+exec "${INTERPRETER}" -m autoscout shard-candidate-history --state-dir runs/current-weekly-pilot-russian "$@"

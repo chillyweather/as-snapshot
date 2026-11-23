@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>1</numberOfRecords>
+  <records>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>01043nam a2200289 c 4500</leader>
+          <controlfield tag="001">991056034129708606</controlfield>
+          <controlfield tag="003">SpMaBN</controlfield>
+          <controlfield tag="005">20260803162005.0</controlfield>
+          <controlfield tag="008">240508s        sp     | |||| 000   spa^^</controlfield>
+          <datafield ind1=" " ind2=" " tag="015">
+            <subfield code="a">MON24</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="017">
+            <subfield code="a">B 22391-2022</subfield>
+            <subfield code="b">Oficina Depósito Legal Barcelona</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">978-84-663-4751-8</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(SpMaBN)a7469796</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">spa</subfield>
+            <subfield code="c">SpMaBN</subfield>
+            <subfield code="e">rda</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="245">
+            <subfield code="a">Sapiens. De animales a dioses</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="1" tag="264">
+            <subfield code="b">Penguin Random House</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">Texto</subfield>
+            <subfield code="2">rdacontent</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">sin mediación</subfield>
+            <subfield code="2">rdamedia</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="338">
+            <subfield code="a">volumen</subfield>
+            <subfield code="2">rdacarrier</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="500">
+            <subfield code="a">Información provisional</subfield>
+          </datafield>
+          <datafield ind1="4" ind2="1" tag="856">
+            <subfield code="u">https://bnedigital.bne.es/bd/card?id=74b9de23-567f-4e96-ba59-a62324894181</subfield>
+            <subfield code="y">BNE Digital</subfield>
+            <subfield code="z">Acceso restringido, disponible solo desde Biblioteca Nacional de España o los centros de conservación</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="901">
+            <subfield code="a">PREPRINT</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">a7469796</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="956">
+            <subfield code="a">2</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="993">
+            <subfield code="a">7469796</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="994">
+            <subfield code="a">MONOMODERN</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">PREPRINT</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">7469796-1001</subfield>
+            <subfield code="l">INPROCESS</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">8/5/2024</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVE">
+            <subfield code="8">531399434710008606</subfield>
+            <subfield code="e">Available</subfield>
+            <subfield code="n">Acceso restringido, disponible solo desde Biblioteca Nacional de España o los centros de conservación</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="0">991056034129708606</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>991056034129708606</recordIdentifier>
+      <recordPosition>1</recordPosition>
+    </record>
+  </records>
+  <extraResponseData xmlns:xb="http://www.exlibris.com/repository/search/xmlbeans/">
+    <xb:exact>true</xb:exact>
+    <xb:responseDate>2026-11-19T07:53:45+0100</xb:responseDate>
+  </extraResponseData>
+</searchRetrieveResponse>

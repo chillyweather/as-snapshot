@@ -1,0 +1,393 @@
+#!/usr/bin/env bash
+# The merge gate. .github/workflows/ci.yml calls this script, so there is one
+# definition of the gate.
+#
+# usage: ./scripts/check [--state-backend json|sqlite]
+#
+# The pytest suite runs on the State Store backend --state-backend names
+# (#1075). The default, json, runs it on the JSON backend and then the State
+# Store's own tests on SQLite; sqlite runs the whole suite on SQLite. When the
+# SQLite run is required is in CODING_STANDARDS.md.
+#
+# A passing default run records what it checked in the Git directory, and the
+# pre-push hook (.githooks/pre-push) reads that record. See record_pass below.
+#
+# Each step runs through run_step: its output is captured, a passing step
+# prints one line (name and elapsed time), and a failing step prints its full
+# output and stops the gate. To add a step, add one run_step line below. A
+# step that prints one number and fails above a limit is a run_stake line.
+
+set -euo pipefail
+
+STATE_BACKEND="json"
+check_usage() {
+    echo "usage: ./scripts/check [--state-backend json|sqlite]" >&2
+    exit 2
+}
+while (($# > 0)); do
+    case "$1" in
+        --state-backend)
+            (($# >= 2)) || check_usage
+            STATE_BACKEND="$2"
+            shift 2
+            ;;
+        --state-backend=*)
+            STATE_BACKEND="${1#*=}"
+            shift
+            ;;
+        *)
+            echo "auto-scout: unknown argument: $1" >&2
+            check_usage
+            ;;
+    esac
+done
+case "${STATE_BACKEND}" in
+    json | sqlite) ;;
+    *)
+        echo "auto-scout: unknown state backend: ${STATE_BACKEND}" >&2
+        check_usage
+        ;;
+esac
+
+# Resolve the repository root using Bash builtins so this works from any
+# directory without requiring external utilities before Python is found.
+SCRIPT_PATH="${BASH_SOURCE[0]}"
+SCRIPT_DIR="${SCRIPT_PATH%/*}"
+if [[ "${SCRIPT_DIR}" == "${SCRIPT_PATH}" ]]; then
+    SCRIPT_DIR="."
+fi
+REPO_ROOT="$(cd -- "${SCRIPT_DIR}/.." && pwd)"
+
+# Prefer the project environment, then fall back to python3 on PATH.
+VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+    PATH="${REPO_ROOT}/.venv/bin:${PATH}"
+    export PATH
+elif command -v python3 >/dev/null 2>&1; then
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+cd "${REPO_ROOT}"
+
+# The console script and imports from outside the repository resolve through
+# the installed package. An environment installed from another checkout (for
+# example a shared .venv in a git worktree) would test that checkout's code,
+# so the gate refuses to run rather than report a misleading pass.
+INSTALLED_ROOT="$(cd / && "${INTERPRETER}" -c 'import pathlib, autoscout; print(pathlib.Path(autoscout.__file__).resolve().parents[1])' 2>/dev/null || true)"
+if [[ "${INSTALLED_ROOT}" != "$(pwd -P)" ]]; then
+    echo "auto-scout: the installed autoscout package is not this checkout" >&2
+    echo "  interpreter: ${INTERPRETER}" >&2
+    echo "  installed from: ${INSTALLED_ROOT:-<not installed>}" >&2
+    echo "  this checkout: $(pwd -P)" >&2
+    echo "  fix: give this checkout its own .venv, then run: .venv/bin/python -m pip install -e \".[dev]\"" >&2
+    exit 1
+fi
+
+# A .venv installed before a dev dependency was added or bumped fails later
+# with a confusing tool error (pytest: "unrecognized arguments: -n"). Compare
+# the installed versions with the pins in pyproject.toml first.
+STALE_DEV_DEPS="$("${INTERPRETER}" - <<'PY'
+import tomllib
+from importlib.metadata import PackageNotFoundError, version
+
+with open("pyproject.toml", "rb") as handle:
+    pins = tomllib.load(handle)["project"]["optional-dependencies"]["dev"]
+for pin in pins:
+    name, _, wanted = pin.partition("==")
+    try:
+        found = version(name)
+    except PackageNotFoundError:
+        found = "not installed"
+    if wanted and found != wanted:
+        print(f"  {name}: want {wanted}, have {found}")
+PY
+)"
+if [[ -n "${STALE_DEV_DEPS}" ]]; then
+    echo "auto-scout: this checkout's .venv does not match the dev pins in pyproject.toml" >&2
+    echo "${STALE_DEV_DEPS}" >&2
+    echo "  fix: .venv/bin/python -m pip install -e \".[dev]\"" >&2
+    exit 1
+fi
+
+# Keep the console-entry smoke check in the same Python environment even when
+# PATH contains another checkout's autoscout command.
+CONSOLE_SCRIPT="$("${INTERPRETER}" -c 'import pathlib, sysconfig; print(pathlib.Path(sysconfig.get_path("scripts")) / "autoscout")')"
+if [[ ! -x "${CONSOLE_SCRIPT}" ]]; then
+    echo "auto-scout: autoscout console script not found for the selected interpreter" >&2
+    echo "  expected: ${CONSOLE_SCRIPT}" >&2
+    exit 1
+fi
+
+# Per-run scratch space. mktemp gives every run its own directory, so
+# concurrent runs from several checkouts share no path.
+CHECK_TMP="$(mktemp -d)"
+trap 'rm -rf -- "${CHECK_TMP}"' EXIT
+# Every step and every process it starts uses the run's scratch directory as
+# its temporary directory, so the lock files that commands name after the
+# paths they guard (and anything else a step writes there) go with it (#1119).
+export TMPDIR="${CHECK_TMP}"
+BASELINE_DIR="${CHECK_TMP}/baseline-run"
+COMPARISON_DIR="${CHECK_TMP}/comparison-run"
+
+LAST_LOG=""
+STEP_COUNT=0
+
+# now_micros: the current time in microseconds, as digits only. Bash 5 has
+# EPOCHREALTIME (its decimal separator follows the locale, so every non-digit
+# is stripped). Older Bash, such as the 3.2 on stock macOS, has none, and
+# `date +%s` then gives whole seconds, so timings are whole seconds there.
+now_micros() {
+    local now="${EPOCHREALTIME:-}"
+    if [[ -n "${now}" ]]; then
+        echo "${now//[!0-9]/}"
+    else
+        echo "$(date +%s)000000"
+    fi
+}
+
+CHECK_START="$(now_micros)"
+
+# checked_tree: print the Git tree id of the working tree as it stands, with
+# every tracked and untracked file that is not ignored. A scratch index is
+# used, so the real index and the working tree are not touched. Prints nothing
+# outside a Git checkout.
+checked_tree() {
+    local git_dir scratch_index
+    git_dir="$(git rev-parse --absolute-git-dir 2>/dev/null)" || return 0
+    scratch_index="${CHECK_TMP}/checked-tree-index"
+    if [[ -f "${git_dir}/index" ]]; then
+        cp "${git_dir}/index" "${scratch_index}" 2>/dev/null || true
+    fi
+    GIT_INDEX_FILE="${scratch_index}" git add -A >/dev/null 2>&1 || return 0
+    GIT_INDEX_FILE="${scratch_index}" git write-tree 2>/dev/null || true
+}
+
+# record_pass <tree at start>: remember that the gate passed for this tree, so
+# the pre-push hook does not run the gate again for a commit with the same
+# tree. Nothing is recorded when files changed while the gate ran, because the
+# result would then describe a tree nobody checked. Only the default (json)
+# run records a pass: it is the run CI makes.
+PASS_RECORD_NAME="autoscout-check-pass"
+record_pass() {
+    local tree_at_start="$1" tree_at_end git_dir
+    [[ -n "${tree_at_start}" && "${STATE_BACKEND}" == "json" ]] || return 0
+    tree_at_end="$(checked_tree)"
+    git_dir="$(git rev-parse --absolute-git-dir 2>/dev/null)" || return 0
+    if [[ "${tree_at_end}" != "${tree_at_start}" ]]; then
+        rm -f -- "${git_dir}/${PASS_RECORD_NAME}"
+        echo "[check] note: files changed while the gate ran, so this pass is not recorded for the pre-push hook"
+        return 0
+    fi
+    printf '%s\n' "${tree_at_end}" >"${git_dir}/${PASS_RECORD_NAME}"
+}
+
+TREE_AT_START="$(checked_tree)"
+
+# Format a microsecond duration as "12.3s" or "2m05s".
+format_duration() {
+    local micros="$1" tenths secs
+    tenths=$((micros / 100000))
+    if ((tenths < 600)); then
+        printf '%d.%ds' $((tenths / 10)) $((tenths % 10))
+    else
+        secs=$((tenths / 10))
+        printf '%dm%02ds' $((secs / 60)) $((secs % 60))
+    fi
+}
+
+# pytest -q prints progress rows such as "....s..F.   [ 42%]". They carry no
+# information once the summary names every failure. Only rows that end in the
+# percentage marker are dropped, so test output is never touched.
+drop_pytest_progress_rows() {
+    grep -Ev '^[.sxXFE]+ +\[ *[0-9]+%\]$'
+}
+
+# run_step_filtered <filter> "<name>" <command...>: run one gate step quietly.
+# On failure the step's full output is dumped through <filter>, a command that
+# reads stdin (cat for no filtering). The filter is an argument, so it cannot
+# leak into later steps.
+run_step_filtered() {
+    local filter="$1" name="$2" started elapsed
+    shift 2
+    STEP_COUNT=$((STEP_COUNT + 1))
+    LAST_LOG="${CHECK_TMP}/step-${STEP_COUNT}.log"
+    started="$(now_micros)"
+    if "$@" >"${LAST_LOG}" 2>&1; then
+        elapsed=$(($(now_micros) - started))
+        printf '[check] ok    %-28s %s\n' "${name}" "$(format_duration "${elapsed}")"
+    else
+        elapsed=$(($(now_micros) - started))
+        printf '[check] FAIL  %-28s %s\n' "${name}" "$(format_duration "${elapsed}")"
+        echo "[check] command: $*"
+        echo "[check] ---- full output of the failing step ----"
+        "${filter}" <"${LAST_LOG}" || true
+        echo "[check] ---- end of output ----"
+        exit 1
+    fi
+}
+
+# run_step "<name>" <command...>: add a gate step with one line.
+run_step() {
+    run_step_filtered cat "$@"
+}
+
+# run_stake "<name>" <command...>: a step that prints one line of numbers. The
+# command prints that line and fails when its limit is exceeded. The gate then
+# shows the line under the step's ok line.
+run_stake() {
+    run_step "$@"
+    echo "[check]       $(tail -n 1 "${LAST_LOG}")"
+}
+
+# check_file_bytes <file> <limit>: print the byte size of <file> and fail above
+# <limit>. wc prints leading spaces on macOS, so they are stripped.
+check_file_bytes() {
+    local file="$1" limit="$2" size
+    size="$(wc -c <"${file}")"
+    size="${size//[[:space:]]/}"
+    echo "$(basename "${file}") is ${size} bytes (limit ${limit})"
+    if ((size > limit)); then
+        echo "$(basename "${file}") is over its ${limit}-byte limit. Move the procedure into a contract file under docs/agents/contracts/ and add a row for it to the contracts table in AGENTS.md; keep only rules that hold in every session."
+        return 1
+    fi
+}
+
+# Codex reads at most project_doc_max_bytes (32,768 by default) of AGENTS.md
+# and silently drops the rest, and every agent session loads all of it. The
+# file holds only the rules that hold in every session and the two indexes;
+# procedures (commands, flags, previews, exit codes) live in contract files
+# under docs/agents/contracts/, read on request. The limit keeps it that way.
+AGENTS_MD_LIMIT=18000
+run_stake "AGENTS.md size" check_file_bytes "${REPO_ROOT}/AGENTS.md" "${AGENTS_MD_LIMIT}"
+
+# check_line_limit <limit> <file...>: print the longest of <file...> in lines and
+# fail when any of them is over <limit> lines.
+check_line_limit() {
+    local limit="$1" file lines longest="" longest_lines=0 over=0
+    shift
+    for file in "$@"; do
+        lines="$(wc -l <"${file}")"
+        lines="${lines//[[:space:]]/}"
+        if ((lines > limit)); then
+            echo "${file#"${REPO_ROOT}/"} is ${lines} lines, over its ${limit}-line limit. Split it by topic into another file under docs/operator/ and add that file to the index."
+            over=1
+        fi
+        if ((lines > longest_lines)); then
+            longest="${file#"${REPO_ROOT}/"}"
+            longest_lines="${lines}"
+        fi
+    done
+    echo "longest is ${longest} at ${longest_lines} lines (limit ${limit})"
+    return "${over}"
+}
+
+# The operator workflow was one file of 2,086 lines until #1132 split it by
+# topic. Each topic file stays under this limit, set a little above the largest
+# one at the split (307 lines); the index stays short enough to read in full.
+OPERATOR_DOC_LINE_LIMIT=340
+OPERATOR_INDEX_LINE_LIMIT=40
+run_stake "Operator doc size" check_line_limit "${OPERATOR_DOC_LINE_LIMIT}" "${REPO_ROOT}"/docs/operator/*.md
+run_stake "Operator index size" check_line_limit "${OPERATOR_INDEX_LINE_LIMIT}" \
+    "${REPO_ROOT}/docs/current-weekly-operator-workflow.md"
+# Relative links and their anchors between AGENTS.md and the Markdown under docs/ (#1132). Local files only.
+run_stake "Markdown links" "${INTERPRETER}" -m autoscout.doc_links
+
+# check_fixtures <limit>: print the size of the tracked files under
+# tests/fixtures and fail above <limit> bytes, or when two of them are
+# byte-identical. Only tracked files count, so local junk changes nothing. The
+# project interpreter does the summing: `du -b` and GNU-only flags are absent
+# on macOS.
+check_fixtures() {
+    "${INTERPRETER}" - "$1" <<'PY'
+import hashlib
+import subprocess
+import sys
+
+limit = int(sys.argv[1])
+listing = subprocess.run(
+    ["git", "ls-files", "-z", "tests/fixtures"], check=True, stdout=subprocess.PIPE
+).stdout.decode("utf-8", "surrogateescape")
+total = 0
+count = 0
+by_digest = {}
+for name in listing.split("\0"):
+    if not name:
+        continue
+    try:
+        with open(name, "rb") as handle:
+            data = handle.read()
+    except OSError:
+        continue  # listed by Git but deleted in the working tree
+    total += len(data)
+    count += 1
+    by_digest.setdefault(hashlib.sha256(data).hexdigest(), []).append(name)
+duplicates = [names for names in by_digest.values() if len(names) > 1]
+print(
+    f"tests/fixtures is {total / 1_000_000:.1f} MB in {count} files "
+    f"(limit {limit / 1_000_000:.1f} MB), {len(duplicates)} byte-identical groups"
+)
+failed = False
+if total > limit:
+    failed = True
+    print(
+        "tests/fixtures is over its size limit. Share a page between tests instead of copying it, "
+        "or trim a fixture to what the test reads. Raise FIXTURES_LIMIT only deliberately, in the PR that needs it."
+    )
+if duplicates:
+    failed = True
+    print("Byte-identical fixtures: keep one copy and point every test at it.")
+    for names in duplicates:
+        print("  " + " == ".join(names))
+sys.exit(1 if failed else 0)
+PY
+}
+
+# Measured 2026-11-13 after #1022: 34,130,864 bytes in 277 files; the limit is that plus 10%.
+FIXTURES_LIMIT=37543951
+run_stake "Fixture size" check_fixtures "${FIXTURES_LIMIT}"
+
+# pytest-xdist runs the suite on every core. The optional pw extra needs no
+# special handling: the PW reader tests skip themselves when pypdf is absent.
+# The cache provider is off and --basetemp lives in this run's own scratch
+# directory, so no run writes into a shared cache or /tmp/pytest-of-<user>.
+run_step "Ruff format" "${INTERPRETER}" -m ruff format --check .
+run_step "Ruff lint" "${INTERPRETER}" -m ruff check .
+run_step "Mypy" "${INTERPRETER}" -m mypy autoscout/
+# Functions over 150 lines in autoscout/, counted on 2026-11-13 after #1019 and
+# #1020. The limit only goes down: when the stake says "lower the limit", lower
+# it here.
+LONG_FUNCTION_LIMIT=76
+run_stake "Long functions" "${INTERPRETER}" -m autoscout.long_functions --limit "${LONG_FUNCTION_LIMIT}" autoscout
+run_step_filtered drop_pytest_progress_rows "Pytest suite (${STATE_BACKEND})" "${INTERPRETER}" -m pytest tests/ -q -n auto \
+    --dist worksteal -p no:cacheprovider --basetemp="${CHECK_TMP}/pytest" --state-backend "${STATE_BACKEND}"
+echo "[check]       $(tail -n 1 "${LAST_LOG}")"
+if [[ "${STATE_BACKEND}" == "json" ]]; then
+    # The State Store's own tests on the backend the default run leaves out.
+    run_step_filtered drop_pytest_progress_rows "State Store tests (sqlite)" "${INTERPRETER}" -m pytest \
+        tests/test_state_store*.py -q -n auto -p no:cacheprovider --basetemp="${CHECK_TMP}/pytest-sqlite" \
+        --state-backend sqlite
+    echo "[check]       $(tail -n 1 "${LAST_LOG}")"
+fi
+run_step "CLI smoke tests" bash -c '"$1" "$2" --help && "$1" -m autoscout --help' _ "${INTERPRETER}" "${CONSOLE_SCRIPT}"
+run_step "Baseline fixture run" "${INTERPRETER}" -m autoscout run-mvp \
+    --config configs/weekly-mvp-fixture.json --output-dir "${BASELINE_DIR}"
+run_step "Comparison fixture run" "${INTERPRETER}" -m autoscout run-mvp \
+    --config configs/weekly-mvp-fixture.json --output-dir "${COMPARISON_DIR}"
+run_step "Compare run artifacts" "${INTERPRETER}" -m autoscout.artifact_parity --stage run \
+    "${BASELINE_DIR}" "${COMPARISON_DIR}"
+run_step "Render fixture reviews" bash -c \
+    '"$1" -m autoscout render-review --output-dir "$2" && "$1" -m autoscout render-review --output-dir "$3"' \
+    _ "${INTERPRETER}" "${BASELINE_DIR}" "${COMPARISON_DIR}"
+run_step "Compare review artifacts" "${INTERPRETER}" -m autoscout.artifact_parity --stage review \
+    "${BASELINE_DIR}" "${COMPARISON_DIR}"
+
+record_pass "${TREE_AT_START}"
+
+TOTAL=$(($(now_micros) - CHECK_START))
+echo "[check] PASS: every step completed in $(format_duration "${TOTAL}")"

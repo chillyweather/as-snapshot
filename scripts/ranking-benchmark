@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for the ranking benchmark (issue #1104).
+#
+# Compares each ordering with the current review order on the same books,
+# from the recorded shadow scores and the editor's decisions. Offline and
+# read-only: it prints the report and writes nothing.
+#
+# Usage (from repository root or any subdirectory):
+#   ./scripts/ranking-benchmark [--json] [--max-positives-moved-down-share <0..1>]
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+INTERPRETER="${REPO_ROOT}/.venv/bin/python"
+if [[ ! -x "${INTERPRETER}" ]]; then
+    INTERPRETER="$(command -v python3)"
+fi
+cd "${REPO_ROOT}"
+exec "${INTERPRETER}" -m autoscout ranking-benchmark \
+    --output-dir runs/current-weekly-pilot-russian \
+    --state-dir runs/current-weekly-pilot-russian \
+    "$@"

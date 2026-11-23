@@ -1,0 +1,7 @@
+{
+  "source_url": "https://example.test/publishnews",
+  "resolved_url": "https://example.test/publishnews",
+  "head_status": 200,
+  "get_status": 200,
+  "html": "<!doctype html><html><head><title>Stale wrong title</title></head><body><main><div class=\"pn-colunas-06x07\"><div class=\"pn-colunas-corpo\"><div class=\"pn-editoria\"><div class=\"pn-editoria-cabeca\"><div class=\"pn-editoria-titulo\">Lista Nielsen-PublishNews de Mais Vendidos de Não Ficção Trade de 03/08/2026 a 09/08/2026</div></div><div class=\"pn-ranking-livro\"><div class=\"pn-ranking-livro-nome\">Book One</div><div class=\"pn-ranking-livro-autor\">Jane Author</div><div class=\"pn-ranking-livro-editora\">Publisher One</div></div><div class=\"pn-ranking-livro\"><div class=\"pn-ranking-livro-nome\">Book Two</div><div class=\"pn-ranking-livro-autor\">John Writer</div><div class=\"pn-ranking-livro-editora\">Publisher Two</div></div></div></div></div></main></body></html>"
+}

@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for ISBN completion (Issue #979).
+#
+# Fills missing ISBNs of the books in Candidate History from the source's own
+# book links, the captured list pages, the books' own pages and Open Library.
+# A learned ISBN is fill-only and discovery-only: it never replaces an ISBN
+# and never merges two books. Without --apply it writes nothing and exits 3.
+# It prints counts only, never titles.
+#
+# Usage (from repository root or any subdirectory):
+#   ./scripts/complete-isbns                  # preview: books without an editor decision
+#   ./scripts/complete-isbns --apply          # write the ISBNs found
+#   ./scripts/complete-isbns --scope current  # this run's candidates only
+#   ./scripts/complete-isbns --offline        # source links and list pages only, no network
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+cd "${REPO_ROOT}"
+
+exec "${INTERPRETER}" -m autoscout complete-isbns \
+    --state-dir runs/current-weekly-pilot-russian \
+    "$@"

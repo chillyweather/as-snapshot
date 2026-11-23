@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for the AutoScout source health check.
+#
+# Callable without spelling `python`. Resolves a usable project
+# interpreter deterministically and execs the capture-only probe
+# against the live weekly config. Extra arguments pass through
+# (e.g. --replay, --output-dir <dir>).
+#
+# Usage (from repository root or any subdirectory):
+#   ./scripts/check-sources
+
+set -euo pipefail
+
+# -- Resolve repository root ------------------------------------------------
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+# -- Resolve project interpreter --------------------------------------------
+# 1. The project-local virtualenv (fastest, no PATH lookup).
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    # 2. Host python3 (fallback).
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+# -- Change to repository root before exec ----------------------------------
+cd "${REPO_ROOT}"
+
+# -- Exec canonical command -------------------------------------------------
+exec "${INTERPRETER}" -m autoscout check-sources \
+    --config configs/current-weekly-pilot-live.json \
+    "$@"

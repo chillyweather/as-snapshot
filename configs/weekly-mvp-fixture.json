@@ -1,0 +1,226 @@
+{
+  "run_date": "2026-05-21",
+  "report_qa": {
+    "reviewer": "Dima",
+    "status": "fixture demo reviewed",
+    "note": "Fixture-driven MVP run; no live network dependencies."
+  },
+  "candidate_history": [
+    {
+      "identity_key": "known workflow|sam example",
+      "editor_status": "already_known",
+      "editor_note": "Already tracked by editor.",
+      "independent_signal_families": [
+        "media/curated list"
+      ],
+      "primary_signal_strength": "major media list",
+      "russian_edition_status": "",
+      "visible_risk_status": ""
+    },
+    {
+      "identity_key": "resurfacing title|jamie example",
+      "editor_status": "reject",
+      "editor_note": "Rejected before stronger signal.",
+      "independent_signal_families": [
+        "award"
+      ],
+      "primary_signal_strength": "minor mention",
+      "russian_edition_status": "",
+      "visible_risk_status": ""
+    }
+  ],
+  "returned_editor_rows": [
+    {
+      "identity_key": "clean signals|alex example",
+      "Editor Status": "interested",
+      "Editor Note": "Promising for business list."
+    },
+    {
+      "identity_key": "risk visible|morgan example",
+      "Editor Status": "needs_deeper_analysis",
+      "Editor Note": "Risky but worth review."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Fixture Awards",
+      "family": "award",
+      "url": "https://example.test/awards",
+      "active": true,
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Award fixture for weekly MVP demo.",
+      "fixture_candidates": [
+        {
+          "title": "Clean Signals",
+          "primary_authors": [
+            "Alex Example"
+          ],
+          "source_url": "https://example.test/awards/clean-signals",
+          "signal_strength": "winner",
+          "evidence_note": "Won a fixture business award.",
+          "candidate_category": "business",
+          "publisher_fit": "clear fit",
+          "russian_edition_status": "not found in Russian",
+          "visible_risk_status_source": "manual",
+          "visible_risk_status_note": "Recorded from Dima review notes.",
+          "public_data_status": "sufficient",
+          "short_description": "A practical management book with public metadata."
+        },
+        {
+          "title": "Already Russian",
+          "primary_authors": [
+            "Taylor Example"
+          ],
+          "source_url": "https://example.test/awards/already-russian",
+          "signal_strength": "shortlist",
+          "evidence_note": "Shortlisted for a fixture award.",
+          "candidate_category": "popular science"
+        },
+        {
+          "title": "Out Of Scope Novel",
+          "primary_authors": [
+            "Dana Example"
+          ],
+          "source_url": "https://example.test/awards/novel",
+          "signal_strength": "shortlist",
+          "evidence_note": "Listed in an award fixture.",
+          "candidate_category": "fiction"
+        },
+        {
+          "title": "Resurfacing Title",
+          "primary_authors": [
+            "Jamie Example"
+          ],
+          "source_url": "https://example.test/awards/resurfacing",
+          "signal_strength": "winner",
+          "evidence_note": "Won a fixture award after prior rejection.",
+          "candidate_category": "popular science"
+        }
+      ]
+    },
+    {
+      "name": "Fixture Media",
+      "family": "media/curated list",
+      "url": "https://example.test/media",
+      "active": true,
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Media fixture for weekly MVP demo.",
+      "fixture_candidates": [
+        {
+          "title": "Clean Signals",
+          "primary_authors": [
+            "Alex Example"
+          ],
+          "source_url": "https://example.test/media/clean-signals",
+          "signal_strength": "major media list",
+          "evidence_note": "Included in a fixture media list.",
+          "candidate_category": "business",
+          "publisher_fit": "clear fit",
+          "russian_edition_status": "not found in Russian",
+          "visible_risk_status_source": "manual",
+          "visible_risk_status_note": "Recorded from Dima review notes.",
+          "public_data_status": "sufficient",
+          "short_description": "A practical management book with public metadata."
+        },
+        {
+          "title": "Risk Visible",
+          "primary_authors": [
+            "Morgan Example"
+          ],
+          "source_url": "https://example.test/media/risk-visible",
+          "signal_strength": "major media list",
+          "evidence_note": "Public description says the book provides a microdosing protocol for psychoactive substances.",
+          "candidate_category": "health",
+          "publisher_fit": "clear fit",
+          "visible_risk_status_source": "manual",
+          "visible_risk_status_note": "Recorded from Dima review notes.",
+          "public_data_status": "sufficient",
+          "risk_evidence_url": "https://example.test/media/risk-visible",
+          "risk_signal_scope": "book-content"
+        },
+        {
+          "title": "Known Workflow",
+          "primary_authors": [
+            "Sam Example"
+          ],
+          "source_url": "https://example.test/media/known-workflow",
+          "signal_strength": "major media list",
+          "evidence_note": "Another same-family mention for an already-known candidate.",
+          "candidate_category": "business"
+        },
+        {
+          "title": "Search Only Topic",
+          "primary_authors": [
+            "Casey Example"
+          ],
+          "source_url": "https://example.test/media/search-only",
+          "signal_strength": "minor mention",
+          "evidence_note": "Topic-only item from a search-like fixture.",
+          "candidate_category": "topic-only"
+        }
+      ]
+    },
+    {
+      "name": "Topic Search Seed",
+      "family": "topic search",
+      "url": "https://example.test/search?q=leadership",
+      "active": true,
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Topic search cannot create Scouting Candidates.",
+      "fixture_candidates": [
+        {
+          "title": "Should Never Discover",
+          "primary_authors": [
+            "Jordan Example"
+          ],
+          "source_url": "https://example.test/search/should-never-discover",
+          "candidate_category": "business"
+        }
+      ]
+    },
+    {
+      "name": "Paid Rights Database",
+      "family": "rights/deal",
+      "url": "https://example.test/paid-rights",
+      "active": true,
+      "access_status": "paid",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Subscription required; skipped in MVP.",
+      "fixture_candidates": []
+    }
+  ],
+  "russian_edition_checks": [
+    {
+      "retailer": "Ozon",
+      "url": "https://www.ozon.ru",
+      "fixture_results": [
+        {
+          "candidate_title": "Already Russian",
+          "primary_authors": [
+            "Taylor Example"
+          ],
+          "match_type": "same-work Russian-language edition",
+          "language": "Russian",
+          "edition_url": "https://www.ozon.ru/product/already-russian-ru",
+          "evidence_note": "Ozon lists a Russian-language edition of the same work."
+        }
+      ]
+    },
+    {
+      "retailer": "Russian Publisher Site",
+      "url": "https://publisher.example.test",
+      "fixture_results": []
+    }
+  ]
+}

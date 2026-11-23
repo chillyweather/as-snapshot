@@ -1,0 +1,7 @@
+{
+  "source_url": "https://example.test/shortlist",
+  "resolved_url": "https://example.test/shortlist",
+  "head_status": 200,
+  "get_status": 200,
+  "html": "<!DOCTYPE html><html><head><title>Shortlist</title></head><body><main><h1>2026 Shortlist</h1><ul><li><span>Book One</span><span class=\"author\">Jane Author</span></li><li><span>Book Two</span><span class=\"author\">John Writer</span></li></ul></main></body></html>"
+}

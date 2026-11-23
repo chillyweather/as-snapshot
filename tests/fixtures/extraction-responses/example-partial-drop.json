@@ -1,0 +1,22 @@
+{
+  "mentions": [
+    {
+      "title": "Partial Book",
+      "primary_authors": ["P. Author"],
+      "source_url": "https://example.test/books/partial",
+      "evidence_url": "https://example.test/books/partial",
+      "signal_type": "media/curated list",
+      "signal_strength": "major media list",
+      "evidence_note": "Valid mention.",
+      "candidate_category": "history"
+    },
+    {
+      "title": "Dropped Book",
+      "primary_authors": ["D. Author"],
+      "source_url": "https://example.test/books/dropped",
+      "evidence_url": "https://example.test/books/dropped",
+      "signal_type": "media/curated list",
+      "evidence_note": "Has note but no strength."
+    }
+  ]
+}

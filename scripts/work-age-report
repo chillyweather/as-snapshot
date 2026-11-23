@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for the work-age report (issue #1141).
+#
+# Measures on the books the editor has decided whether moving old,
+# often-published works down would improve the review order, from the
+# recorded fit-v2 scores and the work age of each book. Offline: it changes
+# no state, prints the report and writes it to the Git-ignored
+# data/work-age-report/work-age-report.md (a file in the run directory would
+# block the next weekly run).
+#
+# Usage (from repository root or any subdirectory):
+#   ./scripts/work-age-report
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+INTERPRETER="${REPO_ROOT}/.venv/bin/python"
+if [[ ! -x "${INTERPRETER}" ]]; then
+    INTERPRETER="$(command -v python3)"
+fi
+cd "${REPO_ROOT}"
+exec "${INTERPRETER}" -m autoscout work-age-report \
+    --output-dir runs/current-weekly-pilot-russian \
+    --state-dir runs/current-weekly-pilot-russian \
+    --report-file data/work-age-report/work-age-report.md \
+    "$@"

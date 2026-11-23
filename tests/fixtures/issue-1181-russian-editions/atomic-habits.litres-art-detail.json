@@ -1,0 +1,20 @@
+{
+ "status": 200,
+ "error": null,
+ "payload": {
+  "data": {
+   "id": 48514275,
+   "url": "/book/dzheyms-klir/atomnye-privychki-kak-priobresti-horoshie-privychki-i-izbavit-48514275/",
+   "title": "Атомные привычки. Как приобрести хорошие привычки и избавиться от плохих",
+   "language_code": "ru",
+   "isbn": "978-5-4461-1216-6",
+   "publication_date": "2018-01-01",
+   "date_written_at": "2018-01-01",
+   "rightholders": [
+    {
+     "name": "Питер (Айлиб)"
+    }
+   ]
+  }
+ }
+}

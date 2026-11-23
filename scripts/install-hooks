@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Turn on this repository's Git hooks (.githooks/) for this clone.
+#
+# Usage (from repository root or any subdirectory):
+#   ./scripts/install-hooks
+#
+# It sets core.hooksPath to .githooks. The setting lives in the clone's shared
+# Git config, so one run covers the main checkout and every worktree. Git
+# resolves the relative path inside the worktree a command runs in, so each
+# worktree uses the hooks of its own branch. Undo it with:
+#   git config --unset core.hooksPath
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+cd "${REPO_ROOT}"
+git config core.hooksPath .githooks
+echo "auto-scout: Git hooks are on for this clone (core.hooksPath = .githooks)"

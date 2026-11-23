@@ -1,0 +1,22 @@
+{
+ "searchinfo": {
+  "search": "Robin Wall Kimmerer"
+ },
+ "search": [
+  {
+   "id": "Q7352852",
+   "display": {
+    "label": {
+     "value": "Робин Киммерер",
+     "language": "ru"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Robin Wall Kimmerer"
+   }
+  }
+ ],
+ "success": 1
+}

@@ -1,0 +1,7 @@
+{
+  "source_url": "https://example.test/the-prize-announces-2025-shortlist",
+  "resolved_url": "https://example.test/the-prize-announces-2025-shortlist",
+  "head_status": 200,
+  "get_status": 200,
+  "html": "<!DOCTYPE html><html><head><title>The Prize announces 2025 shortlist</title></head><body><main><h1>The Prize announces 2025 shortlist</h1><p class=\"standfirst\">The Prize for Non-Fiction reveals its 2025 shortlist of six books.</p><ul class=\"shortlist\"><li><a href=\"https://example.test/books-and-authors/the-revolutionists\">The Revolutionists: The Story of the Extremists Who Hijacked the 1970s</a><span class=\"author\"> Jason Burke </span></li><li><a href=\"https://example.test/books-and-authors/how-to-end-a-story\">How to End a Story: Collected Diaries</a><span class=\"author\"> Helen Garner </span></li><li><a href=\"https://example.test/books-and-authors/the-boundless-deep\">The Boundless Deep: Young Tennyson, Science and the Crisis of Belief</a><span class=\"author\"> Richard Holmes </span></li><li><a href=\"https://example.test/books-and-authors/captives-and-companions\">Captives and Companions: A History of Slavery and the Slave Trade in the Islamic World</a><span class=\"author\"> Justin Marozzi </span></li><li><a href=\"https://example.test/books-and-authors/wild-things\">Wild Things: The Disorderly Life of a Naturalist</a><span class=\"author\"> Stephen Moss </span></li></ul></main></body></html>"
+}

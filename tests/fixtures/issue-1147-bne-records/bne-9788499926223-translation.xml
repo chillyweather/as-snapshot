@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>2</numberOfRecords>
+  <records>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>01591cam a22003972u 4500</leader>
+          <controlfield tag="001">991012278659708606</controlfield>
+          <controlfield tag="003">SpMaBN</controlfield>
+          <controlfield tag="005">20260424093400.0</controlfield>
+          <controlfield tag="006">m    |o  d</controlfield>
+          <controlfield tag="007">cr |n ||||||||</controlfield>
+          <controlfield tag="008">180618s2014    sp |||||o|||| ||| ||spa d</controlfield>
+          <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">9788499924748</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(ES-BaLIB)9788499924748</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(SpMaBN)a6227352</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">ES-BaLIB</subfield>
+            <subfield code="b">spa</subfield>
+            <subfield code="c">SpMaBN</subfield>
+            <subfield code="d">SpMaBN</subfield>
+            <subfield code="e">local</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Harari, Yuval Noah</subfield>
+            <subfield code="d">1976-</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="240">
+            <subfield code="a">Ḳitsur toldot ha-enoshut</subfield>
+            <subfield code="l">Español</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Sapiens</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="260">
+            <subfield code="a">Barcelona</subfield>
+            <subfield code="b">Debate</subfield>
+            <subfield code="c">2014</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">1 recurso en línea</subfield>
+            <subfield code="b">il.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="347">
+            <subfield code="a">archivo de texto</subfield>
+            <subfield code="b">EPUB</subfield>
+            <subfield code="c">5.80 Kbytes</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="490">
+            <subfield code="a">Debate</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="500">
+            <subfield code="a">Registro generado automáticamente a partir de metadatos facilitados por Libranda</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="530">
+            <subfield code="a">Publicado también como texto impreso</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="596">
+            <subfield code="a">"Penguin Random House Grupo Editorial España"</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="653">
+            <subfield code="a">Primitiva hasta la actualidad</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="653">
+            <subfield code="a">Antropología</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Ros, Joandomènec</subfield>
+            <subfield code="d">1946-</subfield>
+            <subfield code="e">traductor</subfield>
+            <subfield code="4">trl</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="776">
+            <subfield code="t">Sapiens, de animales a dioses</subfield>
+            <subfield code="h">492 p.</subfield>
+            <subfield code="z">978-84-9992-622-3</subfield>
+            <subfield code="w">991055102309708606</subfield>
+          </datafield>
+          <datafield ind1="4" ind2="0" tag="856">
+            <subfield code="u">https://bnedigital.bne.es/bd/card?id=26480d6c-8a0b-4722-a2a8-76cd6d634002</subfield>
+            <subfield code="y">BNE Digital</subfield>
+            <subfield code="z">Acceso restringido, disponible solo desde Biblioteca Nacional de España o los centros de conservación</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="901">
+            <subfield code="a">Libranda</subfield>
+            <subfield code="a">Depósito legal electrónico</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">a6227352</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="956">
+            <subfield code="a">1</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="993">
+            <subfield code="a">6227352</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="994">
+            <subfield code="a">MONOMODERN</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">ACCESO EN LINEA</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">6227352-1001</subfield>
+            <subfield code="l">EN_LINEA</subfield>
+            <subfield code="m">BNMADRID</subfield>
+            <subfield code="r">N</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">PUB_ELEC</subfield>
+            <subfield code="u">18/6/2018</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVE">
+            <subfield code="8">531391385270008606</subfield>
+            <subfield code="e">Available</subfield>
+            <subfield code="n">Acceso restringido, disponible solo desde Biblioteca Nacional de España o los centros de conservación</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="0">991012278659708606</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>991012278659708606</recordIdentifier>
+      <recordPosition>1</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>01893nam a2200421 c 4500</leader>
+          <controlfield tag="001">991055102309708606</controlfield>
+          <controlfield tag="003">SpMaBN</controlfield>
+          <controlfield tag="005">20251210123024.0</controlfield>
+          <controlfield tag="008">160202s2015    sp a   | |||| 001 0 spa^^</controlfield>
+          <datafield ind1=" " ind2=" " tag="015">
+            <subfield code="a">MON15</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="017">
+            <subfield code="a">B 21586-2015</subfield>
+            <subfield code="b">Oficina Depósito Legal Barcelona</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">978-84-9992-622-3</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(OCoLC)932176168</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(SpMaBN)a5748420</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">spa</subfield>
+            <subfield code="c">SpMaBN</subfield>
+            <subfield code="e">rdc</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="041">
+            <subfield code="a">spa</subfield>
+            <subfield code="k">eng</subfield>
+            <subfield code="h">heb</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="080">
+            <subfield code="a">930.85</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Harari, Yuval Noah</subfield>
+            <subfield code="d">1976-</subfield>
+            <subfield code="4">aut</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="240">
+            <subfield code="a">Ḳitsur toldot ha-enoshut</subfield>
+            <subfield code="l">Español</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Sapiens, de animales a dioses :</subfield>
+            <subfield code="b">breve historia de la humanidad</subfield>
+            <subfield code="c">Yuval Noah Harari ; traducción de Joandomènec Ros</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="250">
+            <subfield code="a">1ª ed</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="260">
+            <subfield code="a">[Barcelona]</subfield>
+            <subfield code="b">Debate</subfield>
+            <subfield code="c">2015</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">492 p.</subfield>
+            <subfield code="b">il., mapas</subfield>
+            <subfield code="c">24 cm</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">Texto (visual)</subfield>
+            <subfield code="2">isbdcontent</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">sin mediación</subfield>
+            <subfield code="2">isbdmedia</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="490">
+            <subfield code="a">Debate historia</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="500">
+            <subfield code="a">Índices</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="594">
+            <subfield code="a">Título original: Ḳitsur toldot ha-enoshut; traducido al español de la traducción inglesa: From animals into gods</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="7" tag="650">
+            <subfield code="a">Civilización</subfield>
+            <subfield code="x">Historia</subfield>
+            <subfield code="2">embne</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="901">
+            <subfield code="a">MON1602</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="915">
+            <subfield code="a">Monografías</subfield>
+            <subfield code="b">2015</subfield>
+            <subfield code="c">Historia. Ciencia de la historia</subfield>
+            <subfield code="c">Geografía. Biografías. Historia</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">a5748420</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="956">
+            <subfield code="a">2</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="j">DL/2386778</subfield>
+            <subfield code="z">Ejemplar no disponible, pendiente de localizar</subfield>
+            <subfield code="x">Detectada falta 2021</subfield>
+            <subfield code="x">Comprobada falta recuento 2023</subfield>
+            <subfield code="c">MISSING</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="993">
+            <subfield code="a">5748420</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="994">
+            <subfield code="a">MONOMODERN</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">12/1083096</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1105259012</subfield>
+            <subfield code="d">19/8/2020</subfield>
+            <subfield code="e">4/8/2020</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="n">40</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">2/2/2016</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/2386778</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1105259011</subfield>
+            <subfield code="d">31/10/2018</subfield>
+            <subfield code="e">30/5/2016</subfield>
+            <subfield code="l">MISSING</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="n">2</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">2/2/2016</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC.</subfield>
+            <subfield code="o">.STAFF. Comprobada falta 2021</subfield>
+            <subfield code="o">.STAFF. Comprobada falta recuento 2023</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991055102309708606</subfield>
+            <subfield code="8">221000020580008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Salón General-Petición anticipada</subfield>
+            <subfield code="d">12/1083096</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">SG_PETANTI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>991055102309708606</recordIdentifier>
+      <recordPosition>2</recordPosition>
+    </record>
+  </records>
+  <extraResponseData xmlns:xb="http://www.exlibris.com/repository/search/xmlbeans/">
+    <xb:exact>true</xb:exact>
+    <xb:responseDate>2026-11-19T07:53:33+0100</xb:responseDate>
+  </extraResponseData>
+</searchRetrieveResponse>

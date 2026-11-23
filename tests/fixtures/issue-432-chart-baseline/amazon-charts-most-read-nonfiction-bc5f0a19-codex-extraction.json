@@ -1,0 +1,291 @@
+{
+  "capture_sha256": "3e7d28530c9ed5a738349e3996b1eb0354703737224160cf1b1747eb9e5802b9",
+  "entries": [
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 1,
+      "evidence_note": "Rank 1; 7 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/1668067242/ref=chrt_bk_rd_nf_1_ci_lp",
+      "primary_authors": [
+        "Maggie Haberman",
+        "Jonathan Swan"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "Regime Change",
+      "weeks_on_list": 7
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 2,
+      "evidence_note": "Rank 2; 85 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/1401971369/ref=chrt_bk_rd_nf_2_ci_lp",
+      "primary_authors": [
+        "Mel Robbins",
+        "Sawyer Robbins"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "The Let Them Theory",
+      "weeks_on_list": 85
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 3,
+      "evidence_note": "Rank 3; 30 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/B0F3WTJ9V2/ref=chrt_bk_rd_nf_3_ci_lp",
+      "primary_authors": [
+        "Belle Burden"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "Strangers",
+      "weeks_on_list": 30
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 4,
+      "evidence_note": "Rank 4; 399 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/0735211299/ref=chrt_bk_rd_nf_4_ci_lp",
+      "primary_authors": [
+        "James Clear"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "Atomic Habits",
+      "weeks_on_list": 399
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 5,
+      "evidence_note": "Rank 5; 17 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/B0FGZYTRP1/ref=chrt_bk_rd_nf_5_ci_lp",
+      "primary_authors": [
+        "Patrick Radden Keefe"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "London Falling",
+      "weeks_on_list": 17
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 6,
+      "evidence_note": "Rank 6; 17 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/B0FKGJ26MK/ref=chrt_bk_rd_nf_6_ci_lp",
+      "primary_authors": [
+        "Lena Dunham"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "Famesick",
+      "weeks_on_list": 17
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 7,
+      "evidence_note": "Rank 7; 1 week on the list.",
+      "evidence_url": "https://www.amazon.com/dp/B0FY5WRTVC/ref=chrt_bk_rd_nf_7_ci_lp",
+      "primary_authors": [
+        "Annie Jacobsen"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "Biological War",
+      "weeks_on_list": 1
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 8,
+      "evidence_note": "Rank 8; 265 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/B0024CEZR6/ref=chrt_bk_rd_nf_8_ci_lp",
+      "primary_authors": [
+        "Robert Greene"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "The 48 Laws of Power",
+      "weeks_on_list": 265
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 9,
+      "evidence_note": "Rank 9; 164 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/0857197681/ref=chrt_bk_rd_nf_9_ci_lp",
+      "primary_authors": [
+        "Morgan Housel"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "The Psychology of Money",
+      "weeks_on_list": 164
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 10,
+      "evidence_note": "Rank 10; 26 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/B0FJP3TFG3/ref=chrt_bk_rd_nf_10_ci_lp",
+      "primary_authors": [
+        "Daniel Chidiac"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "Stop Letting Everything Affect You",
+      "weeks_on_list": 26
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 11,
+      "evidence_note": "Rank 11; 277 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/B07Q5TL9SQ/ref=chrt_bk_rd_nf_11_ci_lp",
+      "primary_authors": [
+        "Gregg Olsen"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "If You Tell",
+      "weeks_on_list": 277
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 12,
+      "evidence_note": "Rank 12; 289 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/B01HNJIJB2/ref=chrt_bk_rd_nf_12_ci_lp",
+      "primary_authors": [
+        "Ryan Holiday",
+        "Stephen Hanselman"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "The Daily Stoic",
+      "weeks_on_list": 289
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 13,
+      "evidence_note": "Rank 13; 260 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/B00G3L1C2K/ref=chrt_bk_rd_nf_13_ci_lp",
+      "primary_authors": [
+        "Bessel van der Kolk"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "The Body Keeps the Score",
+      "weeks_on_list": 260
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 14,
+      "evidence_note": "Rank 14; 483 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/B00ICN066A/ref=chrt_bk_rd_nf_14_ci_lp",
+      "primary_authors": [
+        "Yuval Noah Harari"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "Sapiens",
+      "weeks_on_list": 483
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 15,
+      "evidence_note": "Rank 15; 292 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/1439167346/ref=chrt_bk_rd_nf_15_ci_lp",
+      "primary_authors": [
+        "Dale Carnegie"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "How to Win Friends and Influence People",
+      "weeks_on_list": 292
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 16,
+      "evidence_note": "Rank 16; 43 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/0593296966/ref=chrt_bk_rd_nf_16_ci_lp",
+      "primary_authors": [
+        "Andrew Ross Sorkin"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "1929",
+      "weeks_on_list": 43
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 17,
+      "evidence_note": "Rank 17; 451 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/B019MMUA8S/ref=chrt_bk_rd_nf_17_ci_lp",
+      "primary_authors": [
+        "Mark Manson"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "weeks_on_list": 451
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 18,
+      "evidence_note": "Rank 18; 90 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/B09JPJ833S/ref=chrt_bk_rd_nf_18_ci_lp",
+      "primary_authors": [
+        "Jennette Mccurdy"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "I'm Glad My Mom Died",
+      "weeks_on_list": 90
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 19,
+      "evidence_note": "Rank 19; 382 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/B07H453KGH/ref=chrt_bk_rd_nf_19_ci_lp",
+      "primary_authors": [
+        "David Goggins"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "Can't Hurt Me",
+      "weeks_on_list": 382
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "current_rank": 20,
+      "evidence_note": "Rank 20; 11 weeks on the list.",
+      "evidence_url": "https://www.amazon.com/dp/0316264830/ref=chrt_bk_rd_nf_20_ci_lp",
+      "primary_authors": [
+        "David Sedaris"
+      ],
+      "signal_strength": "top ranking",
+      "signal_type": "bestseller/ranking",
+      "source_url": "https://www.amazon.com/charts/2026-08-09/mostread/nonfiction",
+      "title": "The Land and Its People",
+      "weeks_on_list": 11
+    }
+  ],
+  "operation_id": "63cd7fc67521c113f11f3c933f43017b7f2ee4388b8c43bb0078d59b591431be",
+  "source_name": "Amazon Charts Most Read Nonfiction",
+  "source_url": "https://www.amazon.com/charts"
+}

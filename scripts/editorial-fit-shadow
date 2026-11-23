@@ -1,0 +1,60 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for the editorial-fit shadow route (issue #725).
+#
+# Callable without spelling `python`. Resolves a usable project
+# interpreter deterministically and execs the canonical command.
+#
+# Usage (from repository root or any subdirectory):
+#   ./scripts/editorial-fit-shadow report     offline: compare recorded scores with editor decisions
+#   ./scripts/editorial-fit-shadow preview    offline: print one request, nothing is sent
+#   ./scripts/editorial-fit-shadow score      live, separately billed: score the current candidates
+#
+# `score` calls TypeSafe Jev and needs TYPESAFE_API_KEY in the environment or
+# in ~/.config/autoscout/typesafe.env. Every mode is advisory: none changes
+# priority labels, ordering, or weekly and editorial state.
+
+set -euo pipefail
+
+# -- Resolve repository root ------------------------------------------------
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+# -- Resolve project interpreter --------------------------------------------
+# 1. The project-local virtualenv (fastest, no PATH lookup).
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    # 2. Host python3 (fallback).
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+MODE="${1:-report}"
+if [[ $# -gt 0 ]]; then
+    shift
+fi
+
+EXTRA=()
+case "${MODE}" in
+    score)
+        EXTRA=(--adapter live --run-date "$(date +%F)")
+        ;;
+    report | preview) ;;
+    *)
+        echo "auto-scout: unknown mode '${MODE}' (expected score, report, or preview)" >&2
+        exit 2
+        ;;
+esac
+
+# -- Change to repository root before exec ----------------------------------
+cd "${REPO_ROOT}"
+
+# -- Exec canonical command -------------------------------------------------
+exec "${INTERPRETER}" -m autoscout editorial-fit-shadow "${MODE}" \
+    --output-dir runs/current-weekly-pilot-russian \
+    --state-dir runs/current-weekly-pilot-russian \
+    "${EXTRA[@]}" "$@"

@@ -1,0 +1,28 @@
+{
+  "mentions": [
+    {
+      "title": "Kindred",
+      "primary_authors": ["Octavia E. Butler"],
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "evidence_url": "https://www.audiobooks.com/audiobook/kindred/283469",
+      "signal_type": "audiobook ranking",
+      "signal_strength": "minor mention",
+      "evidence_note": "Listed in the captured Non-Fiction category under Bestselling ordering; implicit retailer popularity only.",
+      "candidate_category": "adult nonfiction",
+      "underlying_work_type": "book",
+      "publication_status": "published"
+    },
+    {
+      "title": "Ghost Girl",
+      "primary_authors": ["Eva Benefield"],
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "evidence_url": "https://www.audiobooks.com/audiobook/ghost-girl/981321",
+      "signal_type": "audiobook ranking",
+      "signal_strength": "minor mention",
+      "evidence_note": "Listed in the captured Non-Fiction category under Bestselling ordering; implicit retailer popularity only.",
+      "candidate_category": "adult nonfiction",
+      "underlying_work_type": "book",
+      "publication_status": "published"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/"><version>1.1</version><numberOfRecords>1</numberOfRecords><records><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+<leader>00000nam a22000008c 4500</leader>
+<controlfield tag="001">1213640713</controlfield>
+<controlfield tag="003">DE-101</controlfield>
+<datafield tag="020" ind1=" " ind2=" "><subfield code="a">9783426282564</subfield><subfield code="c">Festeinband : EUR 20.00 (DE)</subfield></datafield>
+<datafield tag="041" ind1="1" ind2=" "><subfield code="a">ger</subfield><subfield code="h">eng</subfield></datafield>
+<datafield tag="100" ind1="1" ind2=" "><subfield code="a">Haig, Matt</subfield><subfield code="4">aut</subfield></datafield>
+<datafield tag="240" ind1="1" ind2="0"><subfield code="a">The midnight library</subfield></datafield>
+<datafield tag="245" ind1="1" ind2="0"><subfield code="a">Die Mitternachtsbibliothek</subfield><subfield code="b">Roman</subfield><subfield code="c">Matt Haig ; aus dem Englischen von Sabine Hübner</subfield></datafield>
+<datafield tag="264" ind1=" " ind2="1"><subfield code="a">München</subfield><subfield code="b">Droemer</subfield><subfield code="c">2021</subfield></datafield>
+<datafield tag="300" ind1=" " ind2=" "><subfield code="a">320 Seiten</subfield><subfield code="c">22 cm</subfield></datafield>
+</record></recordData><recordPosition>1</recordPosition></record></records></searchRetrieveResponse>

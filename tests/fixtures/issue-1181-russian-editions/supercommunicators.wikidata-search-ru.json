@@ -1,0 +1,22 @@
+{
+ "searchinfo": {
+  "search": "Charles Duhigg"
+ },
+ "search": [
+  {
+   "id": "Q5076992",
+   "display": {
+    "label": {
+     "value": "Чарлз Дахигг",
+     "language": "ru"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Charles Duhigg"
+   }
+  }
+ ],
+ "success": 1
+}

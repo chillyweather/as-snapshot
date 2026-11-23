@@ -1,0 +1,68 @@
+{
+ "status": 200,
+ "error": null,
+ "payload": {
+  "data": [
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 69618694,
+     "url": "/book/robin-uoll-kimmerer/zhizn-v-pogranichnom-sloe-estestvennaya-i-kulturnaya-i-69618694/",
+     "title": "Жизнь в пограничном слое. Естественная и культурная история мхов",
+     "language_code": "ru",
+     "date_written_at": "2003-01-01",
+     "persons": [
+      {
+       "full_name": "Робин Уолл Киммерер",
+       "role": "author"
+      },
+      {
+       "full_name": "Владимир Петров",
+       "role": "translator"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 67137857,
+     "url": "/book/smart-reading/kluchevye-idei-knigi-pletenie-sladkoy-travy-legendy-aborigen-67137857/",
+     "title": "Ключевые идеи книги: Плетение сладкой травы. Легенды аборигенов, научные знания и мудрость растений. Робин Киммерер",
+     "language_code": "ru",
+     "date_written_at": "2022-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 66847248,
+     "url": "/book/robin-uoll-kimmerer/golos-zemli-legendarnyy-bestseller-desyatiletiya-o-sok-66847248/",
+     "title": "Голос земли. Легендарный бестселлер десятилетия о сокровенных знаниях индейских племен, научных исследованиях и мистической связи человека с природой",
+     "language_code": "ru",
+     "date_written_at": "2013-01-01",
+     "persons": [
+      {
+       "full_name": "Робин Уолл Киммерер",
+       "role": "author"
+      },
+      {
+       "full_name": "Т. Л. Платонова",
+       "role": "translator"
+      },
+      {
+       "full_name": "БОМБОРА",
+       "role": "publisher"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

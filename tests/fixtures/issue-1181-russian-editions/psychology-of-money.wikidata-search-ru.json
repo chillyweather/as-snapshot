@@ -1,0 +1,22 @@
+{
+ "searchinfo": {
+  "search": "Morgan Housel"
+ },
+ "search": [
+  {
+   "id": "Q110475788",
+   "display": {
+    "label": {
+     "value": "Морган Хаузел",
+     "language": "ru"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Morgan Housel"
+   }
+  }
+ ],
+ "success": 1
+}

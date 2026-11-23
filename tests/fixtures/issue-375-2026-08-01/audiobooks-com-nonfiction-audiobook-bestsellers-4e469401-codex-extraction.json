@@ -1,0 +1,212 @@
+{
+  "capture_sha256": "b0b1d26bfe3850ba12c9cf5d804fead1d50d210ab3b2f87ba6409f75a89915c1",
+  "entries": [
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/atomic-habits-an-easy-and-proven-way-to-build-good-habits-and-break-bad-ones/343304",
+      "primary_authors": [
+        "James Clear"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/how-to-win-friends-and-influence-people/33098",
+      "primary_authors": [
+        "Dale Carnegie"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "How To Win Friends And Influence People"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/101-essays-that-will-change-the-way-you-think/347729",
+      "primary_authors": [
+        "Brianna Wiest"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "101 Essays That Will Change The Way You Think"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/body-keeps-the-score-brain-mind-and-body-in-the-healing-of-trauma/501292",
+      "primary_authors": [
+        "Bessel Van Der Kolk"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/how-to-win-friends-and-influence-people-updated-for-the-next-generation-of-leaders/552906",
+      "primary_authors": [
+        "Dale Carnegie"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "How to Win Friends and Influence People: Updated For the Next Generation of Leaders"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/library-book/348979",
+      "primary_authors": [
+        "Susan Orlean"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "The Library Book"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/everything-is-tuberculosis-the-history-and-persistence-of-our-deadliest-infection/822891",
+      "primary_authors": [
+        "John Green"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/four-ways-to-click-rewire-your-brain-for-stronger-more-rewarding-relationships/229998",
+      "primary_authors": [
+        "Amy Banks"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "Four Ways to Click: Rewire Your Brain for Stronger, More Rewarding Relationships"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/come-as-you-are-revised-and-updated-the-surprising-new-science-that-will-transform-your-sex-life/442921",
+      "primary_authors": [
+        "Emily Nagoski"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "Come As You Are: Revised and Updated: The Surprising New Science That Will Transform Your Sex Life"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/how-to-stop-snapping-at-the-people-you-love-as-well-as-the-ones-you-dont-a-compassionate-guide-to-rage-regulation-and-repair/989306",
+      "primary_authors": [
+        "Anna Mathur"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "How to Stop Snapping at the People You Love (As Well As the Ones You Don’t): A compassionate guide to rage, regulation and repair"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/sapiens-a-brief-history-of-humankind/300313",
+      "primary_authors": [
+        "Yuval Noah Harari"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "Sapiens: A Brief History of Humankind"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/saffie-the-youngest-victim-of-the-manchester-terror-attack-and-her-familys-fight-for-justice/903761",
+      "primary_authors": [
+        "Andrew Roussos"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "Saffie: The youngest victim of the Manchester terror attack and her family's fight for justice"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/nobodys-girl-a-memoir-of-surviving-abuse-and-fighting-for-justice/709856",
+      "primary_authors": [
+        "Virginia Roberts Giuffre"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "Nobody's Girl: A Memoir of Surviving Abuse and Fighting for Justice"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/become-what-you-are/842134",
+      "primary_authors": [
+        "Alan Watts"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "Become What You Are"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/untethered-soul-the-journey-beyond-yourself/118175",
+      "primary_authors": [
+        "Michael A. Singer"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "The Untethered Soul: The Journey Beyond Yourself"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/cant-hurt-me-beherrsche-deinen-geist-und-erreiche-jedes-ziel/812270",
+      "primary_authors": [
+        "David Goggins"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "[German] - Can't Hurt Me: Beherrsche deinen Geist und erreiche jedes Ziel"
+    },
+    {
+      "candidate_category": "adult_nonfiction",
+      "evidence_note": "Appears in the captured Audiobooks.com Non-Fiction page under the Bestselling sort; list order is implicit retailer popularity, with no numeric rank or sales units claimed.",
+      "evidence_url": "https://www.audiobooks.com/audiobook/courage-to-be-disliked-how-to-free-yourself-change-your-life-and-achieve-real-happiness/332913",
+      "primary_authors": [
+        "Fumitake Koga"
+      ],
+      "signal_strength": "strong",
+      "signal_type": "retailer_bestseller_ordering",
+      "source_url": "https://www.audiobooks.com/browse/non-fiction",
+      "title": "The Courage to Be Disliked: How to Free Yourself, Change Your Life, and Achieve Real Happiness"
+    }
+  ],
+  "operation_id": "23a6265f063b4d3ed407efd6a6f5a6081109ab2e12ceab73bc579c833a3ab51c",
+  "source_name": "Audiobooks.com Nonfiction Audiobook Bestsellers",
+  "source_url": "https://www.audiobooks.com/browse/non-fiction"
+}

@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>3</numberOfRecords>
+  <records>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>04768nam a2200637   4500</leader>
+          <controlfield tag="001">991000832889708606</controlfield>
+          <controlfield tag="003">SpMaBN</controlfield>
+          <controlfield tag="005">20260408135718.0</controlfield>
+          <controlfield tag="008">050414s2004    sp |          ||| ||spa^^</controlfield>
+          <datafield ind1="7" ind2=" " tag="016">
+            <subfield code="a">bimoBNE20050231208</subfield>
+            <subfield code="2">SpMaBN</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="017">
+            <subfield code="a">B 45991-2004</subfield>
+            <subfield code="b">Oficina Depósito Legal Barcelona</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">84-9759-220-4</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(OCoLC)434251397</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(SpMaBN)Mimo0002218470</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">spa</subfield>
+            <subfield code="c">SpMaBN</subfield>
+            <subfield code="e">rdc</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="080">
+            <subfield code="a">821.134.2(861)-31"19"</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">García Márquez, Gabriel</subfield>
+            <subfield code="d">1927-2014</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="240">
+            <subfield code="a">Cien años de soledad</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Cien años de soledad</subfield>
+            <subfield code="h">[Texto impreso]</subfield>
+            <subfield code="c">[Gabriel García Márquez]</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="250">
+            <subfield code="a">4ª ed. en este formato</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="260">
+            <subfield code="a">[Barcelona]</subfield>
+            <subfield code="b">Debolsillo</subfield>
+            <subfield code="c">2004</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">494 p.</subfield>
+            <subfield code="c">19 cm</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="490">
+            <subfield code="a">Biblioteca Gabriel García Márquez</subfield>
+            <subfield code="v">1</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="490">
+            <subfield code="a">Contemporánea</subfield>
+            <subfield code="v">354/1</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="800">
+            <subfield code="a">García Márquez, Gabriel</subfield>
+            <subfield code="d">1927-2014</subfield>
+            <subfield code="t">Biblioteca Gabriel García Márquez</subfield>
+            <subfield code="v">1</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="830">
+            <subfield code="a">Contemporánea (Barcelona)</subfield>
+            <subfield code="v">354/1</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">Mimo0002218470</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="956">
+            <subfield code="a">2</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 51348-2005</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO04961279</subfield>
+            <subfield code="j">AHM/842145</subfield>
+            <subfield code="c">SG_PETANTI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 45991-2004</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO04633600</subfield>
+            <subfield code="j">AHMO/121789</subfield>
+            <subfield code="c">SG_PETANTI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 51348-2005</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO04915848</subfield>
+            <subfield code="j">AHMO/201982</subfield>
+            <subfield code="c">SG_PETANTI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 32264-2006</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO05016812</subfield>
+            <subfield code="j">AHMO/231314</subfield>
+            <subfield code="c">SG_PETANTI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 2336-2007</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">978-84-9759-220-8 (ISBN único)</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO05237071</subfield>
+            <subfield code="j">AHMO/292107</subfield>
+            <subfield code="c">SG_PETANTI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 45991-2004</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO04633501</subfield>
+            <subfield code="j">12/296746</subfield>
+            <subfield code="c">SG_PETANTI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 45991-2004</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO04633549</subfield>
+            <subfield code="j">DL/1379736</subfield>
+            <subfield code="c">CONSERVACI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 51348-2005</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO04909141</subfield>
+            <subfield code="j">DL/1478891</subfield>
+            <subfield code="c">CONSERVACI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 32264-2006</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO05017476</subfield>
+            <subfield code="j">DL/1515824</subfield>
+            <subfield code="c">CONSERVACI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 2336-2007</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">978-84-9759-220-8 (ISBN único)</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO05238032</subfield>
+            <subfield code="j">DL/1591965</subfield>
+            <subfield code="c">CONSERVACI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="993">
+            <subfield code="a">4107036</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="994">
+            <subfield code="a">MONOMODERN</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHM/842145</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">4107036-1001</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">27/11/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/121789</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">4107036-2001</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">27/11/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/201982</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">4107036-3001</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">27/11/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/231314</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">4107036-4001</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">27/11/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/292107</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">4107036-5001</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">27/11/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">12/296746</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">4107036-6001</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">27/11/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1379736</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">4107036-7001</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">27/11/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1478891</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">4107036-8001</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">27/11/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1515824</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">4107036-9001</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">27/11/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1638400</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1000224743</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">16/5/2008</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 11687-2008</subfield>
+            <subfield code="o">.PUBLIC. 978-84-9759-220-8</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/330067</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1000224742</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">16/5/2008</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 11687-2008</subfield>
+            <subfield code="o">.PUBLIC. 978-84-9759-220-8</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/331625</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1000225552</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">22/5/2008</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 25471-2007</subfield>
+            <subfield code="o">.PUBLIC. 978-84-9759-220-8</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1639494</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1000225553</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">22/5/2008</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 25471-2007</subfield>
+            <subfield code="o">.PUBLIC. 978-84-9759-220-8</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1591965</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">4107036-14001</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">26/9/2008</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1751569</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1001095521</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">9/3/2009</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 8044-2009. 978-84-9759-220-8</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/425041</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1001095522</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">9/3/2009</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 8044-2009. 978-84-9759-220-8</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991000832889708606</subfield>
+            <subfield code="8">221041166570008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Salón General-Petición anticipada</subfield>
+            <subfield code="d">12/296746</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">SG_PETANTI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991000832889708606</subfield>
+            <subfield code="8">221041166340008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1751569</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">2</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991000832889708606</subfield>
+            <subfield code="8">221041166380008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1639494</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">3</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991000832889708606</subfield>
+            <subfield code="8">221041166360008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1591965</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">4</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991000832889708606</subfield>
+            <subfield code="8">221041166480008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1478891</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">5</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991000832889708606</subfield>
+            <subfield code="8">221041166460008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1515824</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">6</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991000832889708606</subfield>
+            <subfield code="8">221041166440008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1638400</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">7</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991000832889708606</subfield>
+            <subfield code="8">221041166510008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1379736</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">8</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>991000832889708606</recordIdentifier>
+      <recordPosition>1</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>03408cam a2200541   4500</leader>
+          <controlfield tag="001">991012798339708606</controlfield>
+          <controlfield tag="003">SpMaBN</controlfield>
+          <controlfield tag="005">20260409081607.0</controlfield>
+          <controlfield tag="008">030620s2003    sp |          ||| ||spa^^</controlfield>
+          <datafield ind1="7" ind2=" " tag="016">
+            <subfield code="a">bimoBNE20030510062</subfield>
+            <subfield code="2">SpMaBN</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="017">
+            <subfield code="a">B 46803-2002</subfield>
+            <subfield code="b">Oficina Depósito Legal Barcelona</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">84-9759-220-4</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(OCoLC)432990788</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(SpMaBN)bimo0001861217</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">spa</subfield>
+            <subfield code="c">SpMaBN</subfield>
+            <subfield code="e">rdc</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="080">
+            <subfield code="a">821.134.2(861)-31"19"</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">García Márquez, Gabriel</subfield>
+            <subfield code="d">1927-2014</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="240">
+            <subfield code="a">Cien años de soledad</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Cien años de soledad</subfield>
+            <subfield code="h">[Texto impreso]</subfield>
+            <subfield code="c">[Gabriel García Márquez]</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="250">
+            <subfield code="a">1ª ed. en este formato</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="260">
+            <subfield code="a">[Barcelona]</subfield>
+            <subfield code="b">Debolsillo</subfield>
+            <subfield code="c">2003</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">495 p.</subfield>
+            <subfield code="c">19 cm</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="490">
+            <subfield code="a">Biblioteca Gabriel García Márquez</subfield>
+            <subfield code="v">1</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="490">
+            <subfield code="a">Contemporánea</subfield>
+            <subfield code="v">354/1</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="800">
+            <subfield code="a">García Márquez, Gabriel</subfield>
+            <subfield code="d">1927-2014</subfield>
+            <subfield code="t">Biblioteca Gabriel García Márquez</subfield>
+            <subfield code="v">1</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="830">
+            <subfield code="a">Contemporánea (Barcelona)</subfield>
+            <subfield code="v">354/1</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">bimo0001861217</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="956">
+            <subfield code="a">2</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 46803-2003</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO04027222</subfield>
+            <subfield code="j">12/177448</subfield>
+            <subfield code="c">SG_PETANTI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 21418-2003</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO04332805</subfield>
+            <subfield code="j">AHM/716739</subfield>
+            <subfield code="c">SG_PETANTI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 42985-2003</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO04341706</subfield>
+            <subfield code="j">AHM/721324</subfield>
+            <subfield code="c">SG_PETANTI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 21418-2003</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">SG_PETANTI</subfield>
+            <subfield code="9">MO04027129</subfield>
+            <subfield code="j">AHMO/15891</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 16151-2005</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">SG_PETANTI</subfield>
+            <subfield code="9">MO04679473</subfield>
+            <subfield code="j">AHMO/136005</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 21418-2003</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO04028738</subfield>
+            <subfield code="j">DL/1213814</subfield>
+            <subfield code="c">CONSERVACI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 46803-2002</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO04079379</subfield>
+            <subfield code="j">DL/1227103</subfield>
+            <subfield code="c">CONSERVACI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 42985-2003</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO04231761</subfield>
+            <subfield code="j">DL/1273249</subfield>
+            <subfield code="c">CONSERVACI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">017.</subfield>
+            <subfield code="a">B 16151-2005</subfield>
+            <subfield code=".">020.</subfield>
+            <subfield code="a">84-9759-220-4</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="9">MO04680225</subfield>
+            <subfield code="j">DL/1397162</subfield>
+            <subfield code="c">CONSERVACI</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="993">
+            <subfield code="a">2416576</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="994">
+            <subfield code="a">MONOMODERN</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/15891</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">2416576-1001</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">5/10/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">12/177448</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1103573609</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">5/10/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.STAFF. R. 4027222</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHM/716739</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">2416576-3001</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">5/10/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHM/721324</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">2416576-4001</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">5/10/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/136005</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">2416576-5001</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">5/10/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1213814</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">2416576-6001</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">5/10/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1227103</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">2416576-7001</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">5/10/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1273249</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">2416576-8001</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">5/10/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1397162</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">2416576-9001</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">5/10/2007</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991012798339708606</subfield>
+            <subfield code="8">221323388450008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Salón General-Petición anticipada</subfield>
+            <subfield code="d">12/177448</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">SG_PETANTI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991012798339708606</subfield>
+            <subfield code="8">221323388330008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1273249</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">2</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991012798339708606</subfield>
+            <subfield code="8">221323388350008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1227103</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">3</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991012798339708606</subfield>
+            <subfield code="8">221323388310008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1397162</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">4</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991012798339708606</subfield>
+            <subfield code="8">221323388370008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1213814</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">5</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>991012798339708606</recordIdentifier>
+      <recordPosition>2</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>03008cam a2200481   4500</leader>
+          <controlfield tag="001">991013133169708606</controlfield>
+          <controlfield tag="003">SpMaBN</controlfield>
+          <controlfield tag="005">20251210182249.0</controlfield>
+          <controlfield tag="008">090330s2009    sp     | |||| 000 f spa^^</controlfield>
+          <datafield ind1=" " ind2=" " tag="015">
+            <subfield code="a">MON09</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="017">
+            <subfield code="a">B 11947-2009</subfield>
+            <subfield code="b">Oficina Depósito Legal Barcelona</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="020">
+            <subfield code="a">978-84-9759-220-8</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(OCoLC)733770611</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(SpMaBN)a4455601</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">spa</subfield>
+            <subfield code="c">SpMaBN</subfield>
+            <subfield code="e">rdc</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="080">
+            <subfield code="a">821.134.2(861)-31"19"</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">García Márquez, Gabriel</subfield>
+            <subfield code="d">1927-2014</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="240">
+            <subfield code="a">Cien años de soledad</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">Cien años de soledad</subfield>
+            <subfield code="h">[Texto impreso]</subfield>
+            <subfield code="c">Gabriel García Márquez</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="250">
+            <subfield code="a">2ª ed. con esta portada</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="260">
+            <subfield code="a">[Barcelona]</subfield>
+            <subfield code="b">Debolsillo</subfield>
+            <subfield code="c">2009</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">494 p.</subfield>
+            <subfield code="c">19 cm</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="490">
+            <subfield code="a">Contemporánea</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="0" tag="830">
+            <subfield code="a">Contemporánea (Barcelona)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="901">
+            <subfield code="a">MON0906</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="915">
+            <subfield code="a">Monografías</subfield>
+            <subfield code="b">2009</subfield>
+            <subfield code="c">Literatura hispanoamericana</subfield>
+            <subfield code="c">Literatura española</subfield>
+            <subfield code="c">Literatura en lenguas romances</subfield>
+            <subfield code="c">Literatura</subfield>
+            <subfield code="c">Lingüística. Filología. Literatura</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">a4455601</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="956">
+            <subfield code="a">2</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="993">
+            <subfield code="a">4455601</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="994">
+            <subfield code="a">MONOMODERN</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1759515</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1001111982</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">30/3/2009</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/431017</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1001111983</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">30/3/2009</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">12/582399</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1001111984</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">30/3/2009</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1808014</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1001565611</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">21/8/2009</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 33342-2009</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/468804</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1001565612</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">21/8/2009</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 33342-2009</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1834830</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1001605125</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">18/1/2010</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 4336-2009</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/497881</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1001605124</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">23/2/2010</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 43336-2009</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/284918</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1001728229</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">6/4/2010</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 5392-2010</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1865118</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1001728230</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">6/4/2010</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 5392-2010</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/567211</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1102854364</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">26/11/2010</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 30255-2010</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/1938380</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1102854365</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">26/11/2010</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 30255-2010</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">DL/2030841</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1103666515</subfield>
+            <subfield code="l">CONSERVACI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">NO_PRESTA</subfield>
+            <subfield code="u">13/9/2011</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 27774-2011</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">AHMO/628236</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1103666516</subfield>
+            <subfield code="l">SG_PETANTI</subfield>
+            <subfield code="m">BNALCALA</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_MODE</subfield>
+            <subfield code="u">13/9/2011</subfield>
+            <subfield code="x">MONO_MODER</subfield>
+            <subfield code="z">DEPOSITO_LEGAL</subfield>
+            <subfield code="o">.PUBLIC. B 27774-2011</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991013133169708606</subfield>
+            <subfield code="8">221128658690008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Salón General-Petición anticipada</subfield>
+            <subfield code="d">12/582399</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">SG_PETANTI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991013133169708606</subfield>
+            <subfield code="8">221128658440008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/2030841</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">2</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991013133169708606</subfield>
+            <subfield code="8">221128658730008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1759515</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">3</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991013133169708606</subfield>
+            <subfield code="8">221128658670008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1808014</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">4</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991013133169708606</subfield>
+            <subfield code="8">221128658460008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1938380</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">5</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991013133169708606</subfield>
+            <subfield code="8">221128658610008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1834830</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">6</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991013133169708606</subfield>
+            <subfield code="8">221128658500008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNALCALA</subfield>
+            <subfield code="c">Ejemplar de conservación</subfield>
+            <subfield code="d">DL/1865118</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">CONSERVACI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">7</subfield>
+            <subfield code="q">Sede de Alcalá de Henares</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>991013133169708606</recordIdentifier>
+      <recordPosition>3</recordPosition>
+    </record>
+  </records>
+  <extraResponseData xmlns:xb="http://www.exlibris.com/repository/search/xmlbeans/">
+    <xb:exact>true</xb:exact>
+    <xb:responseDate>2026-11-19T07:54:09+0100</xb:responseDate>
+  </extraResponseData>
+</searchRetrieveResponse>

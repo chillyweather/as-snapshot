@@ -1,0 +1,95 @@
+{
+  "run_date": "2026-05-21",
+  "sources": [
+    {
+      "name": "Fixture Awards",
+      "family": "award",
+      "url": "https://example.test/awards",
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Deterministic fixture source.",
+      "fixture_candidates": [
+        {
+          "title": "Clear Fit Two Signals",
+          "primary_authors": ["Alex Example"],
+          "source_url": "https://example.test/awards/clear-fit",
+          "signal_strength": "winner",
+          "evidence_note": "Won a fixture award.",
+          "candidate_category": "popular science",
+          "publisher_fit": "clear fit",
+          "russian_edition_status": "not found in Russian",
+          "visible_risk_status": "no visible risk"
+        },
+        {
+          "title": "Unclear Russian Strong Signals",
+          "primary_authors": ["Robin Example"],
+          "source_url": "https://example.test/awards/unclear",
+          "signal_strength": "winner",
+          "evidence_note": "Won a fixture award.",
+          "candidate_category": "popular science",
+          "publisher_fit": "clear fit",
+          "russian_edition_status": "unclear",
+          "visible_risk_status": "no visible risk"
+        },
+        {
+          "title": "Risky Strong Signals",
+          "primary_authors": ["Taylor Example"],
+          "source_url": "https://example.test/awards/risky",
+          "signal_strength": "winner",
+          "evidence_note": "Won a fixture award.",
+          "candidate_category": "public affairs",
+          "publisher_fit": "clear fit",
+          "russian_edition_status": "not found in Russian",
+          "visible_risk_status": "clear book-content visible risk"
+        }
+      ]
+    },
+    {
+      "name": "Fixture Ranking",
+      "family": "bestseller/ranking",
+      "url": "https://example.test/ranking",
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Deterministic fixture source.",
+      "fixture_candidates": [
+        {
+          "title": "Clear Fit Two Signals",
+          "primary_authors": ["Alex Example"],
+          "source_url": "https://example.test/ranking/clear-fit",
+          "signal_strength": "top ranking",
+          "evidence_note": "Reached a top nonfiction ranking.",
+          "candidate_category": "popular science",
+          "publisher_fit": "clear fit",
+          "russian_edition_status": "not found in Russian",
+          "visible_risk_status": "no visible risk"
+        },
+        {
+          "title": "Unclear Russian Strong Signals",
+          "primary_authors": ["Robin Example"],
+          "source_url": "https://example.test/ranking/unclear",
+          "signal_strength": "top ranking",
+          "evidence_note": "Reached a top nonfiction ranking.",
+          "candidate_category": "popular science",
+          "publisher_fit": "clear fit",
+          "russian_edition_status": "unclear",
+          "visible_risk_status": "no visible risk"
+        },
+        {
+          "title": "Risky Strong Signals",
+          "primary_authors": ["Taylor Example"],
+          "source_url": "https://example.test/ranking/risky",
+          "signal_strength": "top ranking",
+          "evidence_note": "Reached a top nonfiction ranking.",
+          "candidate_category": "public affairs",
+          "publisher_fit": "clear fit",
+          "russian_edition_status": "not found in Russian",
+          "visible_risk_status": "clear book-content visible risk"
+        }
+      ]
+    }
+  ]
+}

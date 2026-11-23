@@ -1,0 +1,7 @@
+{
+  "source_url": "https://example.test/nonfiction-booklist",
+  "resolved_url": "https://example.test/nonfiction-booklist",
+  "head_status": 200,
+  "get_status": 200,
+  "html": "<!DOCTYPE html><html><head><title>Nonfiction Booklist</title></head><body><h1>Nonfiction Booklist</h1><script id=\"__NEXT_DATA__\">{\"props\":{\"pageProps\":{\"books\":[{\"title\":\"SPA Book One\",\"productURL\":\"https://bookshop.org/a/7775/9781234567890\",\"authors\":[\"Spa Author\"]},{\"title\":\"SPA Book Two\",\"productURL\":\"https://bookshop.org/a/7775/9780987654321\",\"authors\":[\"Another Author\"]}]}}}</script></body></html>"
+}

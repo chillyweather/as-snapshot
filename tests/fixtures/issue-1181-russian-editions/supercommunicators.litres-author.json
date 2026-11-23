@@ -1,0 +1,124 @@
+{
+ "status": 200,
+ "error": null,
+ "payload": {
+  "data": [
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 23308080,
+     "url": "/book/charlz-dahigg/vlast-privychki-pochemu-my-zhivem-i-rabotaem-imenno-tak-a-ne-23308080/",
+     "title": "Власть привычки. Почему мы живем и работаем именно так, а не иначе",
+     "language_code": "ru",
+     "date_written_at": "2012-01-01",
+     "persons": [
+      {
+       "full_name": "Чарлз Дахигг",
+       "role": "author"
+      },
+      {
+       "full_name": "А. А. Чечина",
+       "role": "translator"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 70925065,
+     "url": "/book/charlz-dahigg/virtuozy-obscheniya-sekret-uspeshnogo-vzaimodeystviya-s-ludm-70925065/",
+     "title": "Виртуозы общения. Секрет успешного взаимодействия с людьми",
+     "language_code": "ru",
+     "date_written_at": "2024-01-01",
+     "persons": [
+      {
+       "full_name": "Чарлз Дахигг",
+       "role": "author"
+      },
+      {
+       "full_name": "Дарья Целовальникова",
+       "role": "translator"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 74630821,
+     "url": "/book/charlz-dahigg/superkommunikatory-kak-vyigryvat-v-delovyh-i-lichnyh-peregov-74630821/",
+     "title": "Суперкоммуникаторы. Как выигрывать в деловых и личных переговорах по методам ЦРУ, NASA и бизнес-медиаторов",
+     "language_code": "ru",
+     "date_written_at": "2024-01-01",
+     "persons": [
+      {
+       "full_name": "Чарлз Дахигг",
+       "role": "author"
+      },
+      {
+       "full_name": "Наталья Половинко",
+       "role": "translator"
+      },
+      {
+       "full_name": "БОМБОРА",
+       "role": "publisher"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 22961530,
+     "url": "/book/charlz-dahigg/vosem-pravil-effektivnosti-umnee-bystree-luchshe-sekrety-pro-22961530/",
+     "title": "Восемь правил эффективности: умнее, быстрее, лучше. Секреты продуктивности в жизни и бизнесе",
+     "language_code": "ru",
+     "date_written_at": "2017-01-01",
+     "persons": [
+      {
+       "full_name": "Чарлз Дахигг",
+       "role": "author"
+      },
+      {
+       "full_name": "А. А. Чечина",
+       "role": "translator"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 55704533,
+     "url": "/book/smart-reading/kluchevye-idei-knigi-sila-privychki-pochemu-my-zhivem-i-rabo-55704533/",
+     "title": "Ключевые идеи книги: Сила привычки. Почему мы живем и работаем именно так, а не иначе. Чарлз Дахигг",
+     "language_code": "ru",
+     "date_written_at": "2020-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 56921300,
+     "url": "/book/smart-reading/kluchevye-idei-knigi-vosem-pravil-effektivnosti-umnee-bystre-56921300/",
+     "title": "Ключевые идеи книги: Восемь правил эффективности: умнее, быстрее, лучше. Секреты продуктивности в жизни и бизнесе. Чарлз Дахигг",
+     "language_code": "ru",
+     "date_written_at": "2020-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

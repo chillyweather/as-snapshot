@@ -1,0 +1,145 @@
+{
+  "capture_file": "runs/current-weekly-pilot-russian/codex-capture-bookmarks--lithub----new-nonfiction-d824846c.json",
+  "capture_sha256": "63b69d6f95ddac75eb8bc6909ad7be7779835ccdcc13d4658d851cc82137218a",
+  "censored": [
+    {
+      "boundary_supplier": "portfolio_deadline",
+      "diagnostic_class": "portfolio_budget_exhausted",
+      "final_status": "budget_exhausted",
+      "timeout_stage": "queue"
+    }
+  ],
+  "command_failure": [
+    {
+      "diagnostic_class": "command_failed_permission",
+      "final_status": "command_failed",
+      "mode": "intrinsic",
+      "raw_extracted_count": null,
+      "validated_count": null,
+      "worker_count": 1
+    }
+  ],
+  "follow_up_boundary": "A separate timeout and worker-policy investigation remains needed only if production-faithful post-repair evidence still shows slow or censored outcomes.",
+  "invalid": [
+    {
+      "diagnostic_class": "missing_required_fields",
+      "fixture": "tests/fixtures/issue-401/missing-required-fields.json",
+      "raw_extracted_count": 1,
+      "status": "invalid",
+      "validated_count": 0
+    },
+    {
+      "diagnostic_class": "unverifiable_provenance",
+      "fixture": "tests/fixtures/issue-401/unverifiable-provenance.json",
+      "raw_extracted_count": 1,
+      "status": "invalid",
+      "validated_count": 1
+    },
+    {
+      "diagnostic_class": "validation_failed",
+      "fixture": "tests/fixtures/issue-401/relative-provenance.json",
+      "raw_extracted_count": 1,
+      "status": "invalid",
+      "validated_count": 1
+    },
+    {
+      "diagnostic_class": "malformed_json",
+      "fixture": "tests/fixtures/issue-401/malformed-json.json",
+      "raw_extracted_count": null,
+      "status": "invalid",
+      "validated_count": null
+    },
+    {
+      "diagnostic_class": "unexpected_empty_extraction",
+      "fixture": "tests/fixtures/issue-401/empty-entries.json",
+      "raw_extracted_count": 0,
+      "status": "invalid",
+      "validated_count": 0
+    }
+  ],
+  "policy_conclusion": "No timeout or worker policy change is justified by offline repair evidence.",
+  "policy_limitation": "One observation for each mode is not enough to make a timeout or worker-policy decision.",
+  "post_prompt_probe": {
+    "cases": [
+      {
+        "diagnostic_class": "validated",
+        "mode": "intrinsic",
+        "raw_extracted_count": 40,
+        "status": "validated",
+        "validated_count": 40,
+        "worker_count": 1
+      },
+      {
+        "diagnostic_class": "unexpected_empty_extraction",
+        "mode": "production-shaped",
+        "raw_extracted_count": 0,
+        "status": "invalid",
+        "validated_count": 0,
+        "worker_count": 1
+      },
+      {
+        "diagnostic_class": "validated",
+        "mode": "production-shaped",
+        "raw_extracted_count": 39,
+        "status": "validated",
+        "validated_count": 39,
+        "worker_count": 2
+      },
+      {
+        "diagnostic_class": "validated",
+        "mode": "production-shaped",
+        "raw_extracted_count": 40,
+        "status": "validated",
+        "validated_count": 40,
+        "worker_count": 3
+      }
+    ],
+    "empty_output_count": 1,
+    "non_empty_validated_count": 3
+  },
+  "schema_version": "issue-401-offline-verification-3",
+  "source_name": "BookMarks (LitHub) – New Nonfiction",
+  "status_counts": {
+    "censored": 1,
+    "command_failure": 1,
+    "invalid": 5,
+    "timeout": 1,
+    "validated": 3
+  },
+  "timeout": [
+    {
+      "diagnostic_class": "codex_timeout",
+      "final_status": "timeout",
+      "mode": "intrinsic",
+      "raw_extracted_count": null,
+      "validated_count": null,
+      "worker_count": 1
+    }
+  ],
+  "validated": [
+    {
+      "diagnostic_class": "validated",
+      "final_status": "validated",
+      "mode": "intrinsic",
+      "raw_extracted_count": 1,
+      "validated_count": 1,
+      "worker_count": 1
+    },
+    {
+      "diagnostic_class": "validated",
+      "final_status": "validated",
+      "mode": "production-shaped",
+      "raw_extracted_count": 1,
+      "validated_count": 1,
+      "worker_count": 2
+    },
+    {
+      "diagnostic_class": "validated",
+      "final_status": "validated",
+      "mode": "production-shaped",
+      "raw_extracted_count": 1,
+      "validated_count": 1,
+      "worker_count": 3
+    }
+  ]
+}

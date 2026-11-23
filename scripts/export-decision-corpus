@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Export the dated, frozen decision corpus for the editorial memory prototype (issue #929).
+#
+# Offline. Reads current state through the State Store and earlier Candidate
+# History versions from Git; never changes canonical state. Writes
+# decisions.jsonl and manifest.json under data/decision-corpus/ (Git-ignored).
+#
+# Usage (from repository root or any subdirectory):
+#   ./scripts/export-decision-corpus [--ref <commit>] [--output-dir <dir>]
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+INTERPRETER="${REPO_ROOT}/.venv/bin/python"
+if [[ ! -x "${INTERPRETER}" ]]; then
+    INTERPRETER="$(command -v python3)"
+fi
+cd "${REPO_ROOT}"
+exec "${INTERPRETER}" -m autoscout export-decision-corpus \
+    --state-dir runs/current-weekly-pilot-russian \
+    "$@"

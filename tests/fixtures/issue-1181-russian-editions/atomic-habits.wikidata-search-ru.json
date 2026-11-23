@@ -1,0 +1,78 @@
+{
+ "searchinfo": {
+  "search": "James Clear"
+ },
+ "search": [
+  {
+   "id": "Q98178306",
+   "display": {
+    "label": {
+     "value": "Джеймс Клир",
+     "language": "ru"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "James Clear"
+   }
+  },
+  {
+   "id": "Q59769711",
+   "display": {
+    "label": {
+     "value": "James F Cleary",
+     "language": "en"
+    }
+   },
+   "match": {
+    "type": "alias",
+    "language": "en",
+    "text": "James Cleary"
+   }
+  },
+  {
+   "id": "Q90440013",
+   "display": {
+    "label": {
+     "value": "James M Cleary",
+     "language": "en"
+    }
+   },
+   "match": {
+    "type": "alias",
+    "language": "en",
+    "text": "James Cleary"
+   }
+  },
+  {
+   "id": "Q75353137",
+   "display": {
+    "label": {
+     "value": "James Cleary",
+     "language": "en"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "James Cleary"
+   }
+  },
+  {
+   "id": "Q6194227",
+   "display": {
+    "label": {
+     "value": "Джим Клири",
+     "language": "ru"
+    }
+   },
+   "match": {
+    "type": "alias",
+    "language": "en",
+    "text": "James Cleary"
+   }
+  }
+ ],
+ "success": 1
+}

@@ -1,0 +1,36 @@
+{
+ "searchinfo": {
+  "search": "Yuval Noah Harari"
+ },
+ "search": [
+  {
+   "id": "Q2484404",
+   "display": {
+    "label": {
+     "value": "Юваль Ной Харари",
+     "language": "ru"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Yuval Noah Harari"
+   }
+  },
+  {
+   "id": "Q23663341",
+   "display": {
+    "label": {
+     "value": "Юваль Ной Харари: Как человек стал править миром?",
+     "language": "ru"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Yuval Noah Harari: What explains the rise of humans?"
+   }
+  }
+ ],
+ "success": 1
+}

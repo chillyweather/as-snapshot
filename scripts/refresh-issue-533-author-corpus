@@ -1,0 +1,74 @@
+#!/usr/bin/env python3
+"""Regenerate the issue #533 author-name fixture from Candidate History.
+
+Issue #475 forbids a test from constructing a path into the moving weekly run
+alias, so the fixture is a committed snapshot rather than a live read.  This
+script is the synchronisation contract: run it whenever the author set of
+Candidate History changes, and commit the result.
+
+    ./scripts/refresh-issue-533-author-corpus [state-dir]
+
+Candidate History is read through the State Store of the state directory
+(default: the weekly state directory), so the script does not depend on how
+the store keeps it. The output is byte-stable for a given history, so a no-op
+run leaves the working tree clean.
+"""
+
+from __future__ import annotations
+
+import json
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from autoscout.state_store import Collection  # noqa: E402
+from autoscout.state_store import open_state_store  # noqa: E402
+
+DEFAULT_STATE_DIR = ROOT / "runs" / "current-weekly-pilot-russian"
+FIXTURE = ROOT / "tests" / "fixtures" / "issue-533-author-corpus" / "primary-authors.json"
+
+
+def main(argv: list[str]) -> int:
+    if len(argv) > 1:
+        print(__doc__)
+        return 2
+    state_dir = Path(argv[0]).resolve() if argv else DEFAULT_STATE_DIR
+    if not state_dir.is_dir():
+        print(f"error: no state directory at {state_dir}", file=sys.stderr)
+        return 1
+
+    entries = open_state_store(state_dir).read(Collection.CANDIDATE_HISTORY)
+    if not isinstance(entries, list):
+        print(f"error: the Candidate History of {state_dir} is not a list", file=sys.stderr)
+        return 1
+
+    names = sorted(
+        {str(author) for entry in entries for author in (entry.get("primary_authors") or []) if str(author).strip()}
+    )
+    if not names:
+        print(f"error: the Candidate History of {state_dir} holds no primary authors", file=sys.stderr)
+        return 1
+
+    previous = json.loads(FIXTURE.read_text(encoding="utf-8")) if FIXTURE.is_file() else {}
+    payload = {
+        "extracted_from": previous.get("extracted_from", "the weekly Candidate History"),
+        "extracted_on": previous.get("extracted_on", ""),
+        "entry_count": len(entries),
+        "note": (
+            "Verbatim primary-author values. The run alias moves, so issue #475 forbids reading it from a test. "
+            "Regenerate with ./scripts/refresh-issue-533-author-corpus and commit the result."
+        ),
+        "primary_authors": names,
+    }
+    rendered = json.dumps(payload, indent=2, ensure_ascii=False) + "\n"
+    changed = not FIXTURE.is_file() or FIXTURE.read_text(encoding="utf-8") != rendered
+    FIXTURE.parent.mkdir(parents=True, exist_ok=True)
+    FIXTURE.write_text(rendered, encoding="utf-8")
+    print(f"{'updated' if changed else 'unchanged'}: {FIXTURE} ({len(names)} names from {len(entries)} entries)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv[1:]))

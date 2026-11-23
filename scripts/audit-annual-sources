@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for the annual-source edition audit (#680).
+#
+# Callable without spelling `python`. Resolves a usable project
+# interpreter deterministically and execs the audit against the weekly
+# config. Without flags it is offline and judges the declared release
+# windows only. Extra arguments pass through, e.g.
+#   --live                      bounded check of the declared official pages
+#   --evidence-dir <dir>        replay captures instead of fetching
+#   --keep-evidence <dir>       with --live, keep the fetched pages
+#   --source "<name>"           one source only
+#   --propose                   zero-mutation rollover proposals
+#   --today YYYY-MM-DD          audit date
+# It never changes configuration, weekly state or any repository file.
+#
+# Usage (from repository root or any subdirectory):
+#   ./scripts/audit-annual-sources [--live] [--propose]
+
+set -euo pipefail
+
+# -- Resolve repository root ------------------------------------------------
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+# -- Resolve project interpreter --------------------------------------------
+# 1. The project-local virtualenv (fastest, no PATH lookup).
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    # 2. Host python3 (fallback).
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+# -- Change to repository root before exec ----------------------------------
+cd "${REPO_ROOT}"
+
+# -- Exec canonical command -------------------------------------------------
+exec "${INTERPRETER}" -m autoscout audit-annual-sources \
+    --config configs/current-weekly-pilot-live.json \
+    "$@"

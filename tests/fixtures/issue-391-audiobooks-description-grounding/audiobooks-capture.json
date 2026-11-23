@@ -1,0 +1,8 @@
+{
+  "collection_mode": "codex-capture",
+  "source_name": "Audiobooks.com Nonfiction Audiobook Bestsellers",
+  "source_page": "https://www.audiobooks.com/browse/non-fiction",
+  "source_url": "https://www.audiobooks.com/browse/non-fiction",
+  "resolved_url": "https://www.audiobooks.com/browse/non-fiction",
+  "html": "<html><body><h1>Non-Fiction</h1><span>Sort by: Bestselling</span><div class=\"book\"><a href=\"https://www.audiobooks.com/audiobook/kindred/283469\">Kindred</a><small>Octavia E. Butler</small></div><div class=\"book\"><a href=\"https://www.audiobooks.com/audiobook/ghost-girl/981321\">Ghost Girl</a><small>Eva Benefield</small></div></body></html>"
+}

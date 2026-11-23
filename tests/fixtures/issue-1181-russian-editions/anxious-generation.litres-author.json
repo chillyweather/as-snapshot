@@ -1,0 +1,100 @@
+{
+ "status": 200,
+ "error": null,
+ "payload": {
+  "data": [
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 69008548,
+     "url": "/book/smart-reading/pravednyy-razum-pochemu-horoshie-ludi-vrazhduut-iz-za-politi-69008548/",
+     "title": "Праведный разум. Почему хорошие люди враждуют из-за политики и религии. Джонатан Хайдт. Саммари",
+     "language_code": "ru",
+     "date_written_at": "2023-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 71565478,
+     "url": "/book/smart-reading/trevozhnoe-pokolenie-kak-velikaya-perestroyka-detstva-vyzyva-71565478/",
+     "title": "Тревожное поколение. Как Великая Перестройка детства вызывает эпидемию психических заболеваний. Джонатан Хайдт. Саммари",
+     "language_code": "ru",
+     "date_written_at": "2025-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 72420829,
+     "url": "/book/dzhonatan-haydt/trevozhnoe-pokolenie-kak-velikoe-podkluchenie-detstva-vyzy-72420829/",
+     "title": "Тревожное поколение. Как Великое подключение детства вызывает эпидемию душевных болезней",
+     "language_code": "ru",
+     "date_written_at": "2024-01-01",
+     "persons": [
+      {
+       "full_name": "Джонатан Хайдт",
+       "role": "author"
+      },
+      {
+       "full_name": "Владислав Дегтярев",
+       "role": "translator"
+      },
+      {
+       "full_name": "Издательство Corpus",
+       "role": "publisher"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 71056480,
+     "url": "/book/kseniya-sidorkina-33/sammari-knigi-dzhonatana-haydta-trevozhnoe-pokolenie-71056480/",
+     "title": "Саммари книги Джонатана Хайдта «Тревожное поколение. Как великая перестройка детства вызывает эпидемию психических заболеваний»",
+     "language_code": "ru",
+     "date_written_at": "2024-01-01",
+     "persons": [
+      {
+       "full_name": "Ксения Сидоркина",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 51694978,
+     "url": "/book/dzhonatan-haydt/stakan-vsegda-napolovinu-polon-10-velikih-idey-o-tom-kak-s-51694978/",
+     "title": "Стакан всегда наполовину полон! 10 великих идей о том, как стать счастливым",
+     "language_code": "ru",
+     "date_written_at": "2006-01-01",
+     "persons": [
+      {
+       "full_name": "Джонатан Хайдт",
+       "role": "author"
+      },
+      {
+       "full_name": "Анастасия Бродоцкая",
+       "role": "translator"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

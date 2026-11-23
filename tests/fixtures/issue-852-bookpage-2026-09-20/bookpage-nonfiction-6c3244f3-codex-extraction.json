@@ -1,0 +1,189 @@
+{
+  "capture_sha256": "6f479baee3b404072d1982d5e7a6bd4cdda155745e8e74b67916612ee53733a0",
+  "entries": [
+    {
+      "candidate_category": "adult nonfiction",
+      "content_description": "Книга возвращает в центр внимания вклад женщин-ветеранов Второй мировой войны. Её редакционный крючок — историческая коррекция привычного рассказа о войне и признание заслуг этих участниц.",
+      "evidence_note": "BookPage включил книгу в раздел рецензий по истории и нон-фикшену.",
+      "evidence_url": "https://www.bookpage.com/reviews/valiant-women/",
+      "primary_authors": [
+        "Не указан в HTML"
+      ],
+      "publication_year": "",
+      "publisher": "",
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/valiant-women/",
+      "title": "Valiant Women"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "content_description": "Книга исследует культурные ориентиры белых христианок, включая религиозные практики, телевизионную романтику и сетевой маркетинг. Автор соединяет критический взгляд с попыткой понять привлекательность этих явлений.",
+      "evidence_note": "BookPage представил книгу в категории Arts & Culture и Nonfiction.",
+      "evidence_url": "https://www.bookpage.com/reviews/live-laugh-love-kristin-kobes-du-mez-book-review/",
+      "primary_authors": [
+        "Kristin Kobes Du Mez"
+      ],
+      "publication_year": "",
+      "publisher": "",
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/live-laugh-love-kristin-kobes-du-mez-book-review/",
+      "title": "Live Laugh Love"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "content_description": "Фотокнига собирает наблюдательные снимки комиков и актёров. Её привлекательность строится на сочетании непосредственности, юмора и неожиданных человеческих деталей.",
+      "evidence_note": "BookPage включил фотокнигу в текущую подборку нон-фикшен-рецензий.",
+      "evidence_url": "https://www.bookpage.com/reviews/best-seat-in-the-house-jeff-garlin-book-review/",
+      "primary_authors": [
+        "Jeff Garlin"
+      ],
+      "publication_year": "",
+      "publisher": "",
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/best-seat-in-the-house-jeff-garlin-book-review/",
+      "title": "Best Seat in the House"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "content_description": "Это практическая кулинарная книга для занятых читателей и тех, кто не любит готовить. Редакционный угол — быстрые блюда, рассчитанные на широкий круг домашних поваров.",
+      "evidence_note": "BookPage включил книгу в раздел Nonfiction как рецензию на кулинарное издание.",
+      "evidence_url": "https://www.bookpage.com/reviews/make-it-fast-caroline-chambers-book-review/",
+      "primary_authors": [
+        "Caroline Chambers"
+      ],
+      "publication_year": "",
+      "publisher": "",
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/make-it-fast-caroline-chambers-book-review/",
+      "title": "What to Cook When You Don’t Feel Like Cooking: Make It Fast"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "content_description": "Книга рассматривает сказки через более мрачную и сложную оптику, выходящую за пределы привычных мультяшных образов. Её хук — переосмысление знакомого материала с акцентом на тревожные и глубокие стороны жанра.",
+      "evidence_note": "BookPage представил книгу как рецензию в разделе Nonfiction.",
+      "evidence_url": "https://www.bookpage.com/reviews/art-of-fairy-tales-joanna-ebenstein-book-review/",
+      "primary_authors": [
+        "Joanna Ebenstein"
+      ],
+      "publication_year": "",
+      "publisher": "",
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/art-of-fairy-tales-joanna-ebenstein-book-review/",
+      "title": "The Art of Fairy Tales"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "content_description": "Книга предлагает острый анализ современного фашизма и политической тревоги. Её редакционный хук — намеренно провокативное высказывание, призванное вызвать общественную дискуссию.",
+      "evidence_note": "BookPage включил книгу в текущий список рецензий по нон-фикшену.",
+      "evidence_url": "https://www.bookpage.com/reviews/end-times-fascism-naomi-klein-astra-taylor-book-review/",
+      "primary_authors": [
+        "Naomi Klein",
+        "Astra Taylor"
+      ],
+      "publication_year": "",
+      "publisher": "",
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/end-times-fascism-naomi-klein-astra-taylor-book-review/",
+      "title": "End Times Fascism"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "content_description": "Книга исследует, почему женщинам бывает трудно отказывать и устанавливать границы. Отказ рассматривается как инструмент эмоционального благополучия и более самостоятельного выбора.",
+      "evidence_note": "BookPage представил книгу как рецензию в разделе Nonfiction.",
+      "evidence_url": "https://www.bookpage.com/reviews/the-power-of-no-anna-holmes-book-review/",
+      "primary_authors": [
+        "Anna Holmes"
+      ],
+      "publication_year": "",
+      "publisher": "",
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/the-power-of-no-anna-holmes-book-review/",
+      "title": "The Power of No"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "content_description": "Автор исследует онлайн-среду, связанную с кризисом маскулинности и маносферой. Книга сочетает мрачную проблематику с разоружающим юмористическим подходом.",
+      "evidence_note": "BookPage включил книгу в подборку рецензий по нон-фикшену.",
+      "evidence_url": "https://www.bookpage.com/reviews/castle-jon-ronson-book-review/",
+      "primary_authors": [
+        "Jon Ronson"
+      ],
+      "publication_year": "",
+      "publisher": "",
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/castle-jon-ronson-book-review/",
+      "title": "The Castle"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "content_description": "Книга через семейный опыт рассматривает работу чернокожего полицейского и противоречия власти. Её центральный вопрос — освобождает ли человека контроль над свободой другого.",
+      "evidence_note": "BookPage представил книгу как рецензию в разделе Nonfiction.",
+      "evidence_url": "https://www.bookpage.com/reviews/black-shield-wilbert-l-cooper-book-review/",
+      "primary_authors": [
+        "Wilbert L. Cooper"
+      ],
+      "publication_year": "",
+      "publisher": "",
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/black-shield-wilbert-l-cooper-book-review/",
+      "title": "The Black Shield"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "content_description": "Книга критикует культуру постоянной занятости и выгорания. Автор предлагает воспринимать уход с бесперспективного пути как осмысленный и мужественный шаг к более счастливой жизни.",
+      "evidence_note": "BookPage включил книгу в раздел Nonfiction и связал её с темой отказа от выматывающего пути.",
+      "evidence_url": "https://www.bookpage.com/reviews/case-for-quitting-lindsay-crouse-book-review/",
+      "primary_authors": [
+        "Lindsay Crouse"
+      ],
+      "publication_year": "",
+      "publisher": "",
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/case-for-quitting-lindsay-crouse-book-review/",
+      "title": "The Case for Quitting"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "content_description": "Датская журналистка отправляется на поиски всех видов бабочек своей страны. Книга превращает это исследование в созерцательное и увлекательное путешествие по природе.",
+      "evidence_note": "BookPage упомянул книгу в разделе Nonfiction среди материалов о книгах в переводе.",
+      "evidence_url": "https://www.bookpage.com/reviews/butterfly-season-lea-korsgaard-book-review/",
+      "primary_authors": [
+        "Lea Korsgaard"
+      ],
+      "publication_year": "",
+      "publisher": "",
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/butterfly-season-lea-korsgaard-book-review/",
+      "title": "The Butterfly Season"
+    },
+    {
+      "candidate_category": "adult nonfiction",
+      "content_description": "Мемуар рассказывает о возвращении автора на Аппалачскую тропу спустя десятилетия после первого похода. Личный маршрут оказывается связан с памятью о жестоком событии, постигшем двух других туристов.",
+      "evidence_note": "BookPage представил мемуар о возвращении к Аппалачской тропе в разделе Nonfiction.",
+      "evidence_url": "https://www.bookpage.com/reviews/up-on-cove-mountain-earl-swift-book-review/",
+      "primary_authors": [
+        "Earl Swift"
+      ],
+      "publication_year": "",
+      "publisher": "",
+      "signal_strength": "minor mention",
+      "signal_type": "media/curated list",
+      "source_url": "https://www.bookpage.com/reviews/up-on-cove-mountain-earl-swift-book-review/",
+      "title": "Up on Cove Mountain"
+    }
+  ],
+  "operation_id": "9c0ad8d14cef5214f9bd500da0fe6f060f91fbc5a2fcd9016edd3574c05d71fd",
+  "source_name": "BookPage Nonfiction",
+  "source_url": "https://www.bookpage.com/genres/nonfiction/"
+}

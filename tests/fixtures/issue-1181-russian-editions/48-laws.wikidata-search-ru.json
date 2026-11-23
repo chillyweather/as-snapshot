@@ -1,0 +1,78 @@
+{
+ "searchinfo": {
+  "search": "Robert Greene"
+ },
+ "search": [
+  {
+   "id": "Q433651",
+   "display": {
+    "label": {
+     "value": "Роберт Грин",
+     "language": "ru"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Robert Greene"
+   }
+  },
+  {
+   "id": "Q1386992",
+   "display": {
+    "label": {
+     "value": "Роберт Грин",
+     "language": "ru"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Robert Greene"
+   }
+  },
+  {
+   "id": "Q820609",
+   "display": {
+    "label": {
+     "value": "Robert Greene",
+     "language": "mul"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Robert Greene"
+   }
+  },
+  {
+   "id": "Q7344935",
+   "display": {
+    "label": {
+     "value": "Robert Greene",
+     "language": "mul"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Robert Greene"
+   }
+  },
+  {
+   "id": "Q131008002",
+   "display": {
+    "label": {
+     "value": "Robert Greene",
+     "language": "mul"
+    }
+   },
+   "match": {
+    "type": "label",
+    "language": "en",
+    "text": "Robert Greene"
+   }
+  }
+ ],
+ "success": 1
+}

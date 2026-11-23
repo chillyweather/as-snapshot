@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for the booksellers' portal first load (Issue #1140).
+#
+# Asks todostuslibros.com once about the Spanish-list books already in
+# Candidate History, for «Idioma original» and the page count, under CEGAL's
+# permission of 2026-11-19: at most 500 lookups in total for the first load,
+# one request per 1.5 seconds, each ISBN asked once. It writes only the portal
+# ledger in the state directory and calls no model.
+# Without --apply it asks and writes nothing and exits 3. --limit N asks at
+# most N ISBNs in this call. It prints counts only, never titles.
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+cd "${REPO_ROOT}"
+
+exec "${INTERPRETER}" -m autoscout portal-first-load \
+    --config configs/current-weekly-pilot-live.json \
+    --state-dir runs/current-weekly-pilot-russian \
+    "$@"

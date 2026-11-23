@@ -1,0 +1,88 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "autoscout"
+version = "0.1.0"
+description = "Scouting and editorial-intelligence tool for nonfiction books"
+readme = "README.md"
+license = { text = "Proprietary" }
+requires-python = ">=3.12"
+authors = [
+    { name = "Dmitri Dmitriev", email = "dima@earendil.works" },
+]
+keywords = ["scouting", "nonfiction", "editorial", "books"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing",
+]
+
+[project.scripts]
+autoscout = "autoscout.__main__:main"
+
+[project.optional-dependencies]
+pw = ["pypdf==6.21.4"]
+dev = [
+    "pytest==8.4.2",
+    "pytest-xdist==3.8.0",
+    "ruff==0.11.13",
+    "mypy==1.20.2",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["autoscout"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "W",   # pycodestyle warnings
+    "I",   # isort (import ordering)
+    "B",   # flake8-bugbear
+    "UP",  # pyupgrade
+    "RUF", # ruff-specific rules
+]
+ignore = [
+    "E501",  # line-too-long (handled by formatter)
+    "RUF001", # ambiguous characters: project uses Cyrillic, en dashes, smart quotes intentionally
+    "B904",   # raise-without-from: intentional error-handling style
+    "F402",   # loop-variable shadowing `field` from dataclasses: accepted pattern
+    "W605",   # invalid escape sequence in docstring: intentional in test strings
+]
+
+[tool.ruff.lint.isort]
+force-single-line = true
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.mypy]
+python_version = "3.12"
+strict = false
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+ignore_missing_imports = true
+warn_unused_ignores = false
+exclude = ["tests/", "tmp/", "runs/"]
+[[tool.mypy.overrides]]
+module = ["autoscout.source_collectors", "autoscout.source_collectors.*"]
+disable_error_code = ["return-value"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["*Tests"]
+python_functions = ["test_*"]
+# Some tests copy a whole repository into tmp_path (about 140 MB each). Keep
+# those trees only for failed tests, so a passing run does not fill /tmp.
+tmp_path_retention_policy = "failed"

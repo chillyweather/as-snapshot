@@ -1,0 +1,112 @@
+{
+ "status": 200,
+ "error": null,
+ "payload": {
+  "data": [
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 48514275,
+     "url": "/book/dzheyms-klir/atomnye-privychki-kak-priobresti-horoshie-privychki-i-izbavit-48514275/",
+     "title": "Атомные привычки. Как приобрести хорошие привычки и избавиться от плохих",
+     "language_code": "ru",
+     "date_written_at": "2018-01-01",
+     "persons": [
+      {
+       "full_name": "Джеймс Клир",
+       "role": "author"
+      },
+      {
+       "full_name": "К. Шашкова",
+       "role": "translator"
+      },
+      {
+       "full_name": "Юлия Чекмарева",
+       "role": "translator"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 74240481,
+     "url": "/book/dzheyms-klir/atomnye-privychki-kak-priobresti-horoshie-privychki-i-izbavit-74240481/",
+     "title": "Атомные привычки. Как приобрести хорошие привычки и избавиться от плохих. Краткая версия",
+     "language_code": "ru",
+     "date_written_at": "2026-01-01",
+     "persons": [
+      {
+       "full_name": "Джеймс Клир",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 68842590,
+     "url": "/book/dzheyms-klir/atom-odatlar-kichik-uzarishlar-katta-natizhalar-68842590/",
+     "title": "АТОМ ОДАТЛАР: Кичик ўзаришлар, катта натижалар",
+     "language_code": "uz",
+     "date_written_at": null,
+     "persons": [
+      {
+       "full_name": "Джеймс Клир",
+       "role": "author"
+      },
+      {
+       "full_name": "Сарвиноз Қосимова",
+       "role": "translator"
+      },
+      {
+       "full_name": "Зиёдахон Ғуломова",
+       "role": "editor"
+      },
+      {
+       "full_name": "Йигитали Маҳмудов",
+       "role": "corrector"
+      },
+      {
+       "full_name": "Умида Абдусаломова",
+       "role": "corrector"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 73984317,
+     "url": "/book/dzhordzh-dzh-tompson/dzheyms-klir-zolotye-pravila-vse-glavnye-mysli-v-odno-73984317/",
+     "title": "Джеймс Клир. Золотые правила. Все главные мысли в одной книге",
+     "language_code": "ru",
+     "date_written_at": "2026-01-01",
+     "persons": [
+      {
+       "full_name": "Джордж Дж. Томпсон",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 57068765,
+     "url": "/book/smart-reading/kluchevye-idei-knigi-razbiraem-privychki-na-atomy-kak-priobr-57068765/",
+     "title": "Ключевые идеи книги: Разбираем привычки на атомы. Как приобрести хорошие и отказаться от плохих. Джеймс Клир",
+     "language_code": "ru",
+     "date_written_at": "2020-01-01",
+     "persons": [
+      {
+       "full_name": "Smart Reading",
+       "role": "author"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

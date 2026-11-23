@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for the Kirkus pre-collection step.
+#
+# One pass over the Kirkus coming-soon nonfiction listing, with the delay the
+# site asks for between requests. It writes the result the weekly run reads;
+# ./scripts/run-weekly starts the same pass itself once a day, so this
+# launcher is for a refresh outside a weekly run. A pass takes up to about
+# half an hour.
+#
+# Usage (from repository root or any subdirectory):
+#   ./scripts/collect-kirkus
+#   ./scripts/collect-kirkus --scheduled   (the server's 01:30 timer, #1057)
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+declare VENV_PYTHON="${REPO_ROOT}/.venv/bin/python"
+if [[ -x "${VENV_PYTHON}" ]]; then
+    INTERPRETER="${VENV_PYTHON}"
+elif command -v python3 >/dev/null 2>&1; then
+    INTERPRETER="$(command -v python3)"
+else
+    echo "auto-scout: no usable Python interpreter found" >&2
+    echo "  checked: ${VENV_PYTHON} (not executable)" >&2
+    echo "  python3 not on PATH" >&2
+    exit 1
+fi
+
+cd "${REPO_ROOT}"
+
+exec "${INTERPRETER}" -m autoscout collect-kirkus \
+    --config configs/current-weekly-pilot-live.json \
+    "$@"

@@ -1,0 +1,153 @@
+{
+  "capture_ledger_status": "absent",
+  "capture_source_outcome_counts": {
+    "codex-captured": 0,
+    "failed": 0,
+    "ignored": 1,
+    "inactive": 1,
+    "not-due": 0,
+    "precollected": 0,
+    "skipped": 1,
+    "unknown": 0
+  },
+  "codex_captured_source_count": 0,
+  "codex_workflow_health": "healthy",
+  "collection_mode": "mixed",
+  "collection_modes": [
+    "codex-capture",
+    "fixture-replay",
+    "replay"
+  ],
+  "derived_rule_suggestion_count": 0,
+  "description_coverage": {
+    "below_depth_count": 0,
+    "coverage": "partial",
+    "coverage_denominator": 7,
+    "depth_coverage": "partial",
+    "depth_policy_version": 1,
+    "fallback_by_source": [
+      {
+        "candidate_count": 3,
+        "fallback_count": 3,
+        "reason_counts": {},
+        "source_name": "Fixture Collector Recorded Golden Source"
+      },
+      {
+        "candidate_count": 1,
+        "fallback_count": 1,
+        "reason_counts": {},
+        "source_name": "Agent Extraction Golden List"
+      },
+      {
+        "candidate_count": 1,
+        "fallback_count": 1,
+        "reason_counts": {},
+        "source_name": "BookPage Best Nonfiction"
+      },
+      {
+        "candidate_count": 1,
+        "fallback_count": 1,
+        "reason_counts": {},
+        "source_name": "Codex Extraction Golden Nonfiction"
+      },
+      {
+        "candidate_count": 1,
+        "fallback_count": 1,
+        "reason_counts": {},
+        "source_name": "NPR Golden Run Nonfiction Staff Picks"
+      }
+    ],
+    "fallback_count": 7,
+    "fallback_ids": [
+      "agent golden book|riley golden",
+      "bookpage golden book|morgan golden",
+      "codex golden book|jordan golden",
+      "collector golden book|casey collector",
+      "fixture golden book|alex fixture",
+      "npr golden book|kara golden",
+      "recorded golden book|riley recorded"
+    ],
+    "invalid_reason_counts": {},
+    "meets_depth_count": 0,
+    "not_yet_published_count": 0,
+    "sourced_below_depth_count": 0,
+    "sourced_count": 0,
+    "total_candidates": 7,
+    "unsourced_count": 0,
+    "validated_count": 0
+  },
+  "editor_facing_count": 7,
+  "editor_row_target": 10,
+  "editorial_taste_profile_effects": [],
+  "evidence_digest": "ac1583e2caab07fad7ad2e1f6c6c4d660fd755841eca82b959ad7f3368ac7916",
+  "excluded_candidate_count": 0,
+  "failed_source_count": 0,
+  "feedback_config_digest": "",
+  "freshly_collected_count": 5,
+  "hidden_by_rule_count": 0,
+  "ignored_source_count": 1,
+  "inactive_source_count": 1,
+  "major_warnings": [
+    "1 configured source skipped",
+    "1 configured discovery source ignored",
+    "7 editor-facing rows produced; fewer than target 10"
+  ],
+  "new_source_proposal_count": 0,
+  "operation_id": "",
+  "pending_source_proposal_count": 0,
+  "precollected_source_count": 0,
+  "raw_candidate_count": 7,
+  "readiness_purpose": "seed-calibration",
+  "reused_artifact_count": 0,
+  "rights_deal_evidence_note": "absence of open rights/deal mentions is not evidence of no rights activity",
+  "row_cap_dropped_count": 0,
+  "row_count_departures": [],
+  "run_date": "2026-06-15",
+  "russian_check_failed_count": 0,
+  "russian_check_skipped_count": 0,
+  "russian_check_unclear_count": 0,
+  "shortfall_reason": "fewer than 10 editor-facing rows produced; source scarcity or source-boundary limits: 1 configured source skipped, 1 non-discovery source ignored",
+  "skipped_source_count": 1,
+  "source_contributions": [
+    {
+      "editor_facing_contribution": 1,
+      "mention_count": 1,
+      "source_name": "Agent Extraction Golden List"
+    },
+    {
+      "editor_facing_contribution": 1,
+      "mention_count": 1,
+      "source_name": "BookPage Best Nonfiction"
+    },
+    {
+      "editor_facing_contribution": 1,
+      "mention_count": 1,
+      "source_name": "Codex Extraction Golden Nonfiction"
+    },
+    {
+      "editor_facing_contribution": 3,
+      "mention_count": 3,
+      "source_name": "Fixture Collector Recorded Golden Source"
+    },
+    {
+      "editor_facing_contribution": 1,
+      "mention_count": 1,
+      "source_name": "NPR Golden Run Nonfiction Staff Picks"
+    }
+  ],
+  "source_metrics_window_weeks": 8,
+  "source_volume_status": "below_target_with_skips",
+  "unknown_source_count": 0,
+  "update_delta_counts": {
+    "changed": 0,
+    "new": 7,
+    "unchanged": 0,
+    "upgraded": 0
+  },
+  "visible_risk_screen_coverage_counts": {
+    "failed": 0,
+    "not_run": 0,
+    "partial": 5,
+    "screened": 2
+  }
+}

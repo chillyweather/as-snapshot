@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nonfiction.fr joint-review fixture</title>
+    <item>
+      <title>A joint review headline, not the book titles</title>
+      <link>https://www.nonfiction.fr/article-200-review-card.htm</link>
+      <description>This synthetic review text must be ignored.</description>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.nonfiction.fr/article-200-review-card.htm</guid>
+      <content:encoded><![CDATA[<p>This synthetic full article field must be ignored.</p>]]></content:encoded>
+    </item>
+  </channel>
+</rss>

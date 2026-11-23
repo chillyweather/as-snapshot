@@ -1,0 +1,52 @@
+{
+  "target": {
+    "candidate_id": "candidate-work-001",
+    "identity_key": "the work|alex author",
+    "title": "The Work: A Complete Study",
+    "primary_authors": ["Alex Author"]
+  },
+  "agreeing_sources": [
+    {
+      "url": "https://review.example.test/books/the-work",
+      "source_kind": "review",
+      "source_family": "review-owner",
+      "owner_id": "review-owner",
+      "source_language": "en",
+      "title": "The Work",
+      "primary_authors": ["Alex Author"],
+      "subject_text": "A study of memory, migration, and public life.",
+      "subject_key": "memory migration public life",
+      "checked_date": "2026-09-01"
+    },
+    {
+      "url": "https://publisher.example.test/catalog/the-work",
+      "source_kind": "publisher",
+      "source_family": "publisher-owner",
+      "owner_id": "publisher-owner",
+      "source_language": "en",
+      "title": "The Work: A Complete Study",
+      "primary_authors": ["Alex Author"],
+      "subject_text": "The book examines memory, migration, and public life.",
+      "subject_key": "memory migration public life",
+      "checked_date": "2026-09-01"
+    }
+  ],
+  "title_only": {
+    "url": "https://catalog.example.test/the-work",
+    "source_kind": "catalog",
+    "source_family": "catalog-owner",
+    "owner_id": "catalog-owner",
+    "title": "The Work",
+    "primary_authors": ["Alex Author"]
+  },
+  "search_snippet": {
+    "url": "https://search.example.test/?q=the-work",
+    "source_kind": "review",
+    "source_family": "review-owner",
+    "owner_id": "search-owner",
+    "title": "The Work",
+    "primary_authors": ["Alex Author"],
+    "subject_text": "A study of memory and migration.",
+    "is_search_snippet": true
+  }
+}

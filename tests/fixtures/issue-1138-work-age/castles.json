@@ -1,0 +1,31 @@
+{
+  "numFound": 1,
+  "start": 0,
+  "numFoundExact": true,
+  "num_found": 1,
+  "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+  "q": "",
+  "offset": null,
+  "docs": [
+    {
+      "author_name": [
+        "Gwyneth Jones"
+      ],
+      "edition_count": 4,
+      "first_publish_year": 2002,
+      "key": "/works/OL2354512W",
+      "title": "Castles made of sand",
+      "editions": {
+        "numFound": 4,
+        "start": 0,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "key": "/books/OL7878710M",
+            "title": "Castles Made of Sand"
+          }
+        ]
+      }
+    }
+  ]
+}

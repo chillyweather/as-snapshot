@@ -1,0 +1,161 @@
+{
+  "run_date": "2026-08-15",
+  "source_runs": [
+    {
+      "source_name": "Failed Capture One",
+      "url": "https://example.test/failed-capture-one",
+      "status": "failed",
+      "reason": "capture timeout"
+    },
+    {
+      "source_name": "Failed Capture Two",
+      "url": "https://example.test/failed-capture-two",
+      "status": "failed",
+      "reason": "wrong target"
+    },
+    {
+      "source_name": "Skipped Source",
+      "url": "https://example.test/skipped-source",
+      "status": "skipped",
+      "reason": "paid"
+    },
+    {
+      "source_name": "Precollected Source",
+      "url": "https://example.test/precollected-source",
+      "status": "precollected",
+      "reason": ""
+    },
+    {
+      "source_name": "Inactive Source",
+      "url": "https://example.test/inactive-source",
+      "status": "inactive",
+      "reason": "source is disabled"
+    },
+    {
+      "source_name": "Ignored Source",
+      "url": "https://example.test/ignored-source",
+      "status": "ignored",
+      "reason": "source family is not allowed to create Scouting Candidate mentions"
+    },
+    {
+      "source_name": "Successful Captured Source",
+      "url": "https://example.test/successful-captured-source",
+      "status": "codex-captured",
+      "reason": ""
+    },
+    {
+      "source_name": "Unknown Source",
+      "url": "https://example.test/unknown-source",
+      "status": "unexpected-status",
+      "reason": "fixture exercises fail-closed reporting"
+    }
+  ],
+  "work_items": [
+    {
+      "source_name": "Successful Captured Source",
+      "source_family": "media/curated list",
+      "source_url": "https://example.test/successful-captured-source",
+      "capture_file": "successful-captured-source.html.json",
+      "expected_extraction_file": "successful-captured-source-extraction.json",
+      "extraction_method": "codex",
+      "source_metadata": {
+        "access_status": "open",
+        "check_frequency": "weekly",
+        "language": "en",
+        "notes": ""
+      }
+    }
+  ],
+  "precollected_source": {
+    "name": "Precollected Source",
+    "family": "media/curated list",
+    "url": "https://example.test/precollected-source",
+    "active": true,
+    "access_status": "open",
+    "extraction_method": "recorded",
+    "check_frequency": "weekly",
+    "language": "en",
+    "notes": "",
+    "recorded_mentions_file": "precollected-source.json"
+  },
+  "captured_pages": {
+    "Successful Captured Source": {
+      "source_url": "https://example.test/successful-captured-source",
+      "resolved_url": "https://example.test/successful-captured-source",
+      "source_page": "https://example.test/successful-captured-source",
+      "html": "<html><body><a href=\"https://example.test/successful-book\">Successful Book</a> by A Successful Captured Author</body></html>"
+    }
+  },
+  "extraction_entries_by_source": {
+    "Successful Captured Source": [
+      {
+        "title": "A Successful Captured Book",
+        "primary_authors": [
+          "A Successful Captured Author"
+        ],
+        "source_url": "https://example.test/successful-book",
+        "evidence_url": "https://example.test/successful-book",
+        "evidence_note": "Fixture evidence.",
+        "candidate_category": "history",
+        "signal_type": "media list",
+        "signal_strength": "minor mention"
+      }
+    ]
+  },
+  "mixed_stage_source": {
+    "source_run": {
+      "source_name": "Pipeline Failure Source",
+      "url": "https://example.test/pipeline-failure-source",
+      "status": "codex-captured",
+      "reason": ""
+    },
+    "work_item": {
+      "source_name": "Pipeline Failure Source",
+      "source_family": "award",
+      "source_url": "https://example.test/pipeline-failure-source",
+      "capture_file": "pipeline-failure-source.html.json",
+      "expected_extraction_file": "pipeline-failure-source-extraction.json",
+      "extraction_method": "codex",
+      "source_metadata": {
+        "access_status": "open",
+        "check_frequency": "weekly",
+        "language": "en",
+        "notes": ""
+      }
+    },
+    "captured_page": {
+      "source_url": "https://example.test/pipeline-failure-source",
+      "resolved_url": "https://example.test/pipeline-failure-source",
+      "source_page": "https://example.test/pipeline-failure-source",
+      "html": "<html><body><h1>Pipeline Failure Source</h1></body></html>"
+    },
+    "extraction_entries": [
+      {
+        "title": "A Pipeline Failure Book",
+        "primary_authors": [
+          "A Pipeline Failure Author"
+        ],
+        "source_url": "https://example.test/pipeline-failure-book",
+        "evidence_url": "https://example.test/pipeline-failure-book",
+        "evidence_note": "The evidence URL is absent from the captured page.",
+        "candidate_category": "history",
+        "signal_type": "award shortlist",
+        "signal_strength": "shortlist"
+      }
+    ]
+  },
+  "precollected_mention": {
+    "title": "A Precollected Book",
+    "primary_authors": [
+      "A Precollected Author"
+    ],
+    "source_url": "https://example.test/precollected-book",
+    "evidence_url": "https://example.test/precollected-book",
+    "evidence_note": "Fixture evidence.",
+    "candidate_category": "history",
+    "signal_type": "media list",
+    "signal_strength": "minor mention",
+    "source_check_date": "2026-08-15",
+    "source_name": "Precollected Source"
+  }
+}

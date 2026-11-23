@@ -1,0 +1,75 @@
+{
+  "run_date": "2026-06-13",
+  "editor_row_target": 25,
+  "sources": [
+    {
+      "name": "Fixture Awards",
+      "family": "award",
+      "url": "https://example.test/awards",
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "fixture_candidates": [
+        {
+          "title": "Signal Diversity Book",
+          "primary_authors": ["Alex Example"],
+          "source_url": "https://example.test/awards/book",
+          "signal_strength": "shortlist",
+          "evidence_note": "Shortlisted for a fixture award."
+        },
+        {
+          "title": "Signal Diversity Book",
+          "primary_authors": ["Alex Example"],
+          "source_url": "https://example.test/awards/book-duplicate",
+          "signal_strength": "shortlist",
+          "evidence_note": "Second award-family mention."
+        },
+        {
+          "title": "Single Signal Book",
+          "primary_authors": ["Robin Example"],
+          "source_url": "https://example.test/awards/single",
+          "signal_strength": "shortlist",
+          "evidence_note": "Single comparable award signal."
+        }
+      ]
+    },
+    {
+      "name": "Fixture Readers",
+      "family": "reader-interest",
+      "url": "https://example.test/readers",
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "fixture_candidates": [
+        {
+          "title": "Signal Diversity Book",
+          "primary_authors": ["Alex Example"],
+          "source_url": "https://example.test/readers/book",
+          "signal_strength": "reader choice winner",
+          "evidence_note": "Reader-voted winner."
+        }
+      ]
+    },
+    {
+      "name": "Fixture Audio",
+      "family": "audiobook ranking",
+      "url": "https://example.test/audio",
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "fixture_candidates": [
+        {
+          "title": "Signal Diversity Book",
+          "primary_authors": ["Alex Example"],
+          "source_url": "https://example.test/audio/book",
+          "signal_strength": "top ranking",
+          "evidence_note": "Ranked as an audiobook for the underlying work.",
+          "underlying_work_type": "book"
+        }
+      ]
+    }
+  ]
+}

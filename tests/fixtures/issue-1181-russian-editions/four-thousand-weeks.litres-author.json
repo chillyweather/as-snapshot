@@ -1,0 +1,92 @@
+{
+ "status": 200,
+ "error": null,
+ "payload": {
+  "data": [
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 68872809,
+     "url": "/book/oliver-burkeman-2/chetyre-tysyachi-nedel-na-vse-menshe-planov-bolshe-zhizn-68872809/",
+     "title": "Четыре тысячи недель на всё. Меньше планов – больше жизни",
+     "language_code": "ru",
+     "date_written_at": "2021-01-01",
+     "persons": [
+      {
+       "full_name": "Оливер Бёркман",
+       "role": "author"
+      },
+      {
+       "full_name": "Екатерина Серегина",
+       "role": "translator"
+      },
+      {
+       "full_name": "Альпина Паблишер",
+       "role": "publisher"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 72269422,
+     "url": "/book/oliver-burkeman-2/radost-neidealnoy-zhizni-28-dney-na-poisk-svoego-puti-72269422/",
+     "title": "Радость неидеальной жизни: 28 дней на поиск своего пути",
+     "language_code": "ru",
+     "date_written_at": "2024-01-01",
+     "persons": [
+      {
+       "full_name": "Оливер Бёркман",
+       "role": "author"
+      },
+      {
+       "full_name": "Марина Вторникова",
+       "role": "translator"
+      },
+      {
+       "full_name": "Альпина Паблишер",
+       "role": "publisher"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 71701537,
+     "url": "/book/kseniya-sidorkina-33/sammari-knigi-olivera-berkmana-4000-nedel-taym-menedz-71701537/",
+     "title": "Саммари книги Оливера Беркмана «4000 недель. Тайм-менеджмент для смертных»",
+     "language_code": "ru",
+     "date_written_at": null,
+     "persons": [
+      {
+       "full_name": "Ксения Сидоркина",
+       "role": "author"
+      }
+     ]
+    }
+   },
+   {
+    "type": "text_book",
+    "instance": {
+     "id": 6725110,
+     "url": "/book/oliver-burkeman-2/antidot-protivoyadie-ot-neschastlivoy-zhizni-6725110/",
+     "title": "Антидот. Противоядие от несчастливой жизни",
+     "language_code": "ru",
+     "date_written_at": "2012-01-01",
+     "persons": [
+      {
+       "full_name": "Оливер Бёркман",
+       "role": "author"
+      },
+      {
+       "full_name": "Сергей Богданов",
+       "role": "translator"
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

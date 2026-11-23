@@ -1,0 +1,56 @@
+{
+  "sources": [
+    {
+      "name": "Fixture Risk List",
+      "family": "media/curated list",
+      "url": "https://example.test/risk",
+      "access_status": "open",
+      "extraction_method": "fixture",
+      "check_frequency": "weekly",
+      "language": "en",
+      "notes": "Deterministic fixture source.",
+      "fixture_candidates": [
+        {
+          "title": "Russia Today",
+          "primary_authors": ["A Example"],
+          "source_url": "https://example.test/risk/russia",
+          "evidence_note": "Public description centers Russia and contemporary politics.",
+          "candidate_category": "public affairs",
+          "public_data_status": "sufficient",
+          "risk_signal_scope": "book-content",
+          "risk_evidence_url": "https://example.test/risk/russia"
+        },
+        {
+          "title": "USSR And Nazi Comparisons",
+          "primary_authors": ["B Example"],
+          "source_url": "https://example.test/risk/ussr",
+          "evidence_note": "Public description compares the USSR and Nazi Germany during WWII.",
+          "candidate_category": "history",
+          "public_data_status": "sufficient",
+          "risk_signal_scope": "book-content",
+          "risk_evidence_url": "https://example.test/risk/ussr"
+        },
+        {
+          "title": "Transition And Childfree Lives",
+          "primary_authors": ["C Example"],
+          "source_url": "https://example.test/risk/gender",
+          "evidence_note": "Public description foregrounds gender transition and childfree life choices.",
+          "candidate_category": "memoir",
+          "public_data_status": "sufficient",
+          "risk_signal_scope": "book-content",
+          "risk_evidence_url": "https://example.test/risk/gender"
+        },
+        {
+          "title": "Suicide Prevention Handbook",
+          "primary_authors": ["D Example"],
+          "source_url": "https://example.test/risk/out-of-scope",
+          "evidence_note": "Public description discusses suicide prevention.",
+          "candidate_category": "health",
+          "public_data_status": "sufficient",
+          "risk_signal_scope": "book-content",
+          "risk_evidence_url": "https://example.test/risk/out-of-scope"
+        }
+      ]
+    }
+  ]
+}

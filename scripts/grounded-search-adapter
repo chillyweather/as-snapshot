@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# Blessed repository launcher for the AutoScout grounded search adapter.
+#
+# Callable without spelling `python`. Resolves a usable project
+# interpreter deterministically and execs the canonical command.
+#
+# Usage (from repository root or any subdirectory):
+#   AUTOSCOUT_SEARCH_API_KEY=<key> ./scripts/grounded-search-adapter
+#   AUTOSCOUT_SEARCH_API_KEY=<key> ./scripts/grounded-search-adapter --port 9001
+#
+# The adapter binds to the loopback interface only. It exists because
+# HTTPDiscoveryProvider performs one bounded GET with no custom header and
+# reads a JSON body shaped {"results": [{"url": ...}]}, which no commercial
+# search API provides directly.
+#
+# The search credential is read from AUTOSCOUT_SEARCH_API_KEY by this process
+# alone. Never place it in AUTOSCOUT_GROUNDED_DISCOVERY_ENDPOINT: a URL reaches
+# logs, run artifacts, and the live progress snapshot.
+#
+# The launcher resolves paths relative to the repository root so
+# invocation is reliable regardless of the working directory.
+
+set -euo pipefail
+
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+repo_root="$(cd "${script_dir}/.." && pwd)"
+cd "${repo_root}"
+
+interpreter=""
+for candidate in "${repo_root}/.venv/bin/python" "$(command -v python3 || true)"; do
+    if [[ -n "${candidate}" && -x "${candidate}" ]]; then
+        if "${candidate}" -c "import autoscout" >/dev/null 2>&1; then
+            interpreter="${candidate}"
+            break
+        fi
+    fi
+done
+
+if [[ -z "${interpreter}" ]]; then
+    echo "auto-scout: no usable Python interpreter found" >&2
+    exit 1
+fi
+
+exec "${interpreter}" -m autoscout.grounded_search_adapter "$@"

@@ -1,0 +1,17 @@
+{
+  "mentions": [
+    {
+      "title": "SPA Book",
+      "primary_authors": ["Spa Author"],
+      "source_url": "https://www.usatoday.com/booklist/nonfiction",
+      "evidence_url": "https://bookshop.org/a/7775/9781234567890",
+      "signal_type": "bestseller/ranking",
+      "signal_strength": "top ranking",
+      "evidence_note": "From JSON-embedded productURL.",
+      "candidate_category": "adult nonfiction",
+      "russian_edition_status": "not found in Russian",
+      "visible_risk_status": "no visible risk",
+      "visible_risk_status_source": "manual"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# Start one unattended night of source scouting in Codex (#896).
+#
+# Usage (from repository root or any subdirectory):
+#   ./scripts/night-scout                          find new sources
+#   ./scripts/night-scout <url> [<url> ...] [note] onboard these sources
+#
+# It runs the same scout-sources skill as `/scout-sources` in Claude Code.
+# Codex gets live web search, full filesystem and network access, and no
+# approval prompts: nobody is there to answer one, and Codex's workspace
+# sandbox keeps .git read-only, which would stop every commit and push. The
+# skill's boundaries still hold, and its result is the morning report under
+# data/night-scout/.
+#
+# The model and effort are explicit because the operator's global Codex
+# config has different defaults. Override them with NIGHT_SCOUT_MODEL and
+# NIGHT_SCOUT_EFFORT.
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+if ! command -v codex >/dev/null 2>&1; then
+    echo "auto-scout: codex not found on PATH" >&2
+    exit 1
+fi
+
+model="${NIGHT_SCOUT_MODEL:-gpt-6.1-sol}"
+effort="${NIGHT_SCOUT_EFFORT:-high}"
+prompt='$scout-sources'
+if [[ $# -gt 0 ]]; then
+    prompt+=" $*"
+fi
+
+cd "${REPO_ROOT}"
+exec codex --search exec \
+    --cd "${REPO_ROOT}" \
+    --sandbox danger-full-access \
+    -c approval_policy="never" \
+    --model "${model}" \
+    -c model_reasoning_effort="${effort}" \
+    "${prompt}"

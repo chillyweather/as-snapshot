@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>615</numberOfRecords>
+  <records>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>02280nam a2200433 c 4500</leader>
+          <controlfield tag="001">991054678229708606</controlfield>
+          <controlfield tag="003">SpMaBN</controlfield>
+          <controlfield tag="005">20260406095204.0</controlfield>
+          <controlfield tag="008">160112s1530    fr     /       0  0 grc^^</controlfield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(OCoLC)937766024</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(SpMaBN)a5737017</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">spa</subfield>
+            <subfield code="c">SpMaBN</subfield>
+            <subfield code="e">rdc</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="041">
+            <subfield code="a">grc</subfield>
+            <subfield code="a">lat</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Homero</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="3" tag="240">
+            <subfield code="a">La Ilíada</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="6">880</subfield>
+            <subfield code="a">[hoja] Homerou Iliados bibloi treis, A. B. G. =</subfield>
+            <subfield code="b">Homeri Iliados libri tres : Primus, Secundus, Tertius</subfield>
+          </datafield>
+          <datafield ind1="3" ind2=" " tag="246">
+            <subfield code="a">Homeri Iliados libri tres : Primus, Secundus, Tertius</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="260">
+            <subfield code="a">Lutetiae</subfield>
+            <subfield code="b">in aedibus Christiani Wechel, sub scuto Basiliensi, in uico diui Iacobi</subfield>
+            <subfield code="c">1530</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">95, [1] p.</subfield>
+            <subfield code="c">8º</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">Texto (visual)</subfield>
+            <subfield code="2">isbdcontent</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">sin mediación</subfield>
+            <subfield code="2">isbdmedia</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="546">
+            <subfield code="a">Texto en griego</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="594">
+            <subfield code="a">Portada en paralelo griego y latín</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="596">
+            <subfield code="a">Colofón</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="596">
+            <subfield code="a">Marca tipográfica en portada y en página final [95 vuelto]. Un árbol y dos pájaros peleando en sus ramas. Lema en filacteria: "Unicum arbustum non alit duos erythacos"</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">Sign.: A-F⁸</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">Iniciales grabadas y reclamos</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">Portada enmarcada por orla tipográfica con erotes y candelieri con la marca tipográfica dentro de un escudo a la italiana rodeado por una láurea</subfield>
+          </datafield>
+          <datafield ind1="0" ind2="7" tag="600">
+            <subfield code="a">Homero</subfield>
+            <subfield code="t">La Ilíada</subfield>
+            <subfield code="2">embne</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="7" tag="650">
+            <subfield code="a">Poesía épica griega</subfield>
+            <subfield code="2">embne</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Wechel, Christian</subfield>
+            <subfield code="d">fl. 1522-1554</subfield>
+            <subfield code="e">impresor</subfield>
+            <subfield code="4">prt</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="752">
+            <subfield code="a">Francia</subfield>
+            <subfield code="d">París</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="880">
+            <subfield code="6">245(</subfield>
+            <subfield code="a">Ομήρου Ἰλιαδος βιβλιοι τρεις. A. B. Γ.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">a5737017</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="956">
+            <subfield code="a">1</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">563.</subfield>
+            <subfield code="a">Encuadernación en piel sobre cartón de estilo renacentista, con ruedas gofradas y cortes en rojo</subfield>
+            <subfield code=".">583.</subfield>
+            <subfield code="a">Evaluar</subfield>
+            <subfield code="l">Encuadernación deteriorada</subfield>
+            <subfield code="c">20160119</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNMADRID</subfield>
+            <subfield code="j">2/19560(1)</subfield>
+            <subfield code="d">Inv.15-2</subfield>
+            <subfield code="z">Apostillas marginales manuscritas</subfield>
+            <subfield code="z">Encuadernado con otras obras</subfield>
+            <subfield code="c">SALA_CERV</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="993">
+            <subfield code="a">5737017</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="994">
+            <subfield code="a">MONOANTIGU</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">2/19560(1)</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1001249761</subfield>
+            <subfield code="l">SALA_CERV</subfield>
+            <subfield code="m">BNMADRID</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_ANTI</subfield>
+            <subfield code="u">12/1/2016</subfield>
+            <subfield code="x">MONO_ANTIG</subfield>
+            <subfield code="o">.STAFF. Deterioro: Encuadernación deteriorada</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991054678229708606</subfield>
+            <subfield code="8">221161631960008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNMADRID</subfield>
+            <subfield code="c">Sala Cervantes</subfield>
+            <subfield code="d">2/19560(1)</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">SALA_CERV</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">Sede Central (Paseo de Recoletos)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991054678229708606</subfield>
+            <subfield code="8">221348440920008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNMADRID</subfield>
+            <subfield code="c">Sala Cervantes - Petición anticipada (R)</subfield>
+            <subfield code="d">2/50716(1)</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">SGCERVANTI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">2</subfield>
+            <subfield code="q">Sede Central (Paseo de Recoletos)</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>991054678229708606</recordIdentifier>
+      <recordPosition>1</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>02176nam a2200433 c 4500</leader>
+          <controlfield tag="001">991054679029708606</controlfield>
+          <controlfield tag="003">SpMaBN</controlfield>
+          <controlfield tag="005">20260406095206.0</controlfield>
+          <controlfield tag="008">160112s1530    fr     /       0  0 grc^^</controlfield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(OCoLC)937766136</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(SpMaBN)a5737043</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">spa</subfield>
+            <subfield code="c">SpMaBN</subfield>
+            <subfield code="e">rdc</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="041">
+            <subfield code="a">grc</subfield>
+            <subfield code="a">lat</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="100">
+            <subfield code="a">Homero</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="3" tag="240">
+            <subfield code="a">La Ilíada</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="6">880</subfield>
+            <subfield code="a">[hoja] Homerou Iliados bibloi treis, D. E. Z. =</subfield>
+            <subfield code="b">Homeri Iliados libri tres : Quartus, Quintus, Sextus</subfield>
+          </datafield>
+          <datafield ind1="3" ind2=" " tag="246">
+            <subfield code="a">Homeri Iliados libri tres : Quartus, Quintus, Sextus</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="260">
+            <subfield code="a">Lutetiae</subfield>
+            <subfield code="b">in aedibus Christiani Wechel, sub scuto Basiliensi, in uico diui Iacobi</subfield>
+            <subfield code="c">1530</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">95, [1] p.</subfield>
+            <subfield code="c">8º</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">Texto (visual)</subfield>
+            <subfield code="2">isbdcontent</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">sin mediación</subfield>
+            <subfield code="2">isbdmedia</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="546">
+            <subfield code="a">Texto en griego</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="594">
+            <subfield code="a">Portada en paralelo grigo y latín</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="596">
+            <subfield code="a">Colofón</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="596">
+            <subfield code="a">Marca tipográfica en portada y en página final [95 vuelto]: Un árbol y dos pájaros peleando en sus ramas. Lema en filacteria: "Unicum arbustum non alit duos erythacos"</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">Sign.: a-f⁸</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">Iniciales grabadas y reclamos</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">Portada enmarcada por orla tipográfica con erotes y candelieri y la marca tipográfica dentro de un escudo a la italiana rodeado por una láurea</subfield>
+          </datafield>
+          <datafield ind1="0" ind2="7" tag="600">
+            <subfield code="a">Homero</subfield>
+            <subfield code="t">La Ilíada</subfield>
+            <subfield code="2">embne</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="7" tag="650">
+            <subfield code="a">Poesía épica griega</subfield>
+            <subfield code="2">embne</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Wechel, Christian</subfield>
+            <subfield code="d">fl. 1522-1554</subfield>
+            <subfield code="e">impresor</subfield>
+            <subfield code="4">prt</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="752">
+            <subfield code="a">Francia</subfield>
+            <subfield code="d">París</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="880">
+            <subfield code="a">6245(</subfield>
+            <subfield code="a">Ομήρου Ἰλιαδος βιβλιοι τρεις Δ. E. Z.</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">a5737043</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="956">
+            <subfield code="a">1</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">563.</subfield>
+            <subfield code="a">Encuadernación en piel sobre cartón de estilo renacentista, con ruedas gofradas y cortes en rojo</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNMADRID</subfield>
+            <subfield code="j">2/19560(2)</subfield>
+            <subfield code="d">Inv. 15-2</subfield>
+            <subfield code="z">Apostillas marginales manuscritas</subfield>
+            <subfield code="z">Encuadernado con otras obras</subfield>
+            <subfield code="c">SALA_CERV</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="993">
+            <subfield code="a">5737043</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="994">
+            <subfield code="a">MONOANTIGU</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">2/19560(2)</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">5737043-1001</subfield>
+            <subfield code="l">SALA_CERV</subfield>
+            <subfield code="m">BNMADRID</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_ANTI</subfield>
+            <subfield code="u">12/1/2016</subfield>
+            <subfield code="x">MONO_ANTIG</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991054679029708606</subfield>
+            <subfield code="8">221161630330008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNMADRID</subfield>
+            <subfield code="c">Sala Cervantes</subfield>
+            <subfield code="d">2/19560(2)</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">SALA_CERV</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">Sede Central (Paseo de Recoletos)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991054679029708606</subfield>
+            <subfield code="8">221348440320008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNMADRID</subfield>
+            <subfield code="c">Sala Cervantes - Petición anticipada (R)</subfield>
+            <subfield code="d">2/50716(2)</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">SGCERVANTI</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">2</subfield>
+            <subfield code="q">Sede Central (Paseo de Recoletos)</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>991054679029708606</recordIdentifier>
+      <recordPosition>2</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>03586ctm a2200601 c 4500</leader>
+          <controlfield tag="001">991028026189708606</controlfield>
+          <controlfield tag="003">SpMaBN</controlfield>
+          <controlfield tag="005">20260514143400.0</controlfield>
+          <controlfield tag="008">110209q14001499it     /            grc^^</controlfield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(OCoLC)776535169</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(SpMaBN)a4992681</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">spa</subfield>
+            <subfield code="c">SpMaBN</subfield>
+            <subfield code="e">rdc</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="100">
+            <subfield code="a">Homero</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="240">
+            <subfield code="a">La Ilíada</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">[Ilias]</subfield>
+            <subfield code="c">Homero; [cum paraphrasis anonyma]</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="260">
+            <subfield code="c">[S. XV]</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">III, 270 h.</subfield>
+            <subfield code="c">30 x 22 cm</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">Texto (visual)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">sin mediación</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="500">
+            <subfield code="a">Firma monogramática del Condestable de Castilla en la última h.</subfield>
+          </datafield>
+          <datafield ind1="2" ind2=" " tag="505">
+            <subfield code="a">Hecuba / Euripides (h. 236r-244v). Electra (fragmentum) / Sophocles (h. 244v). Iuliani Imperatori epitaphius, oratio XVIII  (h. 246r-267r); Monodia de Iuliano / Libanius (h. 267r-269v). Oratio funebre Periclis / Thucydides historicus (h. 269v-270v)</subfield>
+          </datafield>
+          <datafield ind1="4" ind2=" " tag="510">
+            <subfield code="a">Blanco Romero, Sonia, "El texto de la Ilíada en tres códices de la Biblioteca Nacional de Madrid", en Manuscritos griegos en España y su contexto europeo = Greek manuscripts in Spain and their european Context, (ed.) Felipe G. Hernández Muñoz, Madrid, 2016</subfield>
+            <subfield code="c">pp. 49-60</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="546">
+            <subfield code="a">Texto en griego, con anotaciones marginales en griego, latín e italiano</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="561">
+            <subfield code="a">Juan Fernández de Velasco</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="596">
+            <subfield code="a">Copia de dos manos, sin identificar, la segunda copia la paráfrasis a Homero desde la h. 40r a la 222r, en adelante falta la paráfrasis</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">Texto a dos columnas (34 líneas) hasta la h. 244v</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">Mútilo por el principio y el final</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">En blanco las h. 81v, 167v, 234v-235v, 245r</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">Las h. 92 y 105 rasgadas con pérdidas significativas de texto</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">Títulos e iniciales en tinta roja</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">Manículas en h. 266r</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">Manchas de humedad</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="7" tag="655">
+            <subfield code="a">Manuscritos</subfield>
+            <subfield code="2">tgfbne</subfield>
+          </datafield>
+          <datafield ind1="0" ind2="2" tag="700">
+            <subfield code="a">Eurípides</subfield>
+            <subfield code="t">Hécuba</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="700">
+            <subfield code="a">Sófocles</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="700">
+            <subfield code="a">Libanio</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="700">
+            <subfield code="a">Tucídides</subfield>
+          </datafield>
+          <datafield ind1="0" ind2="2" tag="740">
+            <subfield code="a">Electra</subfield>
+          </datafield>
+          <datafield ind1="0" ind2="2" tag="740">
+            <subfield code="a">Iuliani Imperatori epitaphius</subfield>
+          </datafield>
+          <datafield ind1="0" ind2="2" tag="740">
+            <subfield code="a">Monodia de Iuliano</subfield>
+          </datafield>
+          <datafield ind1="0" ind2="2" tag="740">
+            <subfield code="a">Oratio funebre Periclis</subfield>
+          </datafield>
+          <datafield ind1="4" ind2="1" tag="856">
+            <subfield code="u">https://bnedigital.bne.es/bd/card?id=45865f0a-f60f-4cc4-ac11-7d83a76f24ff</subfield>
+            <subfield code="y">BNE Digital</subfield>
+          </datafield>
+          <datafield ind1="4" ind2="2" tag="856">
+            <subfield code="u">https://bnedigital.bne.es/bd/viewer?id=48b53203-03f6-4fcb-903c-35a13e7a03ca&amp;page=35</subfield>
+            <subfield code="y">Catálogo de los códices griegos de la Biblioteca Nacional</subfield>
+          </datafield>
+          <datafield ind1="4" ind2="2" tag="856">
+            <subfield code="u">http://pinakes.irht.cnrs.fr/notices/cote/40035/</subfield>
+            <subfield code="y">Pinakes, textes et manuscrits grecs</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="899">
+            <subfield code="j">MSS/4555</subfield>
+            <subfield code="x">LIBNOVA_2022_2023</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="927">
+            <subfield code="u">https://bnedigital.bne.es/bd/es/low?id=45865f0a-f60f-4cc4-ac11-7d83a76f24ff</subfield>
+            <subfield code="y">Enlace Miniatura</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">a4992681</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="956">
+            <subfield code="a">1</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">563.</subfield>
+            <subfield code="a">Encuadernación labrada por Juan Gómez en Madrid, ca. 1742, en tafilete rojo, con doble filete dorado en ambas tapas y lomo cuajado. Tít. del lomo: Homeri / Ilias</subfield>
+            <subfield code=".">583.</subfield>
+            <subfield code="a">Restaurar</subfield>
+            <subfield code="l">Encuadernación deteriorada</subfield>
+            <subfield code="l">Hojas deterioradas</subfield>
+            <subfield code="x">H. 4 suelta</subfield>
+            <subfield code=".">583.</subfield>
+            <subfield code="a">En contenedor de conservación</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNMADRID</subfield>
+            <subfield code="j">MSS/4555</subfield>
+            <subfield code="d">N. 18</subfield>
+            <subfield code="c">SALA_CERV</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="993">
+            <subfield code="a">4992681</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="994">
+            <subfield code="a">MANUSCRITO</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">MSS/4555</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1001158980</subfield>
+            <subfield code="d">1/3/2023</subfield>
+            <subfield code="e">8/2/2023</subfield>
+            <subfield code="l">SALA_CERV</subfield>
+            <subfield code="m">BNMADRID</subfield>
+            <subfield code="n">13</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_ANTI</subfield>
+            <subfield code="u">9/2/2011</subfield>
+            <subfield code="x">MANUSCRITO</subfield>
+            <subfield code="z">OTRAS</subfield>
+            <subfield code="o">.PUBLIC. Ejemplar reproducido</subfield>
+            <subfield code="o">.STAFF. Deterioro: h. 4 suelta, encuadernación deteriorada. Con caja de conservación BN</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">MSS.MICRO/17715</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1000381920</subfield>
+            <subfield code="d">11/11/2021</subfield>
+            <subfield code="e">10/11/2021</subfield>
+            <subfield code="l">SALA_CERV</subfield>
+            <subfield code="m">BNMADRID</subfield>
+            <subfield code="n">4</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">REP_MICRO</subfield>
+            <subfield code="u">5/10/2011</subfield>
+            <subfield code="x">MICROFILM</subfield>
+            <subfield code="o">.PUBLIC. Reproducción de MSS/4555. (288 Fotogramas) Nº rollo:680</subfield>
+            <subfield code="o">.STAFF. Duplicado. Proco 2004</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991028026189708606</subfield>
+            <subfield code="8">221197797740008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNMADRID</subfield>
+            <subfield code="c">Sala Cervantes</subfield>
+            <subfield code="d">MSS/4555</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">SALA_CERV</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">Sede Central (Paseo de Recoletos)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991028026189708606</subfield>
+            <subfield code="8">221197797720008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNMADRID</subfield>
+            <subfield code="c">Sala Cervantes</subfield>
+            <subfield code="d">MSS.MICRO/17715</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">SALA_CERV</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">2</subfield>
+            <subfield code="q">Sede Central (Paseo de Recoletos)</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>991028026189708606</recordIdentifier>
+      <recordPosition>3</recordPosition>
+    </record>
+    <record>
+      <recordSchema>marcxml</recordSchema>
+      <recordPacking>xml</recordPacking>
+      <recordData>
+        <record xmlns="http://www.loc.gov/MARC21/slim">
+          <leader>02939ctm a2200493 c 4500</leader>
+          <controlfield tag="001">991028026339708606</controlfield>
+          <controlfield tag="003">SpMaBN</controlfield>
+          <controlfield tag="005">20260804100037.0</controlfield>
+          <controlfield tag="008">110209s1488    it     /            grc^^</controlfield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(OCoLC)776535203</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="035">
+            <subfield code="a">(SpMaBN)a4992685</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="040">
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">spa</subfield>
+            <subfield code="c">SpMaBN</subfield>
+            <subfield code="e">rdc</subfield>
+          </datafield>
+          <datafield ind1="0" ind2=" " tag="100">
+            <subfield code="a">Homero</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="240">
+            <subfield code="a">La Ilíada</subfield>
+          </datafield>
+          <datafield ind1="1" ind2="0" tag="245">
+            <subfield code="a">[Ilias]</subfield>
+            <subfield code="c">Homerus</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="260">
+            <subfield code="a">Mesina</subfield>
+            <subfield code="c">1488</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="300">
+            <subfield code="a">III, 412 h.</subfield>
+            <subfield code="c">22 x 16 cm</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="336">
+            <subfield code="a">Texto (visual)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="337">
+            <subfield code="a">sin mediación</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="500">
+            <subfield code="a">Exlibris manuscrito de Constantino Lascaris en h. 1r</subfield>
+          </datafield>
+          <datafield ind1="4" ind2=" " tag="510">
+            <subfield code="a">Blanco Romero, Sonia, "El texto de la Ilíada en tres códices de la Biblioteca Nacional de Madrid", en Manuscritos griegos en España y su contexto europeo = Greek manuscripts in Spain and their european Context, (ed.) Felipe G. Hernández Muñoz, Madrid, 2016</subfield>
+            <subfield code="c">pp. 49-60</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="546">
+            <subfield code="a">Texto en griego</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="561">
+            <subfield code="a">Constantino Lascaris</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="561">
+            <subfield code="a">Catedral de Mesina</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="561">
+            <subfield code="a">Duque de Uceda</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="594">
+            <subfield code="a">Título tomado de la portada en h. IIr de mano de Juan de Iriarte de fecha posterior</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="596">
+            <subfield code="a">Copiado por Constantino Láscaris en Mesina, en 1488, según el colofón en h. 401v</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">En h. IIIr ilustración floral con filacteria con el título: Ilias Homeri, dibujada a plumilla y coloreada</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">Títulos, iniciales y comentarios marginales en tinta roja</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="597">
+            <subfield code="a">En blanco las h. I, IIv, IIIv, 1r, 402-412</subfield>
+          </datafield>
+          <datafield ind1=" " ind2="7" tag="655">
+            <subfield code="a">Manuscritos</subfield>
+            <subfield code="2">tgfbne</subfield>
+          </datafield>
+          <datafield ind1="1" ind2=" " tag="700">
+            <subfield code="a">Lascaris, Constantino</subfield>
+            <subfield code="e">copista</subfield>
+            <subfield code="0">http://datos.bne.es/resource/XX1338349</subfield>
+          </datafield>
+          <datafield ind1="4" ind2="1" tag="856">
+            <subfield code="u">https://bnedigital.bne.es/bd/card?id=ec837b05-d447-42e4-a94b-ced77e0e9eac</subfield>
+            <subfield code="y">BNE Digital</subfield>
+          </datafield>
+          <datafield ind1="4" ind2="2" tag="856">
+            <subfield code="u">https://bnedigital.bne.es/bd/viewer?id=48b53203-03f6-4fcb-903c-35a13e7a03ca&amp;page=464</subfield>
+            <subfield code="y">Catálogo de los códices griegos de la Biblioteca Nacional</subfield>
+          </datafield>
+          <datafield ind1="4" ind2="2" tag="856">
+            <subfield code="u">http://pinakes.irht.cnrs.fr/notices/cote/40313/</subfield>
+            <subfield code="y">Pinakes, textes et manuscrits grecs</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="899">
+            <subfield code="j">MSS/4841</subfield>
+            <subfield code="x">digColordig</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="927">
+            <subfield code="u">https://bnedigital.bne.es/bd/es/low?id=ec837b05-d447-42e4-a94b-ced77e0e9eac</subfield>
+            <subfield code="y">Enlace Miniatura</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="935">
+            <subfield code="a">a4992685</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="956">
+            <subfield code="a">1</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="980">
+            <subfield code=".">563.</subfield>
+            <subfield code="a">Encuadernación típica del duque de Uceda, en pergamino teñido en verde con hierros dorados, el anagrama del duque en la cubierta y el lomo y cortes jaspeados en verde y rojo. Tít. del tejuelo: Ilias Homeri</subfield>
+            <subfield code=".">583.</subfield>
+            <subfield code="a">En contenedor de conservación</subfield>
+            <subfield code=".">852. 40</subfield>
+            <subfield code="a">SpMaBN</subfield>
+            <subfield code="b">BNMADRID</subfield>
+            <subfield code="j">MSS/4841</subfield>
+            <subfield code="d">N. 96</subfield>
+            <subfield code="c">SALA_CERV</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="993">
+            <subfield code="a">4992685</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="994">
+            <subfield code="a">MANUSCRITO</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">MSS/4841</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1000375919</subfield>
+            <subfield code="d">10/4/2023</subfield>
+            <subfield code="e">14/11/2022</subfield>
+            <subfield code="l">SALA_CERV</subfield>
+            <subfield code="m">BNMADRID</subfield>
+            <subfield code="n">19</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">FONDO_ANTI</subfield>
+            <subfield code="u">9/2/2011</subfield>
+            <subfield code="x">MANUSCRITO</subfield>
+            <subfield code="z">UCEDA</subfield>
+            <subfield code="o">.PUBLIC. Ejemplar reproducido</subfield>
+            <subfield code="o">.STAFF. Con caja de conservación</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="999">
+            <subfield code="a">MSS.MICRO/17920</subfield>
+            <subfield code="w">ALPHANUM</subfield>
+            <subfield code="c">1</subfield>
+            <subfield code="i">1000381915</subfield>
+            <subfield code="d">27/4/2015</subfield>
+            <subfield code="e">27/4/2015</subfield>
+            <subfield code="l">SALA_CERV</subfield>
+            <subfield code="m">BNMADRID</subfield>
+            <subfield code="n">3</subfield>
+            <subfield code="r">Y</subfield>
+            <subfield code="s">Y</subfield>
+            <subfield code="t">REP_MICRO</subfield>
+            <subfield code="u">5/10/2011</subfield>
+            <subfield code="x">MICROFILM</subfield>
+            <subfield code="o">.PUBLIC. Reproducción de MSS/4841. (425 Fotogramas) Nº rollo:736</subfield>
+            <subfield code="o">.STAFF. Duplicado. Proco 2004</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991028026339708606</subfield>
+            <subfield code="8">221197787250008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNMADRID</subfield>
+            <subfield code="c">Sala Cervantes</subfield>
+            <subfield code="d">MSS.MICRO/17920</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">SALA_CERV</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">1</subfield>
+            <subfield code="q">Sede Central (Paseo de Recoletos)</subfield>
+          </datafield>
+          <datafield ind1=" " ind2=" " tag="AVA">
+            <subfield code="0">991028026339708606</subfield>
+            <subfield code="8">221197787270008606</subfield>
+            <subfield code="a">34BNE_INST</subfield>
+            <subfield code="b">BNMADRID</subfield>
+            <subfield code="c">Sala Cervantes</subfield>
+            <subfield code="d">MSS/4841</subfield>
+            <subfield code="e">available</subfield>
+            <subfield code="f">1</subfield>
+            <subfield code="g">0</subfield>
+            <subfield code="j">SALA_CERV</subfield>
+            <subfield code="k">4</subfield>
+            <subfield code="p">2</subfield>
+            <subfield code="q">Sede Central (Paseo de Recoletos)</subfield>
+          </datafield>
+        </record>
+      </recordData>
+      <recordIdentifier>991028026339708606</recordIdentifier>
+      <recordPosition>4</recordPosition>
+    </record>
+  </records>
+  <nextRecordPosition>5</nextRecordPosition>
+  <extraResponseData xmlns:xb="http://www.exlibris.com/repository/search/xmlbeans/">
+    <xb:exact>true</xb:exact>
+    <xb:responseDate>2026-11-19T08:03:04+0100</xb:responseDate>
+  </extraResponseData>
+</searchRetrieveResponse>
